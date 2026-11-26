@@ -38,6 +38,17 @@
       <div><span class="fact-label">원작 완결</span><p class="status ${esc(completion.status)}">${esc(completionLabel)}</p></div>
     </div>`;
   }
+  function oceanOfPdfMarkup(novel) {
+    const title=novel.oceanOfPdfTitle;
+    if(!title)return '';
+    const url=new URL('https://oceanofpdf.com/');
+    url.searchParams.set('s',title);
+    return `<div class="oceanofpdf-search">
+      <span class="fact-label">OceanOfPDF 검색 제목</span>
+      <a href="${esc(url.href)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
+      <button type="button" data-copy-search-title aria-label="OceanOfPDF 검색 제목 복사">복사</button>
+    </div>`;
+  }
   function novelMarkup(novel) {
     const favorite=Core.isFavorite(store.data,novel.id), deleted=Core.isDeleted(store.data,novel.id);
     const disabled=busy||!store.ready ? ' disabled' : '';
@@ -46,7 +57,7 @@
     const coverSource=Core.safeUrl((novel.cover||{}).source);
     const coverLink=coverSource?`<a href="${esc(coverSource)}" target="_blank" rel="noopener noreferrer">표지 출처 ↗</a>`:'';
     const byline=[novel.author,novel.original].filter(Boolean).map(esc).join(' · ');
-    return `<article class="novel" data-id="${esc(novel.id)}"><div class="novel-visual">${coverMarkup(novel)}<div class="rating ${novel.score===null?'unrated':''}"><strong>${score}</strong><span>${novel.score===null?'평가 대기':'/ 10'}</span></div></div><div class="novel-content"><h3>${esc(novel.title)}</h3>${byline?`<div class="byline">${byline}</div>`:''}${factsMarkup(novel)}<details class="detail"><summary>장단점 · 출처 보기</summary><div class="pros-cons"><div class="pros"><h4>장점</h4>${listItems(novel.pros)}</div><div class="cons"><h4>단점</h4>${listItems(novel.cons)}</div></div><div class="sources">${sources}${coverLink}</div>${novel.reviewedAt?`<div class="meta">평가일 ${esc(novel.reviewedAt)}</div>`:''}</details></div><div class="actions"><button class="star" data-action="favorite" data-id="${esc(novel.id)}" aria-pressed="${favorite}" aria-label="${esc(novel.title)} ${favorite?'찜 해제':'찜 추가'}"${disabled}>${favorite?'★':'☆'}</button><button data-action="deleted" data-id="${esc(novel.id)}"${disabled}>${deleted?'복구':'삭제'}</button></div></article>`;
+    return `<article class="novel" data-id="${esc(novel.id)}"><div class="novel-visual">${coverMarkup(novel)}<div class="rating ${novel.score===null?'unrated':''}"><strong>${score}</strong><span>${novel.score===null?'평가 대기':'/ 10'}</span></div></div><div class="novel-content"><h3>${esc(novel.title)}</h3>${byline?`<div class="byline">${byline}</div>`:''}${oceanOfPdfMarkup(novel)}${factsMarkup(novel)}<details class="detail"><summary>장단점 · 출처 보기</summary><div class="pros-cons"><div class="pros"><h4>장점</h4>${listItems(novel.pros)}</div><div class="cons"><h4>단점</h4>${listItems(novel.cons)}</div></div><div class="sources">${sources}${coverLink}</div>${novel.reviewedAt?`<div class="meta">평가일 ${esc(novel.reviewedAt)}</div>`:''}</details></div><div class="actions"><button class="star" data-action="favorite" data-id="${esc(novel.id)}" aria-pressed="${favorite}" aria-label="${esc(novel.title)} ${favorite?'찜 해제':'찜 추가'}"${disabled}>${favorite?'★':'☆'}</button><button data-action="deleted" data-id="${esc(novel.id)}"${disabled}>${deleted?'복구':'삭제'}</button></div></article>`;
   }
   function render() {
     const state=store.data;
@@ -113,6 +124,26 @@
     if(placeholder)placeholder.hidden=false;
   },true);
   $('results').addEventListener('click',async event=>{
+    const copyButton=event.target.closest('[data-copy-search-title]');
+    if(copyButton){
+      const title=copyButton.parentElement.querySelector('a');
+      try {
+        await navigator.clipboard.writeText(title.textContent);
+        copyButton.textContent='복사됨';
+        notice('OceanOfPDF 검색 제목을 복사했습니다.');
+      } catch {
+        copyButton.textContent='직접 복사';
+        const selection=window.getSelection();
+        if(selection){
+          const range=document.createRange();
+          range.selectNodeContents(title);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }
+        notice('자동 복사가 차단됐습니다. 검색 제목을 직접 복사해 주세요.',true);
+      }
+      return;
+    }
     const button=event.target.closest('[data-action]');if(!button||busy||!store.ready)return;
     const novel=novels.find(n=>n.id===button.dataset.id);if(!novel)return;
     if(!store.getToken()){openSettings();notice('찜·삭제 저장에는 GitHub 열쇠가 필요합니다.',true);return;}
