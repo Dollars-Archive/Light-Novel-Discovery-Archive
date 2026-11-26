@@ -9756,6 +9756,1746 @@
       },
       "reviewedAt": "2026-11-27",
       "score": null
+    },
+    {
+      "id": "aether-knight-a-litrpg",
+      "title": "에테르 기사",
+      "original": "Aether Knight",
+      "oceanOfPdfTitle": "Aether Knight: A LitRPG",
+      "oceanOfPdfVolumeCount": null,
+      "author": "Tracy Gregory",
+      "genres": [
+        "LitRPG",
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "영어 시리즈 4권 이상 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · Tracy Gregory의 영어권 LitRPG로 공식 공급사 소개가 라이트노벨로 명시하고 시리즈 4권 이상이 확인된다. 한국어판 미발매를 뒷받침하는 서지는 찾지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "출판사 소개를 수록한 Apple Books",
+          "url": "https://books.apple.com/gb/audiobook/aether-knight-a-litrpg-light-novel-unabridged/id1544392298"
+        },
+        {
+          "label": "Fantastic Fiction 시리즈 순서",
+          "url": "https://www.fantasticfiction.com/g/tracy-gregory/aether-knight/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "after-an-airplane-crashed-through-my-window-i-was-reborn-in-a-fantasy-rpg-a-litr",
+      "title": "비행기가 창문을 뚫고 들어오더니 판타지 RPG 세계에 환생했다",
+      "original": "",
+      "oceanOfPdfTitle": "After An Airplane Crashed Through My Window I Was Reborn In A Fantasy RPG : A LitRPG Fantasy Action Adventure Light Novella(original outline; a.i. writing) ... Fascinating Worlds! (Late 2024-Early 2026))",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 입력 표제는 AI 집필 LitRPG 중편을 가리키지만 정식 라이트노벨 판본 및 원서 권수를 확인할 수 없다."
+      ],
+      "sources": [],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "ao-oni-grudge",
+      "title": "아오오니: 원한",
+      "original": "青鬼 怨霊編",
+      "oceanOfPdfTitle": "Ao Oni: Grudge",
+      "oceanOfPdfVolumeCount": null,
+      "author": "쿠로다 켄지",
+      "genres": [
+        "호러",
+        "게임 소설화"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "원작 아오오니 소설 시리즈 제4권"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "히로시와 슌은 다시 저택에 갇힌다. 두 사람은 푸른 괴물을 피해 탈출할 방법을 찾는다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 쿠로다 켄지의 원작 『아오오니』 소설 시리즈 4권 『원령편』이다. 공식 원판과 영어판은 식별했으나 한국어 소설판의 미발매를 입증할 자료가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "PHP연구소 일본 소설 4권",
+          "url": "https://www.php.co.jp/books/detail.php?isbn=978-4-569-82587-8"
+        },
+        {
+          "label": "J-Novel Club 영어판",
+          "url": "https://j-novel.club/series/ao-oni"
+        },
+        {
+          "label": "한국어 작품 목록",
+          "url": "https://www.namu.moe/w/%EC%95%84%EC%98%A4%EC%98%A4%EB%8B%88%20%EC%8B%9C%EB%A6%AC%EC%A6%88/%EC%86%8C%EC%84%A4"
+        }
+      ],
+      "cover": {
+        "url": "https://www.php.co.jp/books/ogp/9784569825878.jpg",
+        "source": "https://www.php.co.jp/books/detail.php?isbn=978-4-569-82587-8"
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "arcadia-s-ignoble-knight-the-sorceress-of-ashtown",
+      "title": "아르카디아의 불명예스러운 기사: 애시타운의 마법사",
+      "original": "Arcadia's Ignoble Knight: The Sorceress of Ashtown",
+      "oceanOfPdfTitle": "Arcadia's Ignoble Knight: The Sorceress of Ashtown",
+      "oceanOfPdfVolumeCount": null,
+      "author": "Brandon Varnell",
+      "genres": [
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 브랜던 바넬의 영어 오리지널 라이트노벨로, 표에 나온 Part 1은 첫 번째 편이다. 시리즈는 4권 이상 확인되나 국내 정식 소설판 미발매를 명시하는 자료는 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "작가 공식 판매점 1권",
+          "url": "https://brandonvarnell.myshopify.com/products/arcadias-ignoble-knight-volume-1-light-novel"
+        },
+        {
+          "label": "Fantastic Fiction 시리즈 서지",
+          "url": "https://www.fantasticfiction.com/v/brandon-varnell/arcadias-ignoble-knight/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "associate-professor-akira-takatsuki-s-conjecture",
+      "title": "준교수 타카츠키 아키라의 짐작",
+      "original": "准教授・高槻彰良の推察",
+      "oceanOfPdfTitle": "Associate Professor Akira Takatsuki's Conjecture",
+      "oceanOfPdfVolumeCount": 5,
+      "author": "사와무라 미카게",
+      "genres": [
+        "민속학",
+        "미스터리"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "2018-11-22",
+      "score": null,
+      "summary": "사람의 거짓말을 남들과 다르게 알아차리는 대학생 후카마치 나오야가 민속학 준교수 타카츠키 아키라와 만난다. 두 사람은 괴이한 사건의 배경에 놓인 전승과 사연을 조사한다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 가도카와의 일본 원작 소설과 예스24·알라딘 계열에서 확인되는 한국어 각색 만화는 구분된다. 한국어 소설 미발매를 직접 명시하는 자료를 확보하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "KADOKAWA 원작 소설 시리즈",
+          "url": "https://kadobun.jp/character-novels/character-novels-series/takatuki/"
+        },
+        {
+          "label": "Yen Press 영어 소설 시리즈",
+          "url": "https://yenpress.com/series/associate-professor-akira-takatsuki-s-conjecture-light-novel?format=Digital"
+        },
+        {
+          "label": "알라딘 한국어 코믹스 시리즈",
+          "url": "https://www.aladin.co.kr/shop/common/wseriesitem.aspx?srid=1031607"
+        },
+        {
+          "label": "가도카와 일본 소설 1권",
+          "url": "https://www.kadokawa.co.jp/product/321807000219/"
+        }
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321807/321807000219.webp",
+        "source": "https://www.kadokawa.co.jp/product/321807000219/"
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "demon-princess-magical-chaos",
+      "title": "마족 공주의 마법 대소동",
+      "original": "Demon Princess Magical Chaos",
+      "oceanOfPdfTitle": "Demon Princess Magical Chaos",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "J. J. Pavlov",
+      "genres": [
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · J. J. Pavlov가 영어로 발표한 라이트노벨풍의 자가출판 판타지다. 라이트노벨 분류 및 한국 출판 상태를 확인할 근거가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "영어 1권 서지",
+          "url": "https://books.google.com/books/about/Demon_Princess_Magical_Chaos.html?id=M-ZfDwAAQBAJ"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "early-years",
+      "title": "어린 시절",
+      "original": "",
+      "oceanOfPdfTitle": "Early Years",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 제목이 일반명사인 데다 입력에 저자와 표제 보조 정보가 없어 같은 판본을 식별하기 어렵다."
+      ],
+      "sources": [],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "easygoing-territory-defense-by-the-optimistic-lord-production-magic-turns-a-name",
+      "title": "무사태평 영주의 즐거운 영지 방어 ~생산계 마법으로 이름 없는 마을을 최강의 성채 도시로~",
+      "original": "お気楽領主の楽しい領地防衛 ～生産系魔術で名もなき村を最強の城塞都市に～",
+      "oceanOfPdfTitle": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City",
+      "oceanOfPdfVolumeCount": 6,
+      "author": "아카이케 소우",
+      "genres": [
+        "이세계 전생",
+        "영지 경영",
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "2021-09-25",
+      "score": null,
+      "summary": "귀족 가문의 소년 반은 생산 마법에 재능을 보이지만, 전투를 중시하는 집안에서 외딴 마을로 보내진다. 그는 생산 마법을 활용해 새 영지의 기반을 마련한다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 오버랩 원작 소설은 확인했다. 국내 작품 서지는 소설 발매 정보에 미정을 표기하고, 리디와 알라딘의 한국어판은 코믹스다."
+      ],
+      "sources": [
+        {
+          "label": "오버랩 원작 소설 1권",
+          "url": "https://over-lap.co.jp/Form/Product/ProductDetail.aspx?cat=NVL&pid=9784865549805&shop=0"
+        },
+        {
+          "label": "리디 한국어 만화판",
+          "url": "https://ridibooks.com/books/1987002364"
+        },
+        {
+          "label": "2026년 11월 국내 소설 발매 정보 미정 표기",
+          "url": "https://namu.moe/w/%EB%AC%B4%EC%82%AC%ED%83%9C%ED%8F%89%20%EC%98%81%EC%A3%BC%EC%9D%98%20%EC%A6%90%EA%B1%B0%EC%9A%B4%20%EC%98%81%EC%A7%80%20%EB%B0%A9%EC%96%B4%20~%EC%83%9D%EC%82%B0%EA%B3%84%20%EB%A7%88%EB%B2%95%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%A6%84%20%EC%97%86%EB%8A%94%20%EB%A7%88%EC%9D%84%EC%9D%84%20%EC%B5%9C%EA%B0%95%EC%9D%98%20%EC%84%B1%EC%B1%84%20%EB%8F%84%EC%8B%9C%EB%A1%9C~"
+        },
+        {
+          "label": "오버랩 원작 소설 시리즈",
+          "url": "https://over-lap.co.jp/narou/865549805/"
+        }
+      ],
+      "cover": {
+        "url": "https://over-lap.co.jp/Contents/ProductImages/0/9784865549805_M.jpg",
+        "source": "https://over-lap.co.jp/Form/Product/ProductDetail.aspx?cat=NVL&pid=9784865549805&shop=0"
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "enough-with-this-slow-life-i-was-reincarnated-as-a-high-elf-and-now-i-m-bored",
+      "title": "전생하여 하이엘프가 되었지만, 슬로 라이프는 120년이라 질렸습니다",
+      "original": "転生してハイエルフになりましたが、スローライフは120年で飽きました",
+      "oceanOfPdfTitle": "Enough with This Slow Life! I Was Reincarnated as a High Elf and Now I'm Bored",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "라루토",
+      "genres": [
+        "이세계 전생",
+        "판타지",
+        "여행"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "원작 소설 8권 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "하이엘프로 전생한 에이서는 숲에서 120년을 보낸 뒤 바깥세상으로 길을 떠난다. 인간과 다른 시간 감각으로 여러 사람을 만나며 낯선 기술과 생활을 경험한다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 어스 스타 노벨에서 일본 소설 8권을 확인했다. 국내 유통판은 시프트코믹스의 만화로 확인되나 국내 소설 미발매를 직접 뒷받침하는 자료가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "어스 스타 노벨 원작 목록",
+          "url": "https://earthstar-novel.com/book/detail/esn305/"
+        },
+        {
+          "label": "네이버 시리즈 국내 코믹스",
+          "url": "https://series.naver.com/comic/detail.series?productNo=11490236"
+        },
+        {
+          "label": "예스24 국내 코믹스 4권",
+          "url": "https://www.yes24.com/product/goods/187469961"
+        },
+        {
+          "label": "어스 스타 노벨 원작 1권",
+          "url": "https://earthstar-novel.com/vol/detail/esn305/"
+        },
+        {
+          "label": "어스 스타 노벨 원작 8권",
+          "url": "https://earthstar-novel.com/vol/detail/esn422/"
+        }
+      ],
+      "cover": {
+        "url": "https://earthstar-novel.com/cms_mD8Rrq3y/wp-content/uploads/2025/12/ESN305_2.jpg",
+        "source": "https://earthstar-novel.com/vol/detail/esn305/"
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "everlasting-light",
+      "title": "영원한 빛",
+      "original": "",
+      "oceanOfPdfTitle": "Everlasting Light",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 동명의 미국 로맨스와 영성서가 검색된다. 저자와 권수 없이 입력판본을 식별할 수 없다. 수집 목록의 다른 표기는 Light Perpetual이다. 동일 작품 여부는 미확인이다."
+      ],
+      "sources": [
+        {
+          "label": "Shey Stahl 동명 로맨스",
+          "url": "https://www.fantasticfiction.com/s/shey-stahl/everlasting-light.htm"
+        },
+        {
+          "label": "WestBow Press 동명 영성서 목록",
+          "url": "https://www.westbowpress.com/-/media/asl/documents/westbow-press/bookstore-catalogs/westbowpress_catalog_q2_2022.ashx"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "exp-is-golden",
+      "title": "경험치가 곧 금이다",
+      "original": "黄金の経験値",
+      "oceanOfPdfTitle": "EXP Is Golden",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "하라준",
+      "genres": [
+        "가상현실",
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 하라준의 《黄金の経験値》 영어 라이트노벨판이다. 국내 소설 미발매를 확인할 근거가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "J-Novel Club 라이트노벨 시리즈",
+          "url": "https://j-novel.club/series/exp-is-golden"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "her-majesty-s-swarm",
+      "title": "여왕 폐하의 이세계 전략",
+      "original": "女王陛下の異世界戦略",
+      "oceanOfPdfTitle": "Her Majesty's Swarm",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "제616특별정보대대",
+      "genres": [
+        "이세계",
+        "전략",
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "원작 소설 4권까지 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "전략 게임을 즐기던 주인공은 자신이 지휘하던 세력의 여왕이 되어 낯선 세계에 떨어진다. 그는 그곳에서 자신과 무리를 지키기 위해 주변 세력의 움직임에 대응한다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 원작 소설은 4권 이상이다. 국내에서 확인한 《여왕 폐하의 이세계 전략》은 시프트코믹스 만화판이며 소설 미발매를 명시한 자료는 찾지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "네이버 시리즈 한국어 만화판",
+          "url": "https://series.naver.com/comic/detail.series?productNo=13186389"
+        },
+        {
+          "label": "레진 한국어 웹툰판",
+          "url": "https://www.lezhin.com/ko/comic/queen_of_isekai"
+        },
+        {
+          "label": "고단샤 원작 소설 4권",
+          "url": "https://www.kodansha.co.jp/book/products/0000349213"
+        },
+        {
+          "label": "고단샤 원작 소설 1권",
+          "url": "https://www.kodansha.co.jp/book/products/0000314245"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "i-was-reborn-as-a-villainess-so-i-became-a-documentary-filmmaker-instead-bite-si",
+      "title": "악역 영애로 전생했으니 다큐멘터리 감독이 되기로 했다: 짤막한 이세계 이야기",
+      "original": "",
+      "oceanOfPdfTitle": "I Was Reborn as a Villainess, So I Became a Documentary Filmmaker Instead: Bite-Sized Isekai (100 word chapters micro-fiction light novel) (romance elements) (Villainess Isekai)",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 제목상 영어 단문 연재물이며 정식 라이트노벨 판본 및 권수를 뒷받침하는 출판사·서지 자료를 확인하지 못했다."
+      ],
+      "sources": [],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "if-the-villainess-and-villain-met-and-fell-in-love",
+      "title": "악역 영애와 악역 영식이 만나서 사랑에 빠지면",
+      "original": "悪役令嬢と悪役令息が、出逢って恋に落ちたなら",
+      "oceanOfPdfTitle": "If the Villainess and Villain Met and Fell in Love",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "하루나 돈",
+      "genres": [
+        "로맨스 판타지",
+        "학원"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "completed",
+        "volumes": "원작 소설 전 6권"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "가장 약하다고 여겨지는 정령과 계약한 브리짓은 왕자에게 파혼을 통보받는다. 학원에서 만난 유리와 경쟁하면서 두 사람은 서로의 사정을 알아 간다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 일본 GA노벨 원작 전 6권을 작가가 명시했다. 국내 서점에서 확인한 판본은 코믹스이며 국내 소설 미발매를 명시한 자료는 찾지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "GA문고 공식 작품 페이지",
+          "url": "https://ga.sbcr.jp/special/akuaku/"
+        },
+        {
+          "label": "원작자 연재작 공지",
+          "url": "https://ncode.syosetu.com/n9923hb/"
+        },
+        {
+          "label": "알라딘 한국어 코믹스 시리즈",
+          "url": "https://www.aladin.co.kr/shop/common/wseriesitem.aspx?srid=1252492"
+        },
+        {
+          "label": "GA문고 원작 소설 1권",
+          "url": "https://ga.sbcr.jp/product/9784815613488/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "imperial-summoner",
+      "title": "제국의 소환사",
+      "original": "Imperial Summoner",
+      "oceanOfPdfTitle": "Imperial Summoner",
+      "oceanOfPdfVolumeCount": 6,
+      "author": "Kal Griffith",
+      "genres": [
+        "LitRPG",
+        "학원 판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 칼 그리피스의 영어 학원 LitRPG 라이트노벨 《Imperial Summoner》 다권 시리즈다. 확인한 자료로는 한국어 소설 미발매를 확정하기 어렵다."
+      ],
+      "sources": [
+        {
+          "label": "영어판 권수 목록",
+          "url": "https://www.risingshadow.net/series/12843-imperial-summoner"
+        },
+        {
+          "label": "라이트노벨 표기 도서 목록",
+          "url": "https://www.thriftbooks.com/series/imperial-summoner/1024325/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "light-in-the-shadows",
+      "title": "그림자 속의 빛",
+      "original": "",
+      "oceanOfPdfTitle": "Light in the Shadows",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 제목만으로 동명작 여럿을 구분할 수 없어 라이트노벨 판본을 특정하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "동명 로맨스 Simon & Schuster 출판 정보",
+          "url": "https://www.simonandschuster.com/books/Light-in-the-Shadows/A-Meredith-Walters/Find-You-in-the-Dark/9781476782324"
+        },
+        {
+          "label": "동명 독립출판 소설 Google Books 서지",
+          "url": "https://books.google.com/books/about/Light_in_the_Shadows.html?id=j0lKEQAAQBAJ"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "light-me-up",
+      "title": "나를 밝혀 줘",
+      "original": "",
+      "oceanOfPdfTitle": "Light Me Up",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 입력에 작가와 ISBN이 없어서 동명의 영미 로맨스 여러 종 중 해당 판본을 특정할 수 없다."
+      ],
+      "sources": [
+        {
+          "label": "사브리나 크로스 동명판",
+          "url": "https://www.fantasticfiction.com/c/sabrina-cross/light-me-up.htm"
+        },
+        {
+          "label": "크리스티 고든 동명판",
+          "url": "https://www.fantasticfiction.com/g/christie-gordon/light-me-up.htm"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "magic-dungeon-academy",
+      "title": "마법 던전 아카데미",
+      "original": "Magic Dungeon Academy",
+      "oceanOfPdfTitle": "Magic Dungeon Academy",
+      "oceanOfPdfVolumeCount": 6,
+      "author": "Atucim Sanumar",
+      "genres": [
+        "이세계",
+        "학원 판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "영어 소설 6권까지 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 아투심 사누마의 영어 이세계 판타지 다권 시리즈를 확인했다. 국내 소설 미발매 또는 국외 라이트노벨 발행 구분을 뒷받침하는 출판사 자료가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "작가별 작품 목록",
+          "url": "https://www.fantasticfiction.com/s/atucim-sanumar/"
+        },
+        {
+          "label": "시리즈 6권 작품 소개",
+          "url": "https://www.fantasticfiction.com/s/atucim-sanumar/magic-dungeon-academy-volume-6.htm"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "my-cottage-was-transferred-to-another-world",
+      "title": "내 별장이 이세계로 옮겨졌다",
+      "original": "My Cottage Was Transferred to Another World",
+      "oceanOfPdfTitle": "My Cottage Was Transferred To Another World",
+      "oceanOfPdfVolumeCount": 5,
+      "author": "Sebastian Guzman",
+      "genres": [
+        "이세계",
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "영어 소설 5권 이상 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 세바스찬 구스만의 5권 이상 영어 오리지널 시리즈다. 국내 미발매를 명시한 근거를 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "Fantastic Fiction 시리즈",
+          "url": "https://www.fantasticfiction.com/g/sebastian-guzman/my-cottage-was-transferred-to-another-world.htm"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "my-girlfriends-are-pirate-elves",
+      "title": "내 여자친구들은 해적 엘프!",
+      "original": "My Girlfriends Are Pirate Elves!",
+      "oceanOfPdfTitle": "My Girlfriends are Pirate Elves!",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "Eden Redd",
+      "genres": [
+        "판타지",
+        "해적"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "영어 오디오북 6권까지 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 이든 레드의 영어 오리지널 라이트노벨 시리즈로 작가의 6권 오디오북 공지를 확인했다. 국내 미발매를 명시한 자료는 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "작가 공식 6권 공지",
+          "url": "https://edenredd.com/2025/03/07/my-girlfriends-are-pirate-elves-book-6-audio-is-live/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "naruto-sakura-s-story",
+      "title": "나루토 사쿠라 비전: 그리움, 봄 바람을 타고",
+      "original": "NARUTO-ナルト- サクラ秘伝 思恋、春風にのせて",
+      "oceanOfPdfTitle": "Naruto: Sakura's Story",
+      "oceanOfPdfVolumeCount": null,
+      "author": "오사키 토모히토",
+      "genres": [
+        "판타지",
+        "외전"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "나루토 비전 시리즈 제3권"
+      },
+      "releaseDate": "2015-04-03",
+      "score": null,
+      "summary": "전쟁이 끝난 뒤 사쿠라는 나뭇잎 마을에서 의료 활동을 이어 간다. 마을에 돌아왔다는 사스케의 출처를 알 수 없는 소식을 접하면서 사건에 휘말린다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 오사키 토모히토의 《나루토 비전》 3번째 책이며 일본 원작 비전은 6부작이다. 국내 검색에서는 해외 중고 원서만 확인되고 한국어 소설 미발매를 명시한 자료는 찾지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "슈에이샤 원작 사쿠라 편",
+          "url": "https://j-books.shueisha.co.jp/books/naruto_sakurahiden.html"
+        },
+        {
+          "label": "슈에이샤 나루토 비전 원작 시리즈",
+          "url": "https://j-books.shueisha.co.jp/books/search_NARUTO-%E3%83%8A%E3%83%AB%E3%83%88-%20%E7%A7%98%E4%BC%9D.html"
+        },
+        {
+          "label": "한국어 소설 자료",
+          "url": "https://d.namu.moe/w/%EB%82%98%EB%A3%A8%ED%86%A0/%EC%86%8C%EC%84%A4#s-2.4"
+        },
+        {
+          "label": "번개장터 일본 중고 원서",
+          "url": "https://mercari.bunjang.co.kr/products/430418855?tab=info"
+        }
+      ],
+      "cover": {
+        "url": "https://j-books.shueisha.co.jp/icon/naruto_sakurahiden.jpg",
+        "source": "https://j-books.shueisha.co.jp/books/naruto_sakurahiden.html"
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "obsessions-of-an-otome-gamer",
+      "title": "오토메 게임 마니아의 집념",
+      "original": "",
+      "oceanOfPdfTitle": "Obsessions of an Otome Gamer",
+      "oceanOfPdfVolumeCount": null,
+      "author": "Natsu",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · Cross Infinite World 소설의 학년별·분기별 판본을 확인했으나 국내 소설 미발매를 명시한 자료는 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "Cross Infinite World 라이트노벨 시리즈",
+          "url": "https://www.crossinfworld.com/otomegamer.html"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "paying-to-win-in-a-vrmmo",
+      "title": "VRMMO에서 현질로 이기다",
+      "original": "VRMMOをカネの力で無双する",
+      "oceanOfPdfTitle": "Paying to Win in a VRMMO",
+      "oceanOfPdfVolumeCount": 6,
+      "author": "Blitz Kiva",
+      "genres": [
+        "가상현실",
+        "게임",
+        "코미디"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "영어판 6권 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "재력가 이치로는 지인의 부탁으로 가상현실 게임을 시작한다. 현실의 자금력과 게임 실력을 활용하는 그의 플레이가 주변 이용자들과의 소동으로 이어진다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · J-Novel Club이 영어 소설 6권을 출간했다. 한국어 제목 단서는 일본 만화판 제작사의 소개에 있으며 한국어 소설 미발매를 입증하는 자료는 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "J-Novel Club 공식 영어 소설 목록",
+          "url": "https://j-novel.club/series/paying-to-win-in-a-vrmmo"
+        },
+        {
+          "label": "일본 원작 웹 연재",
+          "url": "https://ncode.syosetu.com/n0553bs/"
+        },
+        {
+          "label": "코믹스 제작사의 한국어 작품 소개",
+          "url": "https://digishoku.co.jp/kr/webtoonstudio/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want",
+      "title": "이세계의 행상인: 원할 때 언제든 원래 세계로 돌아갈 수 있습니다!",
+      "original": "",
+      "oceanOfPdfTitle": "Peddler in Another World: I Can Go Back to My World Whenever I Want!",
+      "oceanOfPdfVolumeCount": 7,
+      "author": "Hiiro Shimotsuki",
+      "genres": [
+        "이세계",
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · J-Novel Club의 이세계 행상인 라이트노벨 시리즈다. 국내 소설 미발매를 명시한 자료는 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "J-Novel Club 소설 시리즈",
+          "url": "https://j-novel.club/series/peddler-in-another-world"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "please-your-majesty-the-demon-king-kodansha-light-novel-bunko",
+      "title": "부탁드립니다, 마왕 폐하",
+      "original": "",
+      "oceanOfPdfTitle": "Please, Your Majesty the Demon King. (Kodansha Light Novel Bunko)",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 입력 레이블과 표제 일부가 맞는 아사노 하지메의 『契ってください魔王陛下。』를 찾았으나 일치하는 영어판 서지나 ISBN을 확인할 수 없다."
+      ],
+      "sources": [
+        {
+          "label": "고단샤 라노베 문고 유사 원제 작품",
+          "url": "https://lanove.kodansha.co.jp/official/maouheika/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "reincarnated-as-the-last-of-my-kind",
+      "title": "동족의 마지막 생존자로 환생했다",
+      "original": "",
+      "oceanOfPdfTitle": "Reincarnated as the Last of my Kind",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "Kiri Komori",
+      "genres": [
+        "이세계 전생",
+        "일상 판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 일본 웹소설의 Cross Infinite World 라이트노벨 판본을 확인했다. 국내 소설 미발매를 명시한 자료는 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "Cross Infinite World 공식 소설 소개",
+          "url": "https://www.crossinfworld.com/news-articles/New-Audiobook-Release-Reincarnated-as-the-Last-of-My-Kind-Volume-1.html"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "serpent-bride-of-the-crimson-dawn-a-high-fantasy-micro-light-novel-human-outline",
+      "title": "진홍빛 새벽의 뱀 신부: 하이 판타지 초단편 라이트노벨",
+      "original": "Serpent Bride of The Crimson Dawn",
+      "oceanOfPdfTitle": "Serpent Bride of The Crimson Dawn: A High Fantasy Micro-Light Novel (Human Outline. AI Writing.)",
+      "oceanOfPdfVolumeCount": null,
+      "author": "Edward Martinez",
+      "genres": [
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 에드워드 마르티네스의 AI 집필 초단편은 확인되지만 외국 라이트노벨 원서 연작이나 4권 이상 근거가 없다."
+      ],
+      "sources": [
+        {
+          "label": "작가별 도서 목록",
+          "url": "https://www.goodreads.com/author/list/867613.Edward_Martinez?page=5"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "tales-of-love-and-magic",
+      "title": "사랑과 마법 이야기",
+      "original": "Tales of Love and Magic",
+      "oceanOfPdfTitle": "Tales of Love and Magic",
+      "oceanOfPdfVolumeCount": 8,
+      "author": "M. Owens",
+      "genres": [
+        "백합",
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · M. Owens의 영어 자가출판 백합 라이트노벨 시리즈가 확인되나 한국어판 발매 여부를 직접 뒷받침하는 자료가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "스페인어판 서지",
+          "url": "https://new.listadomanga.com/coleccion.php?id=5238"
+        },
+        {
+          "label": "원서 판본 자료",
+          "url": "https://bookscouter.com/author/owens-m"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-architect-a-haremlit-slice-of-life-story",
+      "title": "건축가: 하렘 일상 이야기",
+      "original": "",
+      "oceanOfPdfTitle": "The Architect : A HaremLit Slice of Life Story",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 영어권 하렘 일상물에 동일 표제가 쓰인다. 정확한 출판판과 시리즈 정보를 확인하기 어렵다."
+      ],
+      "sources": [
+        {
+          "label": "독자 등록 표제",
+          "url": "https://www.goodreads.com/user/show/44044235-dan-fry"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-doll",
+      "title": "인형",
+      "original": "",
+      "oceanOfPdfTitle": "The Doll",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 이스마일 카다레의 일반문학 동명작을 확인했다. 입력에 저자가 없어 동명 서적 중 동일판을 특정할 수 없다."
+      ],
+      "sources": [
+        {
+          "label": "이스마일 카다레 소설 발췌문",
+          "url": "https://lithub.com/the-doll/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-dragon-s-hr-department-a-romantacy-light-novel-love-2025",
+      "title": "용의 인사부: 로맨스 판타지 라이트노벨",
+      "original": "The Dragon's HR Department",
+      "oceanOfPdfTitle": "The Dragon's HR Department: A Romantacy Light Novel (Love 2025)",
+      "oceanOfPdfVolumeCount": null,
+      "author": "Edward Martinez",
+      "genres": [
+        "로맨스 판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 에드워드 마르티네즈의 영어 라이트노벨 표기 독립출판물로, 정식 시리즈 권수와 국내 미발매 여부를 입증할 자료가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "Goodreads 작품 서지",
+          "url": "https://www.goodreads.com/book/show/239110668-the-dragon-s-hr-department"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-duke-s-unlikely-heir",
+      "title": "뜻밖의 공작 후계자",
+      "original": "The Duke's Unlikely Heir",
+      "oceanOfPdfTitle": "The Duke's Unlikely Heir",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "Kal Griffith",
+      "genres": [
+        "학원",
+        "LitRPG"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 칼 그리피스의 영어 학원 LitRPG 라이트노벨 시리즈로 확인되나 국내 소설 미발매를 직접 뒷받침하는 자료가 부족하다."
+      ],
+      "sources": [
+        {
+          "label": "원서 시리즈 서지",
+          "url": "https://www.goodreads.com/series/405538-the-duke-s-unlikely-heir"
+        },
+        {
+          "label": "원서 1권 서지",
+          "url": "https://www.fantasticfiction.com/g/kal-griffith/blade-of-the-blue-star.htm"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-former-divine-beast-wants-its-body-back-a-litrpg-progression-fantasy-light-n",
+      "title": "전직 신수는 몸을 되찾고 싶다",
+      "original": "",
+      "oceanOfPdfTitle": "The Former Divine Beast Wants Its Body Back: A LitRPG Progression Fantasy Light Novel (Fantastic, Fatal, and Fascinating Worlds! (Late 2024-Early 2026))",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 에드워드 마르티네스의 영어 LitRPG 도서 제목을 확인했으나 출판사 판본과 시리즈 권수를 검증할 서지가 부족하다."
+      ],
+      "sources": [],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-librarian-s-lamentable-adventure-a-fantasy",
+      "title": "도서관 사서의 딱한 모험",
+      "original": "The Librarian's Lamentable Adventure",
+      "oceanOfPdfTitle": "The Librarian's Lamentable Adventure: A Fantasy",
+      "oceanOfPdfVolumeCount": null,
+      "author": "Sleepy Radish",
+      "genres": [
+        "판타지"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · Sleepy Radish의 영어권 라이트노벨 자가출판물 서지는 찾았다. 후속권과 한국어판의 발매 상태는 확인되지 않는다."
+      ],
+      "sources": [
+        {
+          "label": "동일 제목과 저자 서지",
+          "url": "https://www.goodreads.com/en/book/show/59842158-the-librarian-s-lamentable-adventure"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-second-funniest-light-novel-in-the-world",
+      "title": "세상에서 두 번째로 웃긴 라이트노벨",
+      "original": "",
+      "oceanOfPdfTitle": "The second funniest light novel in the world.",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 입력에 저자·출판사·ISBN이 없고 일치하는 발매 서지도 확인되지 않아 작품을 특정할 수 없다."
+      ],
+      "sources": [],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "the-tales-of-marielle-clarac",
+      "title": "마리엘 클라락의 약혼",
+      "original": "マリエル・クララックの婚約",
+      "oceanOfPdfTitle": "The Tales of Marielle Clarac",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "모모 하루카",
+      "genres": [
+        "로맨스",
+        "코미디",
+        "판타지"
+      ],
+      "completion": {
+        "status": "ongoing",
+        "volumes": "14권"
+      },
+      "releaseDate": "2017-03-02",
+      "summary": "사교계에서 눈에 잘 띄지 않는 자작 영애 마리엘에게 근위기사단 부단장 시메온이 청혼한다. 주변은 두 사람의 약혼을 의아하게 여기지만, 마리엘은 안경 너머로 속내를 감추는 듯한 시메온이 자신의 취향에 꼭 맞아 기쁘다. 사람들을 관찰하는 데 익숙한 마리엘은 약혼을 계기로 그가 몸담은 사교계와 기사단에 한 발 더 가까워진다.",
+      "pros": [
+        "사교계의 시선과 마리엘의 엉뚱한 내면 사이에서 로맨스 코미디의 재미가 난다.",
+        "약혼이 이뤄진 뒤 관계가 어떻게 달라지는지 장편으로 따라갈 수 있다."
+      ],
+      "cons": [
+        "초반은 사교계 인물들의 관계와 약혼을 중심으로 진행된다.",
+        "독립 평가 자료를 충분히 확인하지 못해 점수를 보류했다.",
+        "조사 메모 · 국내 소설 발매표가 ‘미정’이며 서점에서 확인한 국내판은 코믹스다. 소설판 미발매를 명시한 자료가 없어 보류했다."
+      ],
+      "cover": {
+        "url": "https://www.ichijinsha.co.jp/bookdata/uploads/sites/35/2022/06/Mariel_cover_cc_ol-220x324.jpg",
+        "source": "https://www.ichijinsha.co.jp/iris/mariel/"
+      },
+      "sources": [
+        {
+          "label": "이치진샤 원작 1권 및 시리즈 소개",
+          "url": "https://www.ichijinsha.co.jp/iris/mariel/"
+        },
+        {
+          "label": "이치진샤 원작 14권",
+          "url": "https://www.ichijinsha.co.jp/iris/title/marielle-clarac-14/"
+        },
+        {
+          "label": "한국어 원작 소설 발매 현황",
+          "url": "https://d.namu.moe/w/%EB%A7%88%EB%A6%AC%EC%97%98%20%ED%81%B4%EB%9D%BC%EB%9D%BD%EC%9D%98%20%EC%95%BD%ED%98%BC#s-3"
+        },
+        {
+          "label": "네이버 시리즈 국내 코믹스 단행본",
+          "url": "https://series.naver.com/comic/detail.series?productNo=8704764"
+        },
+        {
+          "label": "리디 국내 코믹스 단행본",
+          "url": "https://ridibooks.com/books/505060904"
+        }
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "reviewedAt": "2026-11-27",
+      "score": null
+    },
+    {
+      "id": "transplant",
+      "title": "이식",
+      "original": "",
+      "oceanOfPdfTitle": "Transplant",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 동명작이 여럿으로 제목만으로는 대상 라이트노벨 판본을 특정하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "동명 의학서 Yale University Press 서지",
+          "url": "https://yalebooks.co.uk/book/9780300218107/transplant/"
+        },
+        {
+          "label": "동명 영미 일반소설 Publishers Weekly 서지",
+          "url": "https://www.publishersweekly.com/9780986877315"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "vivy-prototype",
+      "title": "비비 프로토타입",
+      "original": "Vivy prototype",
+      "oceanOfPdfTitle": "Vivy Prototype",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "나가츠키 탓페이, 우메하라 에이지",
+      "genres": [
+        "SF",
+        "인공지능",
+        "시간여행"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "completed",
+        "volumes": "원작 소설 전 4권"
+      },
+      "releaseDate": "2021-04-30",
+      "score": null,
+      "summary": "노래하는 인공지능 비비에게 미래에서 온 인공지능이 접근한다. 두 인공지능은 인간과 인공지능 사이에 벌어질 전쟁을 피하기 위해 중요한 사건에 개입한다.",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 영어·일본어 라이트노벨 전 4권은 확인된다. 한국어 자료는 일본 4권을 나열하거나 원서를 판매하며 한국어 번역판의 미발매를 직접 입증하지 않는다."
+      ],
+      "sources": [
+        {
+          "label": "애니플렉스 일본 원안 소설 출간 공지",
+          "url": "https://www.aniplex.co.jp/news/detail/?id=56632"
+        },
+        {
+          "label": "Seven Seas 영어 라이트노벨 시리즈",
+          "url": "https://sevenseasentertainment.com/series/vivy-prototype-light-novel/"
+        },
+        {
+          "label": "국내 작품 발매 목록",
+          "url": "https://d.namu.moe/w/Vivy%20-Fluorite%20Eye%E2%80%99s%20Song-?from=vivy"
+        },
+        {
+          "label": "애니플렉스 원작 소설 1권과 시리즈",
+          "url": "https://vivy-portal.com/book/"
+        }
+      ],
+      "cover": {
+        "url": "https://vivy-portal.com/assets/img/book/novel_1.jpg",
+        "source": "https://vivy-portal.com/book/"
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "white-lightning",
+      "title": "하얀 번개",
+      "original": "",
+      "oceanOfPdfTitle": "White Lightning",
+      "oceanOfPdfVolumeCount": null,
+      "author": "",
+      "genres": [],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": ""
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · Justin Cartwright 등의 동명 일반소설이 검색된다. 저자·ISBN이 없어 입력판본을 특정할 수 없다."
+      ],
+      "sources": [
+        {
+          "label": "동명작 서지",
+          "url": "https://www.fantasticfiction.com/c/justin-cartwright/white-lightning.htm"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "why-shouldn-t-a-detestable-demon-lord-fall-in-love",
+      "title": "혐오받는 마왕이라고 사랑하면 안 되나요?!",
+      "original": "嫌われ魔王が没落令嬢と恋に落ちて何が悪い！",
+      "oceanOfPdfTitle": "Why Shouldn't a Detestable Demon Lord Fall in Love?!",
+      "oceanOfPdfVolumeCount": 4,
+      "author": "Nekomata Nuko",
+      "genres": [
+        "판타지",
+        "로맨스"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "영어판 4권 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · J-Novel Club 라이트노벨 4권을 확인했다. 국내 소설 미발매를 명시한 자료는 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "J-Novel Club 라이트노벨 시리즈",
+          "url": "https://j-novel.club/series/why-shouldn-t-a-detestable-demon-lord-fall-in-love"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
+    },
+    {
+      "id": "wyvern-academy-path-of-ascension-i-a-cultivation-battle-academy-light-novel",
+      "title": "와이번 아카데미: 승천의 길 I",
+      "original": "Wyvern Academy: Path of Ascension",
+      "oceanOfPdfTitle": "Wyvern Academy: Path of Ascension I (A Cultivation Battle Academy Light Novel)",
+      "oceanOfPdfVolumeCount": null,
+      "author": "Atlas Kane, Grayson Sinclair",
+      "genres": [
+        "판타지",
+        "LitRPG",
+        "학원"
+      ],
+      "publication": {
+        "status": "unknown",
+        "publisher": "",
+        "volumes": "",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "unknown",
+        "volumes": "영어 소설 5권 확인"
+      },
+      "releaseDate": "",
+      "score": null,
+      "summary": "",
+      "pros": [],
+      "cons": [
+        "조사 메모 · 아틀라스 케인과 그레이슨 싱클레어의 영어 오리지널 Cultivation/LitRPG 라이트노벨 5권을 확인했다. 국내 미발매를 명시하는 자료는 확인하지 못했다."
+      ],
+      "sources": [
+        {
+          "label": "Fantastic Fiction 5권 시리즈 서지",
+          "url": "https://www.fantasticfiction.com/k/atlas-kane/wyvern-academy/"
+        }
+      ],
+      "cover": {
+        "url": "",
+        "source": ""
+      },
+      "reviewedAt": ""
     }
   ]
 }
