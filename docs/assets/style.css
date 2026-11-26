@@ -74,6 +74,7 @@ details p{max-width:920px}
 .byline{font-size:12px;color:#788494;overflow-wrap:anywhere}
 .oceanofpdf-search{display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px;margin-top:8px;font-size:12px}
 .oceanofpdf-search a{min-width:0;overflow-wrap:anywhere;text-decoration:underline}
+.oceanofpdf-count{color:#53657a;white-space:nowrap}
 .oceanofpdf-search button{padding:2px 8px;font-size:12px}
 .badges{display:flex;gap:6px;flex-wrap:wrap;margin:11px 0}
 .badge{font-size:11px;border-radius:5px;padding:3px 8px;background:#f0f2f3;color:#617183}

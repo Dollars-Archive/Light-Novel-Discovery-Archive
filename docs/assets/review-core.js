@@ -22,7 +22,7 @@
   var DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
   var TIMESTAMP_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?$/;
   var NOVEL_KEYS = [
-    'id', 'title', 'original', 'oceanOfPdfTitle', 'author', 'genres', 'publication', 'completion',
+    'id', 'title', 'original', 'oceanOfPdfTitle', 'oceanOfPdfVolumeCount', 'author', 'genres', 'publication', 'completion',
     'releaseDate', 'score', 'summary', 'pros', 'cons', 'sources', 'cover', 'reviewedAt'
   ];
 
@@ -222,11 +222,18 @@
       fail(path + '.reviewedAt must be an empty string or a valid YYYY-MM-DD date.');
     }
 
+    var oceanOfPdfVolumeCount = raw.oceanOfPdfVolumeCount ?? null;
+    if (oceanOfPdfVolumeCount !== null &&
+        (!Number.isSafeInteger(oceanOfPdfVolumeCount) || oceanOfPdfVolumeCount < 0)) {
+      fail(path + '.oceanOfPdfVolumeCount must be a non-negative integer or null.');
+    }
+
     var novel = {
       id: id,
       title: title,
       original: original,
       oceanOfPdfTitle: optionalString(raw.oceanOfPdfTitle, path + '.oceanOfPdfTitle', ''),
+      oceanOfPdfVolumeCount: oceanOfPdfVolumeCount,
       author: author,
       genres: genres,
       publication: publication,

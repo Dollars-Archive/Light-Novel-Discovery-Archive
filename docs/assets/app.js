@@ -43,9 +43,12 @@
     if(!title)return '';
     const url=new URL('https://oceanofpdf.com/');
     url.searchParams.set('s',title);
+    const count=novel.oceanOfPdfVolumeCount;
+    const volumeLabel=count===null ? '권수 미확인' : '수집 목록 기준 '+count+'권';
     return `<div class="oceanofpdf-search">
       <span class="fact-label">OceanOfPDF 검색 제목</span>
       <a href="${esc(url.href)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
+      <span class="oceanofpdf-count">${esc(volumeLabel)}</span>
       <button type="button" data-copy-search-title aria-label="OceanOfPDF 검색 제목 복사">복사</button>
     </div>`;
   }
