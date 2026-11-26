@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>라노벨 발굴 아카이브</title>
+<link rel="stylesheet" href="assets/style.css?v=light-novel-20261127">
+<script defer src="assets/review-core.js?v=light-novel-20261127"></script>
+<script defer src="assets/review-sync.js?v=light-novel-20261127"></script>
+<script defer src="assets/app.js?v=light-novel-20261127"></script>
+</head>
+<body>
+<header>
+<div class="top"><a class="brand" href="./">DOLLARS ARCHIVE</a><nav aria-label="현재 코너"><a href="https://dollars-archive.github.io/Dollars-Archive/">게임 라이브러리</a><a href="preview.html">배치 시안</a><span aria-current="page">라노벨 발굴 아카이브</span></nav></div>
+</header>
+<main>
+<section class="hero">
+<p class="eyebrow">LIGHT NOVEL DISCOVERY ARCHIVE</p>
+<h1>라노벨<br class="mobile-break"> 발굴 아카이브</h1>
+<p>국내 정식 발매작부터 원작 연재작까지, 내 취향에 맞을까?<br>10점 만점 평가와 스포일러 없는 소개, 장단점을 보고 골라보세요.</p>
+<div class="stats" id="stats" aria-live="polite"></div>
+</section>
+<section class="panel controls" aria-label="작품 찾기">
+<div class="control-head"><h2>작품 목록</h2><button id="settings-open" class="subtle">⚙ 찜·삭제 열쇠</button></div>
+<div class="filters">
+<label class="search">검색<input id="search" type="search" placeholder="제목 · 원제 · 작가 · 줄거리" autocomplete="off"></label>
+<label>장르<select id="genre"><option value="all">전체 장르</option></select></label>
+<label>국내 출간<select id="publication"><option value="all">전체 상태</option><option value="licensed">국내 정식 발매</option><option value="unlicensed">국내 미발매</option><option value="unknown">발매 정보 미확인</option></select></label>
+<label>원작 상태<select id="completion"><option value="all">전체 상태</option><option value="completed">완결</option><option value="ongoing">연재 중</option><option value="hiatus">휴재</option><option value="unknown">상태 미확인</option></select></label>
+<label>정렬<select id="sort"><option value="score-desc">평점 높은 순</option><option value="score-asc">평점 낮은 순</option><option value="title">제목순</option></select></label>
+</div>
+<div class="toggles"><button id="favorites" aria-pressed="false">☆ 찜만 보기</button><button id="deleted" aria-pressed="false">삭제한 작품 · 복구</button><button id="reset" class="subtle">필터 초기화</button><span>미평가는 평점순 목록의 맨 아래에 표시됩니다.</span></div>
+<details id="settings">
+<summary>GitHub 열쇠 · PC/모바일 연동</summary>
+<p>이 코너의 찜·삭제 목록은 공개 공유 목록에 저장되며 다른 기기에서도 읽을 수 있습니다. 열쇠는 사용하는 브라우저마다 등록합니다.</p>
+<p>기존 열쇠의 선택 저장소에 <strong>Light-Novel-Discovery-Archive</strong>를 추가하고 <strong>Contents: Read and write</strong>를 허용하세요.</p>
+<div class="token-row"><label>GitHub 열쇠<input id="token" type="password" placeholder="github_pat_…" autocomplete="off" spellcheck="false"></label><button id="token-save">이 기기에 저장</button><button id="token-clear" class="subtle">이 코너에서 사용 중지</button><button id="refresh" class="subtle">찜·삭제 새로고침</button></div>
+<p id="token-status" aria-live="polite"></p>
+<a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener noreferrer">GitHub 열쇠 권한 설정 ↗</a>
+</details>
+<p id="notice" class="notice" role="status" aria-live="polite">작품 목록을 불러오는 중…</p>
+</section>
+<div class="list-head"><h2 id="list-title">전체 작품</h2><span id="count"></span></div>
+<section id="results" class="results" aria-label="작품 평가 목록"></section>
+<section id="empty" class="panel empty" hidden>
+<span class="empty-icon" aria-hidden="true">◇</span>
+<h2 id="empty-title">평가를 기다리고 있어요</h2>
+<p id="empty-text">아직 등록된 작품이 없습니다. 데이터 파일에 작품을 추가하면 평점순으로 자동 정렬됩니다.</p>
+</section>
+<footer>평점은 등록된 자료를 바탕으로 한 평가입니다. 국내 정식 발매 정보와 원작 연재 상태는 별도로 확인하세요.</footer>
+</main>
+</body>
+</html>
