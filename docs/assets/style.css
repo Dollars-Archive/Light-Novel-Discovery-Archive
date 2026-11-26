@@ -148,9 +148,12 @@ footer{font-size:11px;color:#8f98a3;margin:30px 2px}
 .novel {grid-template-columns:112px minmax(0,1fr); position:relative}
 .novel-content h3 {padding-right:120px}
 .novel .actions {position:absolute;right:22px;top:24px}
-.novel-columns {display:grid;grid-template-columns:minmax(200px,2fr) repeat(5,minmax(85px,1fr));gap:20px;margin:25px 0 18px;align-items:start}
+.novel-columns {display:grid;grid-template-columns:minmax(200px,2fr) repeat(6,minmax(85px,1fr));gap:20px;margin:25px 0 18px;align-items:start}
 .novel-columns p {margin:8px 0 0;font-size:13px;white-space:pre-line;overflow-wrap:anywhere}
 .novel-columns small {display:block;color:#7c8796;font-size:11px;margin-top:5px}
 .novel-columns .status {display:inline-block}
 @media(max-width:1100px) {.novel-columns{grid-template-columns:repeat(3,minmax(0,1fr))}.story-column{grid-column:1/-1}}
 @media(max-width:760px) {.novel{grid-template-columns:76px minmax(0,1fr)}.novel .actions{position:static;grid-column:2}.novel-content h3{padding-right:0}.novel-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:16px}.novel-columns p{font-size:12px}}
+
+.volume-column {min-width:0;padding:10px 12px;background:#f6f8fb;border:1px solid #e5eaf0;border-radius:8px}
+.volume-column p {margin-top:5px}

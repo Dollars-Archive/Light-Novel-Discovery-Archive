@@ -28,12 +28,12 @@
     const completion = novel.completion;
     const publicationLabel = publication.status === 'licensed' ? '☑ 정발' : publication.status === 'unlicensed' ? '☐ 미정발' : '☐ 정발 미확인';
     const completionLabel = completion.status === 'completed' ? '☑ 완결' : '☐ ' + Core.COMPLETION_LABELS[completion.status];
-    const volumes = '원작 ' + (volumeText(completion.volumes) || '미확인') + ' / 국내 ' + (volumeText(publication.volumes) || '미확인');
     return `<div class="novel-columns">
       <div class="story-column"><span class="fact-label">스토리</span><p>${esc(novel.summary || '소개 등록 대기')}</p></div>
       <div><span class="fact-label">발매일</span><p>${esc(novel.releaseDate || '미확인')}</p><small>원작 첫 발매</small></div>
       <div><span class="fact-label">장르</span><p>${esc(novel.genres.join(' · ') || '미확인')}</p></div>
-      <div><span class="fact-label">발매권수</span><p>${esc(volumes)}</p></div>
+      <div class="volume-column"><span class="fact-label">원작 권수</span><p>${esc(volumeText(completion.volumes) || '미확인')}</p></div>
+      <div class="volume-column"><span class="fact-label">국내 권수</span><p>${esc(volumeText(publication.volumes) || '미확인')}</p></div>
       <div><span class="fact-label">국내 정발</span><p class="status ${esc(publication.status)}">${esc(publicationLabel)}</p><small>${esc(publication.publisher)}</small><small>${esc(publication.checkedAt ? publication.checkedAt + ' 확인' : '')}</small></div>
       <div><span class="fact-label">원작 완결</span><p class="status ${esc(completion.status)}">${esc(completionLabel)}</p></div>
     </div>`;
