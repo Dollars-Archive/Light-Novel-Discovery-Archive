@@ -28,5 +28,10 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+          name: pages-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Allow uploaded artifact metadata to settle
+        run: sleep 8
       - uses: actions/deploy-pages@v4
         id: deployment
+        with:
+          artifact_name: pages-${{ github.run_id }}-${{ github.run_attempt }}
