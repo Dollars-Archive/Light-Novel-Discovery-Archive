@@ -1,4 +1,647 @@
 {
   "version": 1,
-  "novels": []
+  "novels": [
+    {
+      "id": "7th-time-loop",
+      "title": "루프 7회차 악역 영애는 적국에서 자유로운 신부 생활을 만끽한다",
+      "original": "ループ7回目の悪役令嬢は、元敵国で自由気ままな花嫁生活を満喫する",
+      "author": "아메카와 토코",
+      "genres": [
+        "로맨스 판타지",
+        "회귀",
+        "궁정"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "HUSH(허쉬)",
+        "volumes": "본편 6권",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "ongoing",
+        "volumes": "본편 6권 + 단편집 1권"
+      },
+      "releaseDate": "2020-10-25",
+      "score": 8.2,
+      "summary": "공작 영애 리셰는 스무 살에 죽을 때마다 약혼이 깨진 날로 되돌아온다. 일곱 번째 삶이 시작된 날, 지난 삶에서 자신을 죽인 적국의 황태자 아르놀트가 청혼한다. 리셰는 상인과 약사, 기사로 살며 익힌 솜씨를 발휘해 황태자의 속내를 살피고 전쟁으로 이어질 미래를 바꾸려 한다.",
+      "pros": [
+        "소설 1권 서평 기준, 상인·약사·기사 시절에 익힌 기술이 현재의 문제를 푸는 수단이 된다.",
+        "과거의 적이 청혼하면서 로맨스와 전쟁을 막으려는 목적이 한 관계에 얽힌다."
+      ],
+      "cons": [
+        "1권은 청혼 이후 인물들의 이해관계를 쌓는 데 시간을 써 연애의 진전이 느리다.",
+        "국내 독자 후기에서는 4~5권에서 사건을 푸는 방식이 반복된다는 지적이 나온다."
+      ],
+      "sources": [
+        {
+          "label": "리디 한국어 소설 전 6권과 독자 후기",
+          "url": "https://ridibooks.com/books/777127678"
+        },
+        {
+          "label": "오버랩 일본 원작 1권 발매일과 시리즈 목록",
+          "url": "https://over-lap.co.jp/Form/Product/ProductDetail.aspx?cat=NVL&pid=9784865547672&shop=0"
+        },
+        {
+          "label": "오버랩 일본 원작 본편 6권",
+          "url": "https://over-lap.co.jp/Form/Product/ProductDetail.aspx?cat=NVF&pid=9784824006905&shop=0"
+        },
+        {
+          "label": "오버랩 일본 원작 별도 단편집",
+          "url": "https://www.over-lap.co.jp/Form/Product/ProductDetail.aspx?cat=NVF&pid=9784824012258&shop=0"
+        },
+        {
+          "label": "아메카와 토코의 원작 웹 연재",
+          "url": "https://ncode.syosetu.com/n1784ga/"
+        },
+        {
+          "label": "영어 출판사 유통사 소설 7권 출간 예정",
+          "url": "https://www.penguinrandomhouse.com/books/783440/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy-light-novel-vol-7-by-touko-amekawa-illustrated-by-wan-hachipisu/"
+        },
+        {
+          "label": "Anime News Network 레베카 실버먼의 소설 1권 서평",
+          "url": "https://my.worldacg.com/review/7th-time-loop/the-villainess-enjoys-a-carefree-life/novel-1/.188852"
+        },
+        {
+          "label": "Maddies Manga 소설 1권 서평",
+          "url": "https://canadianaujapan.ca/2026/08/23/7th-time-loop-review/"
+        }
+      ],
+      "cover": {
+        "url": "https://image.yes24.com/goods/123743445/XL",
+        "source": "https://www.yes24.com/product/goods/123743445"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "86-eighty-six",
+      "title": "86 -에이티식스-",
+      "original": "８６―エイティシックス―",
+      "author": "아사토 아사토",
+      "genres": [
+        "SF",
+        "밀리터리",
+        "메카",
+        "디스토피아"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "노블엔진(데이즈엔터)",
+        "volumes": "본편 14권 + Alter 2권",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "ongoing",
+        "volumes": "본편 14권 + Alter 2권"
+      },
+      "releaseDate": "2017-02-10",
+      "score": 8.6,
+      "summary": "산마그놀리아 공화국은 무인기로 전쟁을 치러 인명 피해가 없다고 발표한다. 지도에도 표시되지 않는 86구에서는 시민권을 빼앗긴 소년 소녀들이 그 무인기에 직접 올라 싸운다. 후방 지휘관 레나가 통신으로 전선의 신과 그의 부대를 만나면서, 공화국이 감춰 온 전쟁의 실상이 드러난다.",
+      "pros": [
+        "소설 1권 서평 기준, 후방의 레나와 전선의 신을 번갈아 따라가며 두 사람이 같은 전쟁을 얼마나 다르게 겪는지 보여 준다.",
+        "무인병기라는 설정이 전투에서 지워진 병사들의 존재를 드러내는 장치가 된다."
+      ],
+      "cons": [
+        "1권에서는 차별이 제도로 굳어진 과정의 설명이 짧아 공화국의 정치가 단순하게 느껴질 수 있다.",
+        "1권 삽화가 신과 레나에 집중돼 전투와 다른 부대원을 그린 장면은 적은 편이다."
+      ],
+      "sources": [
+        {
+          "label": "알라딘 한국 정발 전자책 본편 14권 및 Alter 2권 목록",
+          "url": "https://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=657616"
+        },
+        {
+          "label": "알라딘 한국 정발 본편 14권 종이책",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=393717139"
+        },
+        {
+          "label": "가도카와 일본 원작 1권과 발매일",
+          "url": "https://store.kadokawa.co.jp/shop/g/g321611000284/"
+        },
+        {
+          "label": "전격문고 일본 원작 14권, 최종편 개시 및 Alter 목록",
+          "url": "https://dengekibunko.jp/product/86/322409000711.html"
+        },
+        {
+          "label": "Anime UK News 소설 1권 서평",
+          "url": "https://animeuknews.net/2019/04/86-eighty-six-volume-1-review/"
+        },
+        {
+          "label": "TheOASG 소설 1권 서평",
+          "url": "https://www.theoasg.com/reviews/light-novel/86-eighty-six-volume-1-review/16640"
+        }
+      ],
+      "cover": {
+        "url": "https://image.aladin.co.kr/product/17811/97/cover500/e572434312_1.jpg",
+        "source": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=178119785"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "hyouka",
+      "title": "빙과",
+      "original": "氷菓",
+      "author": "요네자와 호노부",
+      "genres": [
+        "학원 미스터리",
+        "일상 추리",
+        "청춘"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "엘릭시르",
+        "volumes": "고전부 본편 6권 + 가이드북 1권",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "ongoing",
+        "volumes": "고전부 본편 6권 + 가이드북 1권"
+      },
+      "releaseDate": "2001-10-31",
+      "score": 8.3,
+      "summary": "가급적 일을 만들지 않으려는 오레키 호타로는 누나의 부탁으로 고전부에 들어간다. 부원 지탄다 에루가 잠긴 교실 같은 사소한 일에 의문을 품을 때마다 그는 친구들과 함께 답을 찾아 나선다. 고전부 시리즈의 첫 권인 『빙과』에서는 오래된 동아리 문집을 단서로 지탄다의 삼촌에게 무슨 일이 있었는지 추적한다.",
+      "pros": [
+        "한국어 소설 1권 공개 발췌와 서평 기준, 지탄다의 호기심과 오레키의 건조한 독백이 학교의 사소한 일을 추리의 출발점으로 만든다.",
+        "오래된 문집을 매개로 현재의 동아리 일상과 선배 세대의 학창 시절을 잇는다."
+      ],
+      "cons": [
+        "1권 초반은 잠긴 교실과 도서관 대출처럼 규모가 작은 사건이 중심이라 긴박한 전개를 원하는 독자에게는 느릴 수 있다.",
+        "큰 수수께끼를 풀 때 뒤늦게 전해지는 과거 자료의 비중이 커 독자가 먼저 답을 맞히는 재미는 제한적이다."
+      ],
+      "sources": [
+        {
+          "label": "알라딘 한국 정발 소설 1권과 표지",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=31856016"
+        },
+        {
+          "label": "교보문고 한국 정발 고전부 본편 전 6권",
+          "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010892656"
+        },
+        {
+          "label": "알라딘 한국 정발 고전부 목록과 별도 가이드북",
+          "url": "https://www.aladin.co.kr/shop/common/wseriesitem.aspx?srid=66244"
+        },
+        {
+          "label": "가도카와 일본 원작 1권과 발매일",
+          "url": "https://www.kadokawa.co.jp/product/200108000110/"
+        },
+        {
+          "label": "가도카와 일본 원작 고전부 6권과 별도 가이드북",
+          "url": "https://promo.kadokawa.co.jp/kotenbu/"
+        },
+        {
+          "label": "가도카와 2026년 11월 26일 고전부 신작 잡지 단편 공지",
+          "url": "https://group.kadokawa.co.jp/information/promotional_topics/article-16224.html"
+        },
+        {
+          "label": "교보문고 한국어 소설 1권 공개 본문 발췌",
+          "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003113573"
+        },
+        {
+          "label": "취미공방 소설 1권 서평",
+          "url": "https://hobbyatelier.tistory.com/15"
+        },
+        {
+          "label": "KAIST 카이북클럽 소설 1권 독자 리뷰(결말 언급)",
+          "url": "https://library.kaist.ac.kr/kaibook/club/wereadmystery"
+        }
+      ],
+      "cover": {
+        "url": "https://image.aladin.co.kr/product/3185/60/cover500/8954622615_2.jpg",
+        "source": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=31856016"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "a-certain-magical-index",
+      "title": "어떤 마술의 금서목록",
+      "original": "とある魔術の禁書目録",
+      "author": "카마치 카즈마",
+      "genres": [
+        "도시 판타지",
+        "SF",
+        "학원",
+        "액션"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "대원씨아이 (NT노벨)",
+        "volumes": "본편 22권",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "completed",
+        "volumes": "본편 22권 (외전·후속 시리즈 제외)"
+      },
+      "releaseDate": "2004-04-10",
+      "score": 8.1,
+      "summary": "초능력을 과학으로 연구하는 학원도시에서 고등학생 카미조 토우마는 마술사들에게 쫓기는 수녀복 차림의 소녀 인덱스를 만난다. 초자연 현상을 지우는 오른손으로 인덱스를 돕기 시작하면서, 학원도시의 일상 너머에 전혀 다른 법칙을 따르는 세계가 있음을 알게 된다.",
+      "pros": [
+        "소설 1권 서평과 출판사 자료를 바탕으로 한 편집 평가입니다. 과학과 마술의 서로 다른 규칙이 맞물리는 전투",
+        "초자연 현상을 무효화하는 능력을 활용한 공방",
+        "학원도시 바깥까지 넓어지는 세력과 인물 구도"
+      ],
+      "cons": [
+        "마술의 원리와 종교적 소재를 설명하는 대목의 높은 정보 밀도",
+        "격정적인 연설과 다소 과장된 대사"
+      ],
+      "sources": [
+        {
+          "label": "리디 한국어 본편 22권 완결",
+          "url": "https://ridibooks.com/books/297004355"
+        },
+        {
+          "label": "일본 공식 소설 목록 본편 22권",
+          "url": "https://toaru-project.com/bc/index/novel/"
+        },
+        {
+          "label": "KADOKAWA 일본 초판 1권 발매일",
+          "url": "https://www.kadokawa.co.jp/product/201107000456/"
+        },
+        {
+          "label": "리디 별도 외전 SS 2권",
+          "url": "https://ridibooks.com/books/297007848"
+        },
+        {
+          "label": "알라딘 별도 외전 SP",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=67145340"
+        },
+        {
+          "label": "전격문고 후속 시리즈 신약",
+          "url": "https://dengekibunko.jp/product/index/321810000955.html"
+        },
+        {
+          "label": "알라딘 후속 시리즈 창약",
+          "url": "https://www.aladin.co.kr/shop/wbrowse.aspx?CID=250284"
+        },
+        {
+          "label": "English Light Novels 소설 1권 서평",
+          "url": "https://www.englishlightnovels.com/2014/12/16/review-a-certain-magical-index-vol-1/amp/"
+        },
+        {
+          "label": "Noisy Pixel 소설 1권 서평",
+          "url": "https://noisypixel.net/a-certain-magical-index-vol-1-review/"
+        }
+      ],
+      "cover": {
+        "url": "https://img.ridicdn.net/cover/297004355/xxlarge",
+        "source": "https://ridibooks.com/books/297004355"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "a-sisters-all-you-need",
+      "title": "여동생만 있으면 돼",
+      "original": "妹さえいればいい。",
+      "author": "히라사카 요미",
+      "genres": [
+        "러브 코미디",
+        "일상",
+        "청춘",
+        "출판업"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "디앤씨미디어 (L노벨)",
+        "volumes": "본편 14권",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "completed",
+        "volumes": "본편 14권 (별도 화집 제외)"
+      },
+      "releaseDate": "2015-03-18",
+      "score": 8.1,
+      "summary": "이상적인 여동생을 소설에 쓰고 싶은 작가 하시마 이츠키의 집에는 동료 작가와 친구들이 드나든다. 마감과 게임 모임을 오가는 떠들썩한 나날 속에서, 각자는 창작자로서의 불안과 가까운 사람에게 쉽게 말할 수 없는 마음을 안고 살아간다.",
+      "pros": [
+        "소설 1권·8권 서평과 출판사 자료를 바탕으로 한 편집 평가입니다. 집필과 마감, 미디어화까지 이어지는 출판 현장 묘사",
+        "친구이자 동료인 인물들의 재능과 불안이 얽히는 군상극",
+        "보드게임과 역할극으로 드러나는 인물 사이의 거리"
+      ],
+      "cons": [
+        "노골적인 성적 농담과 여동생 소재에 집중하는 첫 도입부",
+        "게임과 잡담에 많은 분량을 쓰는 초반의 느슨한 전개"
+      ],
+      "sources": [
+        {
+          "label": "알라딘 한국어 종이책 14권 완결",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=244028880"
+        },
+        {
+          "label": "알라딘 한국어 전자책 전 14권",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=325408931"
+        },
+        {
+          "label": "쇼가쿠칸 가가가문고 1권 발매 일정",
+          "url": "https://gagagabunko.jp/lineup/201503.html"
+        },
+        {
+          "label": "쇼가쿠칸 본편 14권 완결",
+          "url": "https://e-comi.shogakukan.co.jp/books/094518280000d0000000"
+        },
+        {
+          "label": "쇼가쿠칸 전자책 목록의 별도 칸토쿠 화집",
+          "url": "https://e-comi.shogakukan.co.jp/books/091990650000d0000000"
+        },
+        {
+          "label": "Anime UK News 소설 1권 서평",
+          "url": "https://animeuknews.net/2018/05/a-sisters-all-you-need-volume-1-review/"
+        },
+        {
+          "label": "Anime UK News 소설 8권 서평",
+          "url": "https://animeuknews.net/2020/11/a-sisters-all-you-need-volume-8-review/"
+        },
+        {
+          "label": "Goodreads 소설 1권 독자 서평",
+          "url": "https://www.goodreads.com/en/book/show/36504689-a-sister-s-all-you-need-vol-1"
+        }
+      ],
+      "cover": {
+        "url": "https://image.aladin.co.kr/product/23307/13/cover500/e802537967_1.jpg",
+        "source": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=233071344"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "accel-world",
+      "title": "액셀 월드",
+      "original": "アクセル・ワールド",
+      "author": "카와하라 레키",
+      "genres": [
+        "SF",
+        "가상현실",
+        "액션",
+        "성장"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "서울미디어코믹스 (제이노블)",
+        "volumes": "종이책 24권, 전자책 23권",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "ongoing",
+        "volumes": "28권 (10권 단편집 포함)"
+      },
+      "releaseDate": "2009-02-10",
+      "score": 7.9,
+      "summary": "학교에서 괴롭힘을 당하는 중학생 하루유키는 흑설공주의 권유로 의식의 속도를 끌어올리는 프로그램을 설치한다. 그 프로그램으로 들어간 가속세계에서는 아바타끼리 싸워 가속에 필요한 점수를 얻는다. 하루유키는 낯선 대전 규칙을 배우며 현실에서 피하던 사람들과도 조금씩 마주한다.",
+      "pros": [
+        "소설 1권과 1~9권 서평, 출판사 자료를 바탕으로 한 편집 평가입니다. 가속 능력을 쓰기 위해 점수를 관리하는 대전 규칙",
+        "아바타의 능력과 지형을 이용한 전투",
+        "학교에서의 열등감과 가상 세계에서의 성장을 연결하는 전개"
+      ],
+      "cons": [
+        "뉴로링커와 브레인 버스트 등 초반 설정 설명의 분량",
+        "하루유키의 외모와 자기비하를 거듭 강조하는 서술"
+      ],
+      "sources": [
+        {
+          "label": "알라딘 한국어 종이책 24권",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=258089892"
+        },
+        {
+          "label": "예스24 한국어 전자책 23권",
+          "url": "https://m.yes24.com/goods/detail/202582586"
+        },
+        {
+          "label": "전격문고 일본 1권 발매일 및 1~28권 목록",
+          "url": "https://dengekibunko.jp/product/accele_world/200901000326.html"
+        },
+        {
+          "label": "KADOKAWA 일본 최신 28권",
+          "url": "https://www.kadokawa.co.jp/product/322502001005/"
+        },
+        {
+          "label": "KADOKAWA 단편집 10권은 정규 번호에 포함",
+          "url": "https://www.kadokawa.co.jp/product/201110000150/"
+        },
+        {
+          "label": "카와하라 레키 공식 메시지",
+          "url": "https://promo.kadokawa.co.jp/dengekibunko/title/sao/comment/"
+        },
+        {
+          "label": "Bednorz 소설 1권 서평",
+          "url": "https://mbednorz.wordpress.com/2017/12/14/accel-world-v1-or-when-pigs-fly/"
+        },
+        {
+          "label": "voyage 소설 1~9권 독후평",
+          "url": "https://note.com/1voyage/n/ndcd6fcf65b29"
+        }
+      ],
+      "cover": {
+        "url": "https://image.yes24.com/goods/3595533/xl",
+        "source": "https://www.yes24.com/product/goods/3595533"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "accomplishments-of-the-dukes-daughter",
+      "title": "공작 영애의 소양",
+      "original": "公爵令嬢の嗜み",
+      "author": "레이아",
+      "genres": [
+        "로맨스 판타지",
+        "이세계 전생",
+        "영지 경영"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "영상출판미디어 (루체 노블)",
+        "volumes": "8권(본편 1–5권, 전일담 6–8권)",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "completed",
+        "volumes": "8권(본편 1–5권, 전일담 6–8권)"
+      },
+      "releaseDate": "2015-11-10",
+      "score": null,
+      "summary": "공작 영애 아이리스는 왕자에게 파혼을 통보받는 순간, 자신이 전생에 즐기던 연애 게임의 악역이라는 사실을 깨닫는다. 파국을 피한 뒤 아버지에게 영지 운영을 맡은 아이리스는 전생의 지식을 살려 상회를 세우고 은행과 학교를 구상한다. 영지의 살림을 꾸리는 일은 곧 귀족 사회의 이해관계와 맞물린다.",
+      "pros": [
+        "상회와 은행, 학교가 영지를 바꾸는 과정",
+        "협상과 행정에서 드러나는 아이리스의 주도성"
+      ],
+      "cons": [
+        "제도와 사업을 설명하는 대목의 분량이 많음",
+        "6권부터 주인공과 시대가 바뀌어 독서 흐름이 달라짐",
+        "공개 자료와 일부 권의 서평을 참고했습니다. 점수는 근거가 충분할 때까지 보류합니다."
+      ],
+      "sources": [
+        {
+          "label": "예스24 한국 정식 소설 1권 및 관련 권 목록",
+          "url": "https://www.yes24.com/product/goods/123058915"
+        },
+        {
+          "label": "예스24 한국 정식 소설 8권",
+          "url": "https://m.yes24.com/goods/detail/124017993"
+        },
+        {
+          "label": "KADOKAWA 일본 초권 발매일",
+          "url": "https://www.kadokawa.co.jp/product/321508000265/"
+        },
+        {
+          "label": "KADOKAWA 일본 6권 전일담 소개",
+          "url": "https://www.kadokawa.co.jp/product/321707000888/"
+        },
+        {
+          "label": "KADOKAWA 일본 소설 8권 완결 발표",
+          "url": "https://www.kadokawa.co.jp/topics/2689/"
+        },
+        {
+          "label": "기노쿠니야 일본 소설 1권 독자 서평",
+          "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784041037423"
+        }
+      ],
+      "cover": {
+        "url": "https://image.yes24.com/goods/123058915/XL",
+        "source": "https://www.yes24.com/product/goods/123058915"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "adachi-and-shimamura",
+      "title": "아다치와 시마무라",
+      "original": "安達としまむら",
+      "author": "이루마 히토마",
+      "genres": [
+        "백합",
+        "학원",
+        "일상",
+        "로맨스"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "학산문화사 (익스트림 노벨)",
+        "volumes": "본편 12권",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "ongoing",
+        "volumes": "본편 13권, 별권 4권(SS·SS2·SS3·99.9)"
+      },
+      "releaseDate": "2013-03-10",
+      "score": null,
+      "summary": "수업을 빠진 아다치와 시마무라는 체육관 2층에서 만나 탁구를 치고 잡담을 나누며 가까워진다. 아다치는 시마무라에게 가장 먼저 떠오르는 친구가 되고 싶지만, 자신이 느끼는 감정에 이름을 붙이기는 어렵다. 소설은 두 사람의 시점을 오가며 같은 시간을 보내는 두 사람이 서로를 얼마나 다르게 바라보는지 보여 준다.",
+      "pros": [
+        "두 사람의 내면 독백으로 드러나는 관계의 온도 차",
+        "탁구와 잡담 같은 일상에 스며드는 짝사랑의 변화"
+      ],
+      "cons": [
+        "관계가 움직이기까지 시간이 걸리는 초반 전개",
+        "우주복을 입은 소녀가 등장하며 일상극의 분위기가 크게 바뀌는 장면",
+        "공개 자료와 일부 권의 서평을 참고했습니다. 점수는 근거가 충분할 때까지 보류합니다."
+      ],
+      "sources": [
+        {
+          "label": "리디 한국 정식 소설 시리즈 12권",
+          "url": "https://ridibooks.com/books/505017871"
+        },
+        {
+          "label": "예스24 한국 정식 소설 1권 전자책",
+          "url": "https://m.yes24.com/goods/detail/88428446"
+        },
+        {
+          "label": "KADOKAWA 일본 초권 발매일",
+          "url": "https://www.kadokawa.co.jp/product/311823200000/"
+        },
+        {
+          "label": "KADOKAWA 일본 본편 13권",
+          "url": "https://www.kadokawa.co.jp/product/322507000662/"
+        },
+        {
+          "label": "BOOK☆WALKER 일본 소설 시리즈 및 별권",
+          "url": "https://bookwalker.jp/de30a674fb-ac06-44ad-8a53-30dd6ac514ce/"
+        },
+        {
+          "label": "카쿠요무 전격문고 작가 일기 및 시리즈 계속 집필 언급",
+          "url": "https://kakuyomu.jp/works/1177354054897444952/episodes/16818093075804944900"
+        },
+        {
+          "label": "A Case Suitable for Treatment 소설 1권 서평",
+          "url": "https://suitablefortreatment.mangabookshelf.com/2020/04/18/adachi-and-shimamura-vol-1/"
+        },
+        {
+          "label": "Rory Muses 소설 1권 서평",
+          "url": "https://rorymuses.wordpress.com/2020/08/06/thoughts-on-adachi-and-shimamura-volume-1/"
+        }
+      ],
+      "cover": {
+        "url": "https://image.yes24.com/goods/88428446/XL",
+        "source": "https://m.yes24.com/goods/detail/88428446"
+      },
+      "reviewedAt": "2026-11-27"
+    },
+    {
+      "id": "alya-sometimes-hides-her-feelings-in-russian",
+      "title": "가끔씩 툭하고 러시아어로 부끄러워하는 옆자리의 아랴 양",
+      "original": "時々ボソッとロシア語でデレる隣のアーリャさん",
+      "author": "SUN SUN SUN",
+      "genres": [
+        "학원",
+        "러브 코미디",
+        "청춘"
+      ],
+      "publication": {
+        "status": "licensed",
+        "publisher": "디앤씨미디어 (L노벨)",
+        "volumes": "본편 11권, 별권 2권(4.5권·비화)",
+        "checkedAt": "2026-11-27"
+      },
+      "completion": {
+        "status": "ongoing",
+        "volumes": "본편 12권, 별권 2권(4.5권·裏話)"
+      },
+      "releaseDate": "2021-02-27",
+      "score": null,
+      "summary": "옆자리의 아랴는 마사치카에게 전하기 쑥스러운 말이 있으면 러시아어로 슬쩍 흘린다. 마사치카는 그 말을 알아듣지만 모르는 척 대답하면서 두 사람 사이에 묘한 긴장감이 생긴다. 학생회장 선거에서 둘이 한 팀을 이루면서 교실에서 쌓인 장난과 호감은 함께 일하는 관계로 이어진다.",
+      "pros": [
+        "아랴의 속마음을 마사치카와 독자가 함께 알아듣는 대화",
+        "학생회장 선거를 준비하며 드러나는 두 사람의 팀워크"
+      ],
+      "cons": [
+        "러시아어에 모르는 척하는 농담이 초반에 반복됨",
+        "여러 인물의 연애 구도가 커지며 선거와 두 주인공 서사의 비중이 분산되는 구간",
+        "공개 자료와 일부 권의 서평을 참고했습니다. 점수는 근거가 충분할 때까지 보류합니다."
+      ],
+      "sources": [
+        {
+          "label": "알라딘 한국 정식 소설 1권",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=293772511"
+        },
+        {
+          "label": "알라딘 한국 정식 소설 11권",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403759310"
+        },
+        {
+          "label": "알라딘 한국 소설 시리즈 및 별권 목록",
+          "url": "https://www.aladin.co.kr/shop/common/wseriesitem.aspx?srid=1102153"
+        },
+        {
+          "label": "KADOKAWA 일본 초권 발매일",
+          "url": "https://www.kadokawa.co.jp/product/322011000027/"
+        },
+        {
+          "label": "KADOKAWA 일본 본편 12권",
+          "url": "https://www.kadokawa.co.jp/product/322605001288/"
+        },
+        {
+          "label": "넷오프 일본 종이 소설 1–12권 및 별권 2권 구성",
+          "url": "https://www.netoff.co.jp/detail/0013245032/"
+        },
+        {
+          "label": "예스24 한국 정식 소설 1권 독자 서평",
+          "url": "https://m.yes24.com/Goods/Review/117516195"
+        },
+        {
+          "label": "Lit Retreat 소설 시리즈 서평",
+          "url": "https://litretreat.com/alya-sometimes-hides-her-feelings-in-russian-light-novel-review/"
+        }
+      ],
+      "cover": {
+        "url": "https://image.aladin.co.kr/product/29377/25/cover500/k072837316_1.jpg",
+        "source": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=293772511"
+      },
+      "reviewedAt": "2026-11-27"
+    }
+  ]
 }
