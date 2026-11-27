@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import re
+from decimal import Decimal
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
@@ -11,6 +12,7 @@ HEADERS = (
     "작품ID", "작품명(원문)", "한글 제목", "작가", "레이블",
     "발매권수", "완결여부", "확인권수", "TMW 번호",
 )
+VOLUME_HEADERS = ("작품ID", "확인 권 식별자", "TMW 번호")
 UNKNOWN = "미확인"
 COMPLETION = {"완결": "completed", "미완결": "ongoing", UNKNOWN: "unknown"}
 CATALOG = Path(__file__).resolve().parents[1] / "docs" / "data" / "games.json"
@@ -64,7 +66,61 @@ def read_rows(path):
     return rows
 
 
-def merge_row(work_id, row, existing):
+def read_volume_ledger(path, rows):
+    labels_by_work = {}
+    with path.open(encoding="utf-8-sig", newline="") as source:
+        reader = csv.reader(source, strict=True)
+        if tuple(next(reader, [])) != VOLUME_HEADERS:
+            raise ValueError("권별 기록 첫 줄의 3개 열 이름과 순서를 확인하세요.")
+        for cells in reader:
+            try:
+                if len(cells) != len(VOLUME_HEADERS):
+                    raise ValueError("작품ID, 확인 권 식별자, TMW 번호를 입력하세요.")
+                catalog_id, label, number = (cell.strip() for cell in cells)
+                work_id = catalog_id.lower()
+                if work_id not in rows:
+                    raise ValueError(f"작품 CSV에 없는 작품ID ({catalog_id!r})")
+                if integer(number, 1) not in rows[work_id]["tmwNumbers"]:
+                    raise ValueError(f"작품 CSV에 없는 TMW 번호 ({number!r})")
+                if not label or label == UNKNOWN:
+                    raise ValueError("실제로 확인한 권 식별자를 입력하세요.")
+                numeric = re.fullmatch(r"([0-9]+)(\.[0-9]+)?", label)
+                if numeric:
+                    label = (numeric[1].lstrip("0") or "0") + (numeric[2] or "")
+                labels_by_work.setdefault(work_id, set()).add(label)
+            except ValueError as error:
+                raise ValueError(f"권별 기록 {reader.line_num}행: {error}") from error
+    return labels_by_work
+
+
+def volume_sort_key(label):
+    numbered = re.match(r"([0-9]+(?:\.[0-9]+)?)(.*)", label)
+    if numbered:
+        return (0, Decimal(numbered[1]), numbered[2], label)
+    split_volume_order = {"上": 0, "上巻": 0, "中": 1, "中巻": 1, "下": 2, "下巻": 2}
+    return (1, split_volume_order.get(label, 3), "", label)
+
+
+def format_volumes(labels):
+    segments = []
+    start = end = None
+    for label in sorted(labels, key=volume_sort_key):
+        number = int(label) if re.fullmatch(r"[0-9]+", label) else None
+        if end is not None and number == end + 1:
+            end = number
+            continue
+        if start is not None:
+            segments.append(f"{start:02}" if start == end else f"{start:02}~{end:02}")
+        start = end = number
+        if number is None:
+            decimal = re.fullmatch(r"([0-9]+)(\.[0-9]+)", label)
+            segments.append(decimal[1].zfill(2) + decimal[2] if decimal else label)
+    if start is not None:
+        segments.append(f"{start:02}" if start == end else f"{start:02}~{end:02}")
+    return ", ".join(segments)
+
+
+def merge_row(work_id, row, existing, volume_labels):
     novel = {**(existing or {"id": work_id, "score": None}), "catalogId": row["catalogId"]}
     for field in ("original", "title", "author", "label"):
         if row[field] != UNKNOWN or not novel.get(field):
@@ -77,13 +133,24 @@ def merge_row(work_id, row, existing):
         completion["status"] = row["status"]
     novel["completion"] = completion
 
+    previous_count = novel.get("confirmedVolumes")
     if row["confirmedVolumes"] is not None:
         novel["confirmedVolumes"] = row["confirmedVolumes"]
+    count = novel.get("confirmedVolumes")
+    if volume_labels is not None:
+        if volume_labels and (count is None or len(volume_labels) > count):
+            raise ValueError(f"{row['catalogId']}의 확인권수와 권별 기록을 확인하세요.")
+        if volume_labels and len(volume_labels) == count:
+            novel["confirmedVolumeDisplay"] = format_volumes(volume_labels)
+        else:
+            novel.pop("confirmedVolumeDisplay", None)
+    elif previous_count != count:
+        novel.pop("confirmedVolumeDisplay", None)
     novel["tmwNumbers"] = sorted(set(novel.get("tmwNumbers") or ()) | row["tmwNumbers"])
     return novel
 
 
-def merge_catalog(data, rows):
+def merge_catalog(data, rows, volume_ledger=None):
     if data.get("version") != 1 or not isinstance(data.get("novels"), list):
         raise ValueError("지원하지 않는 아카이브 데이터 형식입니다.")
 
@@ -94,7 +161,8 @@ def merge_catalog(data, rows):
     added = updated = 0
     for work_id, row in rows.items():
         existing = novels.get(work_id)
-        merged = merge_row(work_id, row, existing)
+        labels = None if volume_ledger is None else volume_ledger.get(work_id, ())
+        merged = merge_row(work_id, row, existing, labels)
         if existing is None:
             added += 1
         elif merged != existing:
@@ -124,12 +192,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("csv_file", type=Path)
     parser.add_argument("--catalog", type=Path, default=CATALOG)
+    parser.add_argument("--volume-ledger", type=Path)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     try:
         old_bytes = args.catalog.read_bytes()
-        merged, added, updated = merge_catalog(json.loads(old_bytes), read_rows(args.csv_file))
+        rows = read_rows(args.csv_file)
+        volume_ledger = read_volume_ledger(args.volume_ledger, rows) if args.volume_ledger else None
+        merged, added, updated = merge_catalog(json.loads(old_bytes), rows, volume_ledger)
         if (added or updated) and not args.dry_run:
             replace_catalog(args.catalog, old_bytes, merged)
     except (OSError, ValueError, csv.Error, TypeError, KeyError, AttributeError) as error:

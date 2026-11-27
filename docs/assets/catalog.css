@@ -52,6 +52,13 @@
   font-variant-numeric: tabular-nums;
 }
 
+.catalog td:nth-child(8) {
+  width: 14%;
+  min-width: 7em;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
 .catalog tr:last-child td,
 .catalog tbody tr:last-child th {
   border-bottom: 0;

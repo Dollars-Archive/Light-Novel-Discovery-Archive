@@ -16,7 +16,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0002",
@@ -33,7 +34,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0003",
@@ -50,7 +52,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0004",
@@ -67,7 +70,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0005",
@@ -84,7 +88,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0006",
@@ -101,7 +106,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "06~10"
     },
     {
       "id": "tmw1-0007",
@@ -222,7 +228,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0015",
@@ -254,7 +261,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0017",
@@ -316,7 +324,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0021",
@@ -333,7 +342,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0022",
@@ -350,7 +360,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0023",
@@ -367,7 +378,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0024",
@@ -384,7 +396,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0025",
@@ -401,7 +414,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0026",
@@ -418,7 +432,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0027",
@@ -435,7 +450,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0028",
@@ -512,7 +528,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0033",
@@ -739,7 +756,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0050",
@@ -756,7 +774,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0051",
@@ -773,7 +792,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0052",
@@ -790,7 +810,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0053",
@@ -882,7 +903,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0059",
@@ -899,7 +921,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0060",
@@ -916,7 +939,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0061",
@@ -993,7 +1017,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0066",
@@ -1085,7 +1110,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0072",
@@ -1132,7 +1158,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0075",
@@ -1464,7 +1491,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0097",
@@ -1481,7 +1509,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0098",
@@ -1498,7 +1527,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0099",
@@ -1515,7 +1545,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0100",
@@ -1532,7 +1563,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0101",
@@ -1594,7 +1626,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0105",
@@ -1626,7 +1659,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0107",
@@ -1643,7 +1677,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0108",
@@ -1676,7 +1711,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0110",
@@ -1708,7 +1744,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0112",
@@ -1725,7 +1762,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0113",
@@ -1757,7 +1795,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0115",
@@ -1820,7 +1859,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0119",
@@ -1852,7 +1892,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0121",
@@ -1960,7 +2001,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0128",
@@ -1976,7 +2018,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0129",
@@ -2038,7 +2081,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0133",
@@ -2085,7 +2129,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0136",
@@ -2102,7 +2147,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0137",
@@ -2197,7 +2243,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0143",
@@ -2245,7 +2292,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0146",
@@ -2294,7 +2342,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0149",
@@ -2341,7 +2390,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0152",
@@ -2374,7 +2424,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0154",
@@ -2436,7 +2487,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0158",
@@ -2482,8 +2534,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0161",
@@ -2499,8 +2553,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0162",
@@ -2516,8 +2572,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0163",
@@ -2533,8 +2591,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0164",
@@ -2550,8 +2610,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0165",
@@ -2583,7 +2645,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0167",
@@ -2600,7 +2663,8 @@
       "confirmedVolumes": 13,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~14"
     },
     {
       "id": "tmw1-0168",
@@ -2632,7 +2696,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0170",
@@ -2649,7 +2714,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0171",
@@ -2666,7 +2732,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0172",
@@ -2683,7 +2750,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0173",
@@ -2700,7 +2768,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0174",
@@ -2717,7 +2786,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0175",
@@ -2725,14 +2795,18 @@
       "catalogId": "TMW1-0175",
       "original": "察しない男 説明しない女 男に通じる話し方 女に伝わる話し方",
       "title": "눈치 못 챈 남자 설명하지 않는 여자 — 남자에게 통하는 말투, 여자에게 전해지는 말투",
-      "author": "미확인",
+      "author": "五百田達成",
       "label": "미확인",
       "completion": {
-        "status": "unknown"
+        "status": "unknown",
+        "volumes": 1
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0176",
@@ -2779,7 +2853,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0182",
@@ -2796,7 +2871,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0183",
@@ -2813,7 +2889,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0184",
@@ -2845,7 +2922,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0186",
@@ -2862,7 +2940,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "12~17"
     },
     {
       "id": "tmw1-0187",
@@ -2879,7 +2958,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0188",
@@ -2893,10 +2973,12 @@
         "volumes": 8,
         "status": "completed"
       },
-      "confirmedVolumes": 7,
+      "confirmedVolumes": 8,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~08"
     },
     {
       "id": "tmw1-0189",
@@ -2913,7 +2995,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0190",
@@ -3034,7 +3117,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0198",
@@ -3051,7 +3135,8 @@
       "confirmedVolumes": 10,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~10"
     },
     {
       "id": "tmw1-0199",
@@ -3068,7 +3153,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0200",
@@ -3084,7 +3170,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0201",
@@ -3101,7 +3188,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0202",
@@ -3118,7 +3206,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "16~20"
     },
     {
       "id": "tmw1-0203",
@@ -3135,7 +3224,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0204",
@@ -3167,7 +3257,8 @@
       "confirmedVolumes": 9,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~09"
     },
     {
       "id": "tmw1-0206",
@@ -3184,7 +3275,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "04~08"
     },
     {
       "id": "tmw1-0207",
@@ -3201,7 +3293,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0208",
@@ -3218,7 +3311,8 @@
       "confirmedVolumes": 7,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0209",
@@ -3250,7 +3344,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0212",
@@ -3312,7 +3407,8 @@
       "confirmedVolumes": 17,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~17"
     },
     {
       "id": "tmw1-0216",
@@ -3329,7 +3425,8 @@
       "confirmedVolumes": 7,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06, 09"
     },
     {
       "id": "tmw1-0217",
@@ -3346,7 +3443,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02, 04~05"
     },
     {
       "id": "tmw1-0218",
@@ -3377,7 +3475,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "1上, 1下, 2上"
     },
     {
       "id": "tmw1-0220",
@@ -3394,7 +3493,8 @@
       "confirmedVolumes": 10,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "05~14"
     },
     {
       "id": "tmw1-0221",
@@ -3403,15 +3503,17 @@
       "original": "蜘蛛ですが、なにか？",
       "title": "거미입니다만, 문제라도?",
       "author": "馬場 翁 & 輝竜 司",
-      "label": "미확인",
+      "label": "カドカワBOOKS",
       "completion": {
         "volumes": 16,
         "status": "completed"
       },
-      "confirmedVolumes": 4,
+      "confirmedVolumes": 16,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~16"
     },
     {
       "id": "tmw1-0222",
@@ -3444,7 +3546,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~11"
     },
     {
       "id": "tmw1-0224",
@@ -3491,7 +3594,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0227",
@@ -3507,7 +3611,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0228",
@@ -3524,7 +3629,8 @@
       "confirmedVolumes": 25,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~25"
     },
     {
       "id": "tmw1-0229",
@@ -3602,7 +3708,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0234",
@@ -3633,8 +3740,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0236",
@@ -3648,10 +3757,12 @@
         "volumes": 14,
         "status": "ongoing"
       },
-      "confirmedVolumes": 2,
+      "confirmedVolumes": 3,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0237",
@@ -3667,8 +3778,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0238",
@@ -3685,7 +3798,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0239",
@@ -3711,11 +3825,15 @@
       "author": "汐見夏衛",
       "label": "スターツ出版文庫",
       "completion": {
-        "status": "unknown"
+        "status": "completed",
+        "volumes": 1
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0241",
@@ -3732,7 +3850,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0242",
@@ -3764,8 +3883,10 @@
       },
       "confirmedVolumes": 9,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~09"
     },
     {
       "id": "tmw1-0244",
@@ -3798,7 +3919,8 @@
       "confirmedVolumes": 15,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~15"
     },
     {
       "id": "tmw1-0246",
@@ -3815,7 +3937,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0247",
@@ -3832,7 +3955,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0249",
@@ -3841,15 +3965,17 @@
       "original": "お隣の天使様にいつの間にか駄目人間にされていた件",
       "title": "옆집 천사님에게 어느새 폐인이 되어 있었던 건",
       "author": "佐伯さん",
-      "label": "미확인",
+      "label": "ＧＡ文庫",
       "completion": {
         "volumes": 13,
         "status": "ongoing"
       },
-      "confirmedVolumes": 6,
+      "confirmedVolumes": 7,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~05, 05.5, 06"
     },
     {
       "id": "tmw1-0250",
@@ -3881,7 +4007,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0252",
@@ -3898,7 +4025,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0253",
@@ -3915,7 +4043,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0254",
@@ -3931,7 +4060,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0256",
@@ -3939,15 +4069,18 @@
       "catalogId": "TMW1-0256",
       "original": "そうだな、確かに可愛いな",
       "title": "그렇지, 확실히 귀엽네",
-      "author": "미확인",
-      "label": "미확인",
+      "author": "刈野ミカタ",
+      "label": "MF文庫J",
       "completion": {
-        "status": "unknown"
+        "status": "unknown",
+        "volumes": 2
       },
-      "confirmedVolumes": 1,
+      "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0257",
@@ -3979,7 +4112,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~06"
     },
     {
       "id": "tmw1-0259",
@@ -4041,7 +4175,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0263",
@@ -4055,10 +4190,12 @@
         "volumes": 14,
         "status": "unknown"
       },
-      "confirmedVolumes": 3,
+      "confirmedVolumes": 8,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~08"
     },
     {
       "id": "tmw1-0264",
@@ -4075,7 +4212,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0265",
@@ -4089,10 +4227,12 @@
         "volumes": 6,
         "status": "completed"
       },
-      "confirmedVolumes": 4,
+      "confirmedVolumes": 5,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "02~06"
     },
     {
       "id": "tmw1-0266",
@@ -4109,7 +4249,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0267",
@@ -4126,7 +4267,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0268",
@@ -4159,7 +4301,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0273",
@@ -4176,7 +4319,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0274",
@@ -4193,7 +4337,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0275",
@@ -4225,7 +4370,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0277",
@@ -4241,7 +4387,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0278",
@@ -4273,7 +4420,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0280",
@@ -4289,7 +4437,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~05"
     },
     {
       "id": "tmw1-0281",
@@ -4306,7 +4455,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0282",
@@ -4338,7 +4488,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0284",
@@ -4368,10 +4519,12 @@
         "volumes": 16,
         "status": "ongoing"
       },
-      "confirmedVolumes": 5,
+      "confirmedVolumes": 7,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0286",
@@ -4388,7 +4541,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02, 08"
     },
     {
       "id": "tmw1-0287",
@@ -4405,7 +4559,8 @@
       "confirmedVolumes": 8,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~08"
     },
     {
       "id": "tmw1-0288",
@@ -4422,7 +4577,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0289",
@@ -4439,7 +4595,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0292",
@@ -4472,7 +4629,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0294",
@@ -4489,7 +4647,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0296",
@@ -4506,7 +4665,8 @@
       "confirmedVolumes": 19,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~19"
     },
     {
       "id": "tmw1-0297",
@@ -4522,8 +4682,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0298",
@@ -4540,7 +4702,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0299",
@@ -4588,7 +4751,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0302",
@@ -4605,7 +4769,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0303",
@@ -4622,7 +4787,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0304",
@@ -4639,7 +4805,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0305",
@@ -4685,8 +4852,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0308",
@@ -4719,7 +4888,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0310",
@@ -4736,7 +4906,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0311",
@@ -4752,7 +4923,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0313",
@@ -4766,10 +4938,12 @@
         "volumes": 2,
         "status": "unknown"
       },
-      "confirmedVolumes": 1,
+      "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0314",
@@ -4786,7 +4960,8 @@
       "confirmedVolumes": 12,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~11, 11.5, 12"
     },
     {
       "id": "tmw1-0315",
@@ -4800,10 +4975,12 @@
         "volumes": 8,
         "status": "completed"
       },
-      "confirmedVolumes": 3,
+      "confirmedVolumes": 4,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "02~05"
     },
     {
       "id": "tmw1-0316",
@@ -4817,10 +4994,12 @@
         "volumes": 5,
         "status": "completed"
       },
-      "confirmedVolumes": 2,
+      "confirmedVolumes": 3,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0317",
@@ -4837,7 +5016,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0318",
@@ -4854,7 +5034,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0319",
@@ -4871,7 +5052,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0320",
@@ -4888,7 +5070,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0321",
@@ -4915,11 +5098,15 @@
       "author": "喜友名トト",
       "label": "双葉文庫",
       "completion": {
-        "status": "unknown"
+        "status": "completed",
+        "volumes": 1
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0323",
@@ -4936,7 +5123,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0324",
@@ -4953,7 +5141,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0326",
@@ -4970,7 +5159,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0327",
@@ -4987,7 +5177,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上"
     },
     {
       "id": "tmw1-0328",
@@ -5017,10 +5208,12 @@
         "volumes": 2,
         "status": "unknown"
       },
-      "confirmedVolumes": 1,
+      "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0330",
@@ -5037,7 +5230,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0331",
@@ -5079,12 +5273,14 @@
       "label": "電撃文庫",
       "completion": {
         "volumes": 16,
-        "status": "unknown"
+        "status": "completed"
       },
       "confirmedVolumes": 3,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0334",
@@ -5092,14 +5288,18 @@
       "catalogId": "TMW1-0334",
       "original": "夜が明けたら、いちばんに君に会いにいく",
       "title": "날이 밝으면 가장 먼저 너를 만나러 갈게",
-      "author": "미확인",
+      "author": "汐見夏衛",
       "label": "スターツ出版文庫",
       "completion": {
-        "status": "unknown"
+        "status": "completed",
+        "volumes": 1
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0335",
@@ -5131,7 +5331,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0337",
@@ -5160,10 +5361,12 @@
         "volumes": 14,
         "status": "completed"
       },
-      "confirmedVolumes": 13,
+      "confirmedVolumes": 14,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~14"
     },
     {
       "id": "tmw1-0339",
@@ -5180,7 +5383,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0340",
@@ -5212,7 +5416,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0342",
@@ -5228,8 +5433,10 @@
       },
       "confirmedVolumes": 7,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0343",
@@ -5246,7 +5453,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0344",
@@ -5263,7 +5471,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0345",
@@ -5296,7 +5505,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0347",
@@ -5328,7 +5538,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0349",
@@ -5345,7 +5556,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0350",
@@ -5362,7 +5574,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0351",
@@ -5395,7 +5608,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0353",
@@ -5425,10 +5639,12 @@
         "volumes": 9,
         "status": "unknown"
       },
-      "confirmedVolumes": 2,
+      "confirmedVolumes": 3,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0355",
@@ -5444,8 +5660,10 @@
       },
       "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0357",
@@ -5510,7 +5728,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0361",
@@ -5521,13 +5740,15 @@
       "author": "藤まる",
       "label": "電撃文庫",
       "completion": {
-        "volumes": 3,
-        "status": "unknown"
+        "volumes": 4,
+        "status": "completed"
       },
-      "confirmedVolumes": 2,
+      "confirmedVolumes": 4,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03, Sunrise＆Sunset Story"
     },
     {
       "id": "tmw1-0362",
@@ -5559,7 +5780,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上, 下"
     },
     {
       "id": "tmw1-0364",
@@ -5574,8 +5796,11 @@
         "status": "completed"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 7,
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0365",
@@ -5592,7 +5817,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0366",
@@ -5609,7 +5835,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "1部2, 1部3, 4部8, 4部9"
     },
     {
       "id": "tmw1-0367",
@@ -5641,7 +5868,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0369",
@@ -5657,7 +5885,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0370",
@@ -5688,8 +5917,10 @@
       },
       "confirmedVolumes": 11,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~11"
     },
     {
       "id": "tmw1-0374",
@@ -5722,7 +5953,8 @@
       "confirmedVolumes": 16,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~17"
     },
     {
       "id": "tmw1-0376",
@@ -5754,7 +5986,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0378",
@@ -5770,7 +6003,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0379",
@@ -5787,7 +6021,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0380",
@@ -5799,11 +6034,14 @@
       "label": "GA文庫",
       "completion": {
         "volumes": 8,
-        "status": "unknown"
+        "status": "completed"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0381",
@@ -5820,7 +6058,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0382",
@@ -5834,10 +6073,12 @@
         "volumes": 5,
         "status": "unknown"
       },
-      "confirmedVolumes": 1,
+      "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0383",
@@ -5854,7 +6095,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0384",
@@ -5887,7 +6129,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0390",
@@ -5916,10 +6159,12 @@
         "volumes": 7,
         "status": "completed"
       },
-      "confirmedVolumes": 6,
+      "confirmedVolumes": 7,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0392",
@@ -5936,7 +6181,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0393",
@@ -5953,7 +6199,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~05"
     },
     {
       "id": "tmw1-0394",
@@ -5985,7 +6232,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0398",
@@ -6002,7 +6250,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0399",
@@ -6019,7 +6268,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0400",
@@ -6036,7 +6286,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0405",
@@ -6053,7 +6304,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0406",
@@ -6070,7 +6322,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0407",
@@ -6086,8 +6339,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0408",
@@ -6136,7 +6391,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0411",
@@ -6153,7 +6409,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0412",
@@ -6185,7 +6442,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0414",
@@ -6214,10 +6472,12 @@
         "volumes": 2,
         "status": "unknown"
       },
-      "confirmedVolumes": 1,
+      "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0416",
@@ -6250,7 +6510,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0418",
@@ -6282,7 +6543,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0420",
@@ -6298,8 +6560,10 @@
       },
       "confirmedVolumes": 11,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~11"
     },
     {
       "id": "tmw1-0423",
@@ -6348,7 +6612,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0426",
@@ -6394,7 +6659,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0429",
@@ -6411,7 +6677,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0430",
@@ -6474,7 +6741,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0435",
@@ -6506,7 +6774,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0437",
@@ -6523,7 +6792,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0438",
@@ -6540,7 +6810,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0439",
@@ -6572,7 +6843,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0444",
@@ -6649,7 +6921,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0449",
@@ -6665,7 +6938,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0450",
@@ -6697,7 +6971,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0452",
@@ -6729,7 +7004,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0454",
@@ -6745,7 +7021,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0455",
@@ -6761,7 +7038,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0457",
@@ -6778,7 +7056,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0459",
@@ -6795,7 +7074,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0461",
@@ -6810,8 +7090,10 @@
       },
       "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0462",
@@ -6874,7 +7156,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0467",
@@ -6891,7 +7174,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0468",
@@ -6908,7 +7192,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0469",
@@ -6955,7 +7240,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0472",
@@ -6972,7 +7258,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0473",
@@ -6989,7 +7276,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0474",
@@ -7006,7 +7294,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "09~12"
     },
     {
       "id": "tmw1-0475",
@@ -7036,10 +7325,12 @@
         "volumes": 8,
         "status": "completed"
       },
-      "confirmedVolumes": 3,
+      "confirmedVolumes": 4,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0477",
@@ -7071,7 +7362,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0480",
@@ -7104,7 +7396,8 @@
       "confirmedVolumes": 19,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~19"
     },
     {
       "id": "tmw1-0482",
@@ -7150,8 +7443,10 @@
       },
       "confirmedVolumes": 1,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0486",
@@ -7168,7 +7463,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0487",
@@ -7185,7 +7481,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0488",
@@ -7193,15 +7490,18 @@
       "catalogId": "TMW1-0488",
       "original": "ちっちゃくてかわいい先輩が大好きなので一日三回照れさせたい",
       "title": "작고 귀여운 선배를 너무 좋아해서 하루 세 번 부끄럽게 만들고 싶다",
-      "author": "미확인",
+      "author": "五十嵐雄策",
       "label": "電撃文庫",
       "completion": {
         "volumes": 4,
         "status": "unknown"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0489",
@@ -7233,7 +7533,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0493",
@@ -7265,7 +7566,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0496",
@@ -7282,7 +7584,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0498",
@@ -7299,7 +7602,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0499",
@@ -7316,7 +7620,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0500",
@@ -7348,7 +7653,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0502",
@@ -7381,7 +7687,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "14, 14.5"
     },
     {
       "id": "tmw1-0504",
@@ -7398,7 +7705,8 @@
       "confirmedVolumes": 9,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03, 19~22, 24~25"
     },
     {
       "id": "tmw1-0505",
@@ -7415,7 +7723,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0506",
@@ -7429,10 +7738,12 @@
         "volumes": 15,
         "status": "completed"
       },
-      "confirmedVolumes": 7,
+      "confirmedVolumes": 8,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~04, 04.5, 05~07"
     },
     {
       "id": "tmw1-0507",
@@ -7449,7 +7760,8 @@
       "confirmedVolumes": 13,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04, 04.5, 05~07, 07.5, 08~11, 11.5"
     },
     {
       "id": "tmw1-0508",
@@ -7538,10 +7850,12 @@
         "volumes": 9,
         "status": "completed"
       },
-      "confirmedVolumes": 2,
+      "confirmedVolumes": 3,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0514",
@@ -7604,7 +7918,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0520",
@@ -7621,7 +7936,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "08~10"
     },
     {
       "id": "tmw1-0521",
@@ -7699,7 +8015,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0526",
@@ -7730,7 +8047,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0528",
@@ -7747,7 +8065,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0529",
@@ -7763,7 +8082,8 @@
       "confirmedVolumes": 7,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0530",
@@ -7825,7 +8145,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0534",
@@ -7872,7 +8193,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01, 03~04"
     },
     {
       "id": "tmw1-0538",
@@ -7904,7 +8226,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0540",
@@ -7921,7 +8244,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0542",
@@ -7938,7 +8262,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~12"
     },
     {
       "id": "tmw1-0543",
@@ -7984,7 +8309,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0549",
@@ -8016,7 +8342,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0551",
@@ -8033,7 +8360,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0552",
@@ -8050,7 +8378,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0553",
@@ -8082,7 +8411,8 @@
       "confirmedVolumes": 20,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~20"
     },
     {
       "id": "tmw1-0555",
@@ -8098,7 +8428,8 @@
       "confirmedVolumes": 9,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~09"
     },
     {
       "id": "tmw1-0556",
@@ -8111,10 +8442,12 @@
       "completion": {
         "status": "unknown"
       },
-      "confirmedVolumes": 3,
+      "confirmedVolumes": 5,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "02~06"
     },
     {
       "id": "tmw1-0557",
@@ -8162,7 +8495,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0561",
@@ -8179,7 +8513,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0562",
@@ -8241,7 +8576,8 @@
       "confirmedVolumes": 10,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06, 06.5, 07~09"
     },
     {
       "id": "tmw1-0566",
@@ -8288,7 +8624,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0569",
@@ -8305,7 +8642,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0572",
@@ -8337,7 +8675,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0574",
@@ -8351,10 +8690,12 @@
         "volumes": 3,
         "status": "unknown"
       },
-      "confirmedVolumes": 2,
+      "confirmedVolumes": 3,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0576",
@@ -8371,7 +8712,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0577",
@@ -8388,7 +8730,8 @@
       "confirmedVolumes": 9,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~09"
     },
     {
       "id": "tmw1-0578",
@@ -8405,7 +8748,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~05"
     },
     {
       "id": "tmw1-0579",
@@ -8422,7 +8766,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0581",
@@ -8454,7 +8799,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0584",
@@ -8502,7 +8848,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~12"
     },
     {
       "id": "tmw1-0587",
@@ -8519,7 +8866,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0588",
@@ -8536,7 +8884,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~05"
     },
     {
       "id": "tmw1-0589",
@@ -8553,7 +8902,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0590",
@@ -8570,7 +8920,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0591",
@@ -8601,8 +8952,11 @@
         "status": "completed"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0593",
@@ -8619,7 +8973,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0594",
@@ -8636,7 +8991,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0596",
@@ -8652,7 +9008,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0597",
@@ -8684,7 +9041,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0600",
@@ -8700,7 +9058,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0601",
@@ -8733,7 +9092,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0603",
@@ -8750,7 +9110,8 @@
       "confirmedVolumes": 16,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~17"
     },
     {
       "id": "tmw1-0604",
@@ -8798,7 +9159,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01, 06~07"
     },
     {
       "id": "tmw1-0607",
@@ -8815,7 +9177,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0608",
@@ -8832,7 +9195,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~07"
     },
     {
       "id": "tmw1-0609",
@@ -8849,22 +9213,27 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0610",
       "score": null,
       "catalogId": "TMW1-0610",
-      "original": "スパイ教室 短編集01 花嫁ロワイヤル",
-      "title": "스파이 교실 단편집 01 신부 로열",
+      "original": "スパイ教室 短編集",
+      "title": "스파이 교실 단편집",
       "author": "竹町",
       "label": "富士見ファンタジア文庫",
       "completion": {
-        "status": "unknown"
+        "status": "unknown",
+        "volumes": 6
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0611",
@@ -8897,7 +9266,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0613",
@@ -8914,7 +9284,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0614",
@@ -8931,7 +9302,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0615",
@@ -8963,7 +9335,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0618",
@@ -8980,7 +9353,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0619",
@@ -8997,7 +9371,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上, 下"
     },
     {
       "id": "tmw1-0621",
@@ -9014,7 +9389,8 @@
       "confirmedVolumes": 17,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~17"
     },
     {
       "id": "tmw1-0624",
@@ -9046,7 +9422,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0636",
@@ -9108,7 +9485,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0646",
@@ -9125,7 +9503,8 @@
       "confirmedVolumes": 8,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~08"
     },
     {
       "id": "tmw1-0647",
@@ -9142,7 +9521,8 @@
       "confirmedVolumes": 9,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~09"
     },
     {
       "id": "tmw1-0648",
@@ -9174,7 +9554,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0650",
@@ -9206,7 +9587,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0656",
@@ -9223,7 +9605,8 @@
       "confirmedVolumes": 25,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~25"
     },
     {
       "id": "tmw1-0657",
@@ -9240,7 +9623,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0658",
@@ -9272,7 +9656,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0660",
@@ -9289,7 +9674,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0661",
@@ -9338,7 +9724,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0664",
@@ -9355,7 +9742,8 @@
       "confirmedVolumes": 12,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~12"
     },
     {
       "id": "tmw1-0665",
@@ -9387,7 +9775,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0667",
@@ -9418,7 +9807,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0669",
@@ -9435,7 +9825,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0670",
@@ -9449,10 +9840,12 @@
         "volumes": 5,
         "status": "unknown"
       },
-      "confirmedVolumes": 3,
+      "confirmedVolumes": 5,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0671",
@@ -9469,7 +9862,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0672",
@@ -9502,7 +9896,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0674",
@@ -9519,7 +9914,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0675",
@@ -9536,7 +9932,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0676",
@@ -9567,7 +9964,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0678",
@@ -9584,7 +9982,8 @@
       "confirmedVolumes": 7,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0679",
@@ -9643,10 +10042,12 @@
         "volumes": 13,
         "status": "ongoing"
       },
-      "confirmedVolumes": 7,
+      "confirmedVolumes": 9,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~09"
     },
     {
       "id": "tmw1-0684",
@@ -9663,7 +10064,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0685",
@@ -9695,7 +10097,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0688",
@@ -9712,7 +10115,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0689",
@@ -9761,7 +10165,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0692",
@@ -9793,7 +10198,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0694",
@@ -9809,7 +10215,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "06~16"
     },
     {
       "id": "tmw1-0695",
@@ -9826,7 +10233,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0696",
@@ -9843,7 +10251,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0697",
@@ -9860,7 +10269,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0698",
@@ -9892,7 +10302,8 @@
       "confirmedVolumes": 8,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~08"
     },
     {
       "id": "tmw1-0700",
@@ -9909,7 +10320,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0701",
@@ -9942,7 +10354,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0703",
@@ -9975,7 +10388,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0705",
@@ -9991,7 +10405,8 @@
       "confirmedVolumes": 7,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~08"
     },
     {
       "id": "tmw1-0706",
@@ -10024,7 +10439,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0708",
@@ -10089,7 +10505,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上巻, 下巻"
     },
     {
       "id": "tmw1-0713",
@@ -10106,7 +10523,8 @@
       "confirmedVolumes": 7,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~07"
     },
     {
       "id": "tmw1-0714",
@@ -10139,7 +10557,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0717",
@@ -10156,7 +10575,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0718",
@@ -10173,7 +10593,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0719",
@@ -10190,7 +10611,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0720",
@@ -10237,7 +10659,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0723",
@@ -10254,7 +10677,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0725",
@@ -10271,7 +10695,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0726",
@@ -10303,7 +10728,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0728",
@@ -10320,7 +10746,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~06"
     },
     {
       "id": "tmw1-0729",
@@ -10334,8 +10761,11 @@
         "status": "unknown"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0730",
@@ -10352,7 +10782,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0731",
@@ -10384,7 +10815,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0733",
@@ -10401,7 +10833,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0735",
@@ -10418,7 +10851,8 @@
       "confirmedVolumes": 15,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~16"
     },
     {
       "id": "tmw1-0736",
@@ -10464,7 +10898,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0739",
@@ -10481,7 +10916,8 @@
       "confirmedVolumes": 8,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "06~13"
     },
     {
       "id": "tmw1-0740",
@@ -10497,7 +10933,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0741",
@@ -10514,7 +10951,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0742",
@@ -10531,7 +10969,8 @@
       "confirmedVolumes": 18,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~07, 10~20"
     },
     {
       "id": "tmw1-0743",
@@ -10563,7 +11002,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0745",
@@ -10595,7 +11035,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0747",
@@ -10732,7 +11173,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上, 中, 下"
     },
     {
       "id": "tmw1-0756",
@@ -10794,7 +11236,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0761",
@@ -10879,16 +11322,18 @@
       "catalogId": "TMW1-0766",
       "original": "友達の妹が俺にだけウザい",
       "title": "친구의 여동생이 나에게만 거슬린다",
-      "author": "미확인",
+      "author": "三河ごーすと",
       "label": "GA文庫",
       "completion": {
         "volumes": 11,
         "status": "ongoing"
       },
-      "confirmedVolumes": 3,
+      "confirmedVolumes": 4,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0767",
@@ -10903,8 +11348,11 @@
         "status": "completed"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0768",
@@ -10966,7 +11414,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0772",
@@ -10983,7 +11432,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0773",
@@ -10998,8 +11448,11 @@
         "status": "unknown"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0774",
@@ -11010,11 +11463,15 @@
       "author": "竜ノ湖 太郎 | 竜ノ湖 太郎 & 天之有",
       "label": "角川スニーカー文庫",
       "completion": {
-        "status": "unknown"
+        "status": "completed",
+        "volumes": 12
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 12,
+      "confirmedVolumeDisplay": "01~12"
     },
     {
       "id": "tmw1-0775",
@@ -11031,7 +11488,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0776",
@@ -11047,7 +11505,8 @@
       "confirmedVolumes": 9,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~09"
     },
     {
       "id": "tmw1-0778",
@@ -11121,12 +11580,14 @@
       "label": "MF文庫J",
       "completion": {
         "volumes": 13,
-        "status": "unknown"
+        "status": "completed"
       },
-      "confirmedVolumes": 12,
+      "confirmedVolumes": 13,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~13"
     },
     {
       "id": "tmw1-0785",
@@ -11143,7 +11604,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0786",
@@ -11160,7 +11622,8 @@
       "confirmedVolumes": 8,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~08"
     },
     {
       "id": "tmw1-0787",
@@ -11177,7 +11640,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0788",
@@ -11194,7 +11658,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~11"
     },
     {
       "id": "tmw1-0789",
@@ -11211,7 +11676,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0790",
@@ -11227,7 +11693,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0791",
@@ -11244,7 +11711,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0793",
@@ -11261,7 +11729,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0794",
@@ -11278,7 +11747,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0795",
@@ -11295,7 +11765,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0796",
@@ -11312,7 +11783,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0797",
@@ -11376,7 +11848,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0804",
@@ -11393,7 +11866,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0805",
@@ -11410,7 +11884,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0806",
@@ -11442,7 +11917,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0808",
@@ -11459,7 +11935,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0809",
@@ -11476,7 +11953,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0811",
@@ -11493,7 +11971,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0812",
@@ -11510,7 +11989,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0813",
@@ -11557,7 +12037,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-0816",
@@ -11574,7 +12055,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03, 09"
     },
     {
       "id": "tmw1-0817",
@@ -11599,13 +12081,16 @@
       "original": "彼女が先輩にNTRれたので、先輩の彼女をNTRます",
       "title": "그녀가 선배에게 NTR당했으니, 선배의 여자친구를 NTR하겠습니다",
       "author": "震電 みひろ",
-      "label": "미확인",
+      "label": "角川スニーカー文庫",
       "completion": {
         "status": "unknown"
       },
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0819",
@@ -11652,7 +12137,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0824",
@@ -11669,7 +12155,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0825",
@@ -11701,7 +12188,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0827",
@@ -11718,7 +12206,8 @@
       "confirmedVolumes": 5,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0828",
@@ -11735,7 +12224,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0829",
@@ -11752,7 +12242,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0831",
@@ -11784,7 +12275,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0833",
@@ -11877,7 +12369,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0840",
@@ -12013,7 +12506,8 @@
       "confirmedVolumes": 13,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~13"
     },
     {
       "id": "tmw1-0852",
@@ -12030,7 +12524,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0853",
@@ -12061,7 +12556,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0855",
@@ -12093,7 +12589,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上, 下"
     },
     {
       "id": "tmw1-0858",
@@ -12110,7 +12607,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0859",
@@ -12127,7 +12625,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0860",
@@ -12189,7 +12688,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0864",
@@ -12221,7 +12721,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0866",
@@ -12238,7 +12739,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上, 下"
     },
     {
       "id": "tmw1-0867",
@@ -12255,7 +12757,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0868",
@@ -12272,7 +12775,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0869",
@@ -12289,7 +12793,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0870",
@@ -12306,7 +12811,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0871",
@@ -12353,7 +12859,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0874",
@@ -12369,8 +12876,10 @@
       },
       "confirmedVolumes": 2,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "上, 下"
     },
     {
       "id": "tmw1-0875",
@@ -12432,7 +12941,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0879",
@@ -12448,7 +12958,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0880",
@@ -12465,7 +12976,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0881",
@@ -12481,7 +12993,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0882",
@@ -12498,7 +13011,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0888",
@@ -12515,7 +13029,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0889",
@@ -12531,7 +13046,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0890",
@@ -12548,7 +13064,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0892",
@@ -12581,7 +13098,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上, 下"
     },
     {
       "id": "tmw1-0896",
@@ -12598,7 +13116,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0897",
@@ -12615,7 +13134,8 @@
       "confirmedVolumes": 10,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~10"
     },
     {
       "id": "tmw1-0907",
@@ -12632,7 +13152,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0908",
@@ -12649,7 +13170,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0909",
@@ -12680,7 +13202,8 @@
       "confirmedVolumes": 8,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~08"
     },
     {
       "id": "tmw1-0911",
@@ -12712,7 +13235,8 @@
       "confirmedVolumes": 12,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~13"
     },
     {
       "id": "tmw1-0913",
@@ -12729,7 +13253,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0917",
@@ -12746,7 +13271,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0918",
@@ -12793,7 +13319,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0922",
@@ -12810,7 +13337,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0923",
@@ -12827,7 +13355,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0925",
@@ -12889,7 +13418,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0930",
@@ -12921,7 +13451,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-0932",
@@ -12938,7 +13469,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0933",
@@ -12955,7 +13487,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0934",
@@ -12972,7 +13505,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0935",
@@ -12989,7 +13523,8 @@
       "confirmedVolumes": 19,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~20"
     },
     {
       "id": "tmw1-0936",
@@ -13036,7 +13571,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~04"
     },
     {
       "id": "tmw1-0939",
@@ -13053,7 +13589,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0940",
@@ -13069,7 +13606,8 @@
       "confirmedVolumes": 4,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~04"
     },
     {
       "id": "tmw1-0942",
@@ -13086,7 +13624,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0943",
@@ -13117,7 +13656,8 @@
       "confirmedVolumes": 22,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~22"
     },
     {
       "id": "tmw1-0947",
@@ -13134,7 +13674,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~11"
     },
     {
       "id": "tmw1-0949",
@@ -13175,12 +13716,15 @@
       "author": "三河 ごーすと",
       "label": "MF文庫J",
       "completion": {
-        "status": "unknown"
+        "status": "unknown",
+        "volumes": 18
       },
-      "confirmedVolumes": 4,
+      "confirmedVolumes": 5,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~05"
     },
     {
       "id": "tmw1-0961",
@@ -13197,7 +13741,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "上, 下"
     },
     {
       "id": "tmw1-0962",
@@ -13214,7 +13759,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0963",
@@ -13246,7 +13792,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0965",
@@ -13262,7 +13809,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~02"
     },
     {
       "id": "tmw1-0967",
@@ -13279,7 +13827,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0968",
@@ -13296,7 +13845,8 @@
       "confirmedVolumes": 6,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~06"
     },
     {
       "id": "tmw1-0974",
@@ -13313,7 +13863,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~11"
     },
     {
       "id": "tmw1-0975",
@@ -13330,7 +13881,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0976",
@@ -13363,7 +13915,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0979",
@@ -13380,7 +13933,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "00~01, 03"
     },
     {
       "id": "tmw1-0982",
@@ -13427,7 +13981,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0985",
@@ -13444,7 +13999,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0986",
@@ -13461,7 +14017,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0987",
@@ -13478,7 +14035,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0988",
@@ -13495,7 +14053,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0989",
@@ -13512,7 +14071,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0990",
@@ -13529,7 +14089,8 @@
       "confirmedVolumes": 11,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~11"
     },
     {
       "id": "tmw1-0991",
@@ -13546,7 +14107,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0992",
@@ -13595,7 +14157,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0996",
@@ -13612,7 +14175,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0997",
@@ -13629,7 +14193,8 @@
       "confirmedVolumes": 3,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-0998",
@@ -13646,7 +14211,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-0999",
@@ -13679,7 +14245,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1001",
@@ -13756,7 +14323,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1007",
@@ -13772,7 +14340,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02"
     },
     {
       "id": "tmw1-1009",
@@ -13789,7 +14358,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1010",
@@ -13805,7 +14375,8 @@
       "confirmedVolumes": 2,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "02~03"
     },
     {
       "id": "tmw1-1012",
@@ -13822,7 +14393,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1013",
@@ -13839,7 +14411,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1016",
@@ -13856,7 +14429,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1017",
@@ -13873,7 +14447,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1019",
@@ -13920,7 +14495,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1024",
@@ -13937,7 +14513,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1025",
@@ -13954,7 +14531,8 @@
       "confirmedVolumes": 1,
       "tmwNumbers": [
         1
-      ]
+      ],
+      "confirmedVolumeDisplay": "01"
     },
     {
       "id": "tmw1-1026",
@@ -13985,8 +14563,10 @@
       },
       "confirmedVolumes": 3,
       "tmwNumbers": [
-        1
-      ]
+        1,
+        2
+      ],
+      "confirmedVolumeDisplay": "01~03"
     },
     {
       "id": "tmw1-1028",
@@ -14031,6 +14611,3320 @@
       },
       "tmwNumbers": [
         1
+      ]
+    },
+    {
+      "id": "tmw2-0002",
+      "score": null,
+      "catalogId": "TMW2-0002",
+      "original": "本好きの下剋上 [TOジュニア文庫]",
+      "title": "책벌레의 하극상 [TO 주니어 문고]",
+      "author": "香月美夜",
+      "label": "TOジュニア文庫",
+      "completion": {
+        "volumes": 24,
+        "status": "ongoing"
+      },
+      "confirmedVolumes": 9,
+      "confirmedVolumeDisplay": "1部1, 1部2, 1部3, 1部4, 1部5, 1部6, 2部1, 2部2, 2部3",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0003",
+      "score": null,
+      "catalogId": "TMW2-0003",
+      "original": "ただいまとおかえりが足りない[完全版]",
+      "title": "다녀왔어와 어서 와가 부족해 [완전판]",
+      "author": "アオキイコ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0004",
+      "score": null,
+      "catalogId": "TMW2-0004",
+      "original": "キミの青春、私のキスはいらないの？",
+      "title": "너의 청춘에 내 키스는 필요 없어?",
+      "author": "うさぎやすぽん",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0005",
+      "score": null,
+      "catalogId": "TMW2-0005",
+      "original": "モブしか勝たん！ お前らが俺にデレデレなお嫁さんになるって本当なの？",
+      "title": "모브가 최고야! 너희가 내게 홀딱 반해 신부가 된다는 게 정말이야?",
+      "author": "広ノ祥人",
+      "label": "MF文庫J",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0006",
+      "score": null,
+      "catalogId": "TMW2-0006",
+      "original": "僕たちはまだ恋を知らない ～初恋実験モジュールでの共同生活365日～",
+      "title": "우리는 아직 사랑을 모른다 ~첫사랑 실험 모듈에서의 공동생활 365일~",
+      "author": "鶏卵　うどん",
+      "label": "MF文庫J",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0008",
+      "score": null,
+      "catalogId": "TMW2-0008",
+      "original": "剣帝学院の魔眼賢者",
+      "title": "검제학원의 마안현자",
+      "author": "ツカサ",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0010",
+      "score": null,
+      "catalogId": "TMW2-0010",
+      "original": "引き籠り錬金術師は引き籠れない",
+      "title": "은둔 연금술사는 은둔할 수 없다",
+      "author": "四つ目",
+      "label": "ドラゴンノベルス",
+      "completion": {
+        "volumes": 3,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0012",
+      "score": null,
+      "catalogId": "TMW2-0012",
+      "original": "株では勝てる俺も、カワイイ女子高生には勝てない。",
+      "title": "주식으로는 이기는 나도, 귀여운 여고생에게는 못 이긴다",
+      "author": "砂義出雲",
+      "label": "MF文庫J",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0013",
+      "score": null,
+      "catalogId": "TMW2-0013",
+      "original": "百合に挟まれてる女って、罪ですか？",
+      "title": "백합 사이에 낀 여자는 죄인가요?",
+      "author": "みかみてれん",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0015",
+      "score": null,
+      "catalogId": "TMW2-0015",
+      "original": "禎子の千羽鶴 戦争ノンフィクションシリーズ",
+      "title": "사다코의 천 마리 학",
+      "author": "佐々木雅弘",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0016",
+      "score": null,
+      "catalogId": "TMW2-0016",
+      "original": "転生少女はまず一歩からはじめたい",
+      "title": "전생소녀는 우선 한 걸음부터 시작하고 싶어",
+      "author": "カヤ",
+      "label": "MFブックス",
+      "completion": {
+        "volumes": 10,
+        "status": "completed"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0018",
+      "score": null,
+      "catalogId": "TMW2-0018",
+      "original": "僕は友達が少ない",
+      "title": "나는 친구가 적다",
+      "author": "平坂読",
+      "label": "MF文庫J",
+      "completion": {
+        "volumes": 11,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 10,
+      "confirmedVolumeDisplay": "01~10",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0020",
+      "score": null,
+      "catalogId": "TMW2-0020",
+      "original": "とらドラ！",
+      "title": "토라도라!",
+      "author": "竹宮ゆゆこ",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 10,
+        "status": "completed"
+      },
+      "confirmedVolumes": 10,
+      "confirmedVolumeDisplay": "01~10",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0021",
+      "score": null,
+      "catalogId": "TMW2-0021",
+      "original": "とらドラ・スピンオフ！",
+      "title": "토라도라 스핀오프!",
+      "author": "竹宮ゆゆこ",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 3,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0023",
+      "score": null,
+      "catalogId": "TMW2-0023",
+      "original": "わたしたちの田村くん",
+      "title": "우리들의 타무라 군",
+      "author": "竹宮ゆゆこ",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0028",
+      "score": null,
+      "catalogId": "TMW2-0028",
+      "original": "あなたを救いに未来から来たと言うヒロインは三人目ですけど？",
+      "title": "널 구하러 미래에서 왔다고 하는 히로인은 세 번째인데?",
+      "author": "氷純",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0029",
+      "score": null,
+      "catalogId": "TMW2-0029",
+      "original": "あの日に誓った約束だけは忘れなかった。",
+      "title": "그날 맹세한 약속만은 잊지 않았다",
+      "author": "小鳥居ほたる",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0031",
+      "score": null,
+      "catalogId": "TMW2-0031",
+      "original": "お前を、祝ってやろうか！？ 1.ラッキースケベの呪いを解いてくれ！",
+      "title": "너를, 축하해 줄까!? 1. 럭키 스케베의 저주를 풀어 줘!",
+      "author": "御守いちる",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0034",
+      "score": null,
+      "catalogId": "TMW2-0034",
+      "original": "だから私は、明日のきみを描く",
+      "title": "그래서 나는, 내일의 너를 그린다",
+      "author": "汐見夏衛",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0036",
+      "score": null,
+      "catalogId": "TMW2-0036",
+      "original": "わんでいりぴーと！",
+      "title": "원 데이 리피트!",
+      "author": "川田戯曲",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0037",
+      "score": null,
+      "catalogId": "TMW2-0037",
+      "original": "オリンポスの郵便ポスト",
+      "title": "올림포스의 우체통",
+      "author": "藻野 多摩夫",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0038",
+      "score": null,
+      "catalogId": "TMW2-0038",
+      "original": "グリモアコートの乙女たち",
+      "title": "그리모어 코트의 소녀들",
+      "author": "雨木シュウスケ",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0039",
+      "score": null,
+      "catalogId": "TMW2-0039",
+      "original": "トラックに轢かれたのに異世界転生できないと言われたから、美少女と働くことにした。",
+      "title": "트럭에 치였는데 이세계 전생은 안 된다고 해서, 미소녀와 일하기로 했다",
+      "author": "日富美信吾",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0040",
+      "score": null,
+      "catalogId": "TMW2-0040",
+      "original": "ハロー・ワールド ――Hello World――",
+      "title": "헬로 월드 ――Hello World――",
+      "author": "仙波ユウスケ",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0042",
+      "score": null,
+      "catalogId": "TMW2-0042",
+      "original": "フラれてから始まるラブコメ",
+      "title": "차이고 나서 시작되는 러브코미디",
+      "author": "金木犀",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0043",
+      "score": null,
+      "catalogId": "TMW2-0043",
+      "original": "ラン・オーバー",
+      "title": "런 오버",
+      "author": "稲庭淳",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0044",
+      "score": null,
+      "catalogId": "TMW2-0044",
+      "original": "ロクでなし魔術講師と追想日誌",
+      "title": "무뢰한 마술강사와 추상일지",
+      "author": "羊太郎",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "volumes": 11,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 8,
+      "confirmedVolumeDisplay": "01~08",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0046",
+      "score": null,
+      "catalogId": "TMW2-0046",
+      "original": "三月の雪は、きみの嘘",
+      "title": "3월의 눈은, 너의 거짓말",
+      "author": "いぬじゅん",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0047",
+      "score": null,
+      "catalogId": "TMW2-0047",
+      "original": "乙女ゲーのモブですらないんだが",
+      "title": "오토메 게임의 엑스트라조차 아닌데",
+      "author": "玉露",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0049",
+      "score": null,
+      "catalogId": "TMW2-0049",
+      "original": "余命10年",
+      "title": "여명 10년",
+      "author": "小坂 流加",
+      "label": "文芸社文庫NEO",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0050",
+      "score": null,
+      "catalogId": "TMW2-0050",
+      "original": "僕が恋した、一瞬をきらめく君に。",
+      "title": "내가 사랑한, 한순간 반짝이는 너에게.",
+      "author": "音はつき",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0051",
+      "score": null,
+      "catalogId": "TMW2-0051",
+      "original": "僕らは魔法少女の中 -in a magic girl’s garden-",
+      "title": "우리는 마법소녀 속 -in a magic girl’s garden-",
+      "author": "御影瑛路",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0053",
+      "score": null,
+      "catalogId": "TMW2-0053",
+      "original": "嘘が見える僕は、素直な君に恋をした",
+      "title": "거짓말이 보이는 나는, 솔직한 너에게 반했다",
+      "author": "桜井美奈",
+      "label": "双葉文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0055",
+      "score": null,
+      "catalogId": "TMW2-0055",
+      "original": "拝啓、嘘つきな君へ",
+      "title": "배계, 거짓말쟁이인 너에게",
+      "author": "加賀美真也",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0056",
+      "score": null,
+      "catalogId": "TMW2-0056",
+      "original": "星の涙",
+      "title": "별의 눈물",
+      "author": "みのりｆｒｏｍ三月のパンタシア",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0057",
+      "score": null,
+      "catalogId": "TMW2-0057",
+      "original": "時間屋 想いをつなぐ祇園の時計師",
+      "title": "시간상점 - 마음을 잇는 기온의 시계공",
+      "author": "広瀬未衣",
+      "label": "双葉文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0058",
+      "score": null,
+      "catalogId": "TMW2-0058",
+      "original": "月光",
+      "title": "달빛",
+      "author": "미확인",
+      "label": "電撃文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0059",
+      "score": null,
+      "catalogId": "TMW2-0059",
+      "original": "桜が咲く頃、君の隣で。",
+      "title": "벚꽃이 필 무렵, 네 곁에서.",
+      "author": "菊川あすか",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0060",
+      "score": null,
+      "catalogId": "TMW2-0060",
+      "original": "真夜中プリズム",
+      "title": "한밤중 프리즘",
+      "author": "沖田円",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0062",
+      "score": null,
+      "catalogId": "TMW2-0062",
+      "original": "超鈍感モブにヒロインが攻略されて、乙女ゲームが始まりません",
+      "title": "초둔감 모브가 히로인에게 공략당해, 오토메 게임이 시작되지 않습니다",
+      "author": "かずは",
+      "label": "TOブックスノベル",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0064",
+      "score": null,
+      "catalogId": "TMW2-0064",
+      "original": "雨宿りの星たちへ",
+      "title": "비를 피하는 별들에게",
+      "author": "小春りん",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0065",
+      "score": null,
+      "catalogId": "TMW2-0065",
+      "original": "魔女と魔城のサバトマリナ",
+      "title": "마녀와 마성의 사바트 마리나",
+      "author": "雨木シュウスケ",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0066",
+      "score": null,
+      "catalogId": "TMW2-0066",
+      "original": "黒猫とさよならの旅",
+      "title": "검은 고양이와 작별의 여행",
+      "author": "櫻いいよ",
+      "label": "スターツ出版文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0067",
+      "score": null,
+      "catalogId": "TMW2-0067",
+      "original": "俺を見て。(manga BL)",
+      "title": "나를 봐.",
+      "author": "百瀬あん",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0068",
+      "score": null,
+      "catalogId": "TMW2-0068",
+      "original": "黒弁護士の痴情 世界でいちばん重い純愛",
+      "title": "흑변호사의 치정 - 세계에서 가장 무거운 순애",
+      "author": "すみ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0069",
+      "score": null,
+      "catalogId": "TMW2-0069",
+      "original": "蜜恋ティアラ獣",
+      "title": "미쓰코이 티아라 짐승",
+      "author": "蜜恋ティアラ獣編集部",
+      "label": "蜜恋ティアラ獣",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "Vol.42, Vol.43, Vol.44",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0071",
+      "score": null,
+      "catalogId": "TMW2-0071",
+      "original": "ログ・ホライズン",
+      "title": "로그 호라이즌",
+      "author": "橙乃ままれ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 11,
+      "confirmedVolumeDisplay": "01~11",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0072",
+      "score": null,
+      "catalogId": "TMW2-0072",
+      "original": "死に至る病 (まんがで読破)",
+      "title": "죽음에 이르는 병 (만화로 독파)",
+      "author": "キェルケゴール",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0073",
+      "score": null,
+      "catalogId": "TMW2-0073",
+      "original": "若きウェルテルの悩み (まんがで読破)",
+      "title": "젊은 베르테르의 고뇌 (만화로 독파)",
+      "author": "ゲーテ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0074",
+      "score": null,
+      "catalogId": "TMW2-0074",
+      "original": "夜間飛行 (まんがで読破)",
+      "title": "야간비행 (만화로 독파)",
+      "author": "サン=テグジュペリ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0075",
+      "score": null,
+      "catalogId": "TMW2-0075",
+      "original": "リア王 (まんがで読破)",
+      "title": "리어왕 (만화로 독파)",
+      "author": "シェイクスピア",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0076",
+      "score": null,
+      "catalogId": "TMW2-0076",
+      "original": "ヴェニスの商人 (まんがで読破)",
+      "title": "베니스의 상인 (만화로 독파)",
+      "author": "シェイクスピア",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0077",
+      "score": null,
+      "catalogId": "TMW2-0077",
+      "original": "1984年 (まんがで読破)",
+      "title": "1984 (만화로 독파)",
+      "author": "ジョージ・オーウェル",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0078",
+      "score": null,
+      "catalogId": "TMW2-0078",
+      "original": "赤と黒 (まんがで読破)",
+      "title": "적과 흑 (만화로 독파)",
+      "author": "スタンダール",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0079",
+      "score": null,
+      "catalogId": "TMW2-0079",
+      "original": "クリスマス・キャロル (まんがで読破)",
+      "title": "크리스마스 캐럴 (만화로 독파)",
+      "author": "ディケンズ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0080",
+      "score": null,
+      "catalogId": "TMW2-0080",
+      "original": "戦争と平和 (まんがで読破)",
+      "title": "전쟁과 평화 (만화로 독파)",
+      "author": "トルストイ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0081",
+      "score": null,
+      "catalogId": "TMW2-0081",
+      "original": "カラマーゾフの兄弟(まんがで読破)",
+      "title": "카라마조프가의 형제들 (만화로 독파)",
+      "author": "ドストエフスキー",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0082",
+      "score": null,
+      "catalogId": "TMW2-0082",
+      "original": "悪霊 (まんがで読破)",
+      "title": "악령 (만화로 독파)",
+      "author": "ドストエフスキー",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0083",
+      "score": null,
+      "catalogId": "TMW2-0083",
+      "original": "罪と罰 (まんがで読破)",
+      "title": "죄와 벌 (만화로 독파)",
+      "author": "ドストエフスキー",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0084",
+      "score": null,
+      "catalogId": "TMW2-0084",
+      "original": "わが闘争 (まんがで読破)",
+      "title": "나의 투쟁 (만화로 독파)",
+      "author": "ヒトラー",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0085",
+      "score": null,
+      "catalogId": "TMW2-0085",
+      "original": "君主論 (まんがで読破)",
+      "title": "군주론 (만화로 독파)",
+      "author": "マキアヴェッリ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0086",
+      "score": null,
+      "catalogId": "TMW2-0086",
+      "original": "共産党宣言 (まんがで読破)",
+      "title": "공산당 선언 (만화로 독파)",
+      "author": "マルクス",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0087",
+      "score": null,
+      "catalogId": "TMW2-0087",
+      "original": "続・資本論 (まんがで読破)",
+      "title": "속 자본론 (만화로 독파)",
+      "author": "マルクス",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0088",
+      "score": null,
+      "catalogId": "TMW2-0088",
+      "original": "資本論 (まんがで読破)",
+      "title": "자본론 (만화로 독파)",
+      "author": "マルクス",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0089",
+      "score": null,
+      "catalogId": "TMW2-0089",
+      "original": "白鯨 (まんがで読破)",
+      "title": "백경 (만화로 독파)",
+      "author": "メルヴィル",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0090",
+      "score": null,
+      "catalogId": "TMW2-0090",
+      "original": "堕落論,白痴 (まんがで読破)",
+      "title": "타락론, 백치 (만화로 독파)",
+      "author": "坂口 安吾",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0091",
+      "score": null,
+      "catalogId": "TMW2-0091",
+      "original": "明暗 (まんがで読破)",
+      "title": "명암 (만화로 독파)",
+      "author": "夏目 漱石",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0092",
+      "score": null,
+      "catalogId": "TMW2-0092",
+      "original": "こころ (まんがで読破)",
+      "title": "마음 (만화로 독파)",
+      "author": "夏目漱石",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0093",
+      "score": null,
+      "catalogId": "TMW2-0093",
+      "original": "ドグラ・マグラ (まんがで読破)",
+      "title": "도그라 마그라 (만화로 독파)",
+      "author": "夢野 久作",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0094",
+      "score": null,
+      "catalogId": "TMW2-0094",
+      "original": "斜陽(まんがで読破)",
+      "title": "사양 (만화로 독파)",
+      "author": "太宰 治",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0095",
+      "score": null,
+      "catalogId": "TMW2-0095",
+      "original": "銀河鉄道の夜 (まんがで読破)",
+      "title": "은하철도의 밤 (만화로 독파)",
+      "author": "宮沢 賢治",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0096",
+      "score": null,
+      "catalogId": "TMW2-0096",
+      "original": "蟹工船 (まんがで読破)",
+      "title": "게공선 (만화로 독파)",
+      "author": "小林 多喜二",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0097",
+      "score": null,
+      "catalogId": "TMW2-0097",
+      "original": "破戒 (まんがで読破)",
+      "title": "파계 (만화로 독파)",
+      "author": "島崎 藤村",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0098",
+      "score": null,
+      "catalogId": "TMW2-0098",
+      "original": "武士道 (まんがで読破)",
+      "title": "무사도 (만화로 독파)",
+      "author": "新渡戸 稲造",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0099",
+      "score": null,
+      "catalogId": "TMW2-0099",
+      "original": "舞姫 (まんがで読破)",
+      "title": "무희 (만화로 독파)",
+      "author": "森 鴎外",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0100",
+      "score": null,
+      "catalogId": "TMW2-0100",
+      "original": "学問のすすめ (まんがで読破)",
+      "title": "학문의 권유 (만화로 독파)",
+      "author": "福沢 諭吉",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0101",
+      "score": null,
+      "catalogId": "TMW2-0101",
+      "original": "羅生門 (まんがで読破)",
+      "title": "라쇼몬 (만화로 독파)",
+      "author": "芥川 龍之介",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0102",
+      "score": null,
+      "catalogId": "TMW2-0102",
+      "original": "阿Q正伝 (まんがで読破)",
+      "title": "아Q정전 (만화로 독파)",
+      "author": "魯 迅",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0103",
+      "score": null,
+      "catalogId": "TMW2-0103",
+      "original": "だから僕は大人になれない",
+      "title": "그래서 나는 어른이 될 수 없어",
+      "author": "ぺいんと",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0105",
+      "score": null,
+      "catalogId": "TMW2-0105",
+      "original": "異伝 淡海乃海 ～羽林、乱世を翔る～ 一",
+      "title": "외전 담해내해 ~우림, 난세를 날다~ 1",
+      "author": "イスラーフィール",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0108",
+      "score": null,
+      "catalogId": "TMW2-0108",
+      "original": "不機嫌な長男・長女 無責任な末っ子たち「きょうだい型」性格分析＆コミュニケーション",
+      "title": "기분 언짢은 장남·장녀, 무책임한 막내들 「형제자매형」 성격 분석 & 커뮤니케이션",
+      "author": "五百田達成",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0114",
+      "score": null,
+      "catalogId": "TMW2-0114",
+      "original": "空想科学読本［マッハ７の悲劇］",
+      "title": "공상과학독본 [마하 7의 비극]",
+      "author": "柳田理科雄",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0115",
+      "score": null,
+      "catalogId": "TMW2-0115",
+      "original": "OZmagazine (オズマガジン) 2021年 05月号 [雑誌]",
+      "title": "OZ매거진 2021년 5월호",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "2021年05月号",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0116",
+      "score": null,
+      "catalogId": "TMW2-0116",
+      "original": "ある日突然、ギャルの許嫁ができた 1",
+      "title": "어느 날 갑자기, 갸루인 약혼자가 생겼다 1",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0118",
+      "score": null,
+      "catalogId": "TMW2-0118",
+      "original": "ぽんこつかわいい間宮さん ～社内の美人広報がとなりの席に居座る件～",
+      "title": "덜렁이 귀여운 마미야 씨 ~사내 미녀 홍보 담당이 옆자리에 눌러앉은 건~",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0120",
+      "score": null,
+      "catalogId": "TMW2-0120",
+      "original": "俺のクラスに若返った元嫁がいる",
+      "title": "내 반에 젊어진 전처가 있다",
+      "author": "猫又ぬこ",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0121",
+      "score": null,
+      "catalogId": "TMW2-0121",
+      "original": "双黒銃士と銀狼姫",
+      "title": "쌍흑 총사와 은랑 공주",
+      "author": "倖月一嘉",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0122",
+      "score": null,
+      "catalogId": "TMW2-0122",
+      "original": "好きで好きで大好きなので、いっしょに好きを伝えたい",
+      "title": "좋아하고 좋아하고 너무 좋아하니까, 함께 좋아하는 마음을 전하고 싶어",
+      "author": "久慈マサムネ",
+      "label": "角川スニーカー文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0123",
+      "score": null,
+      "catalogId": "TMW2-0123",
+      "original": "自炊男子と女子高生",
+      "title": "자취남과 여고생",
+      "author": "茜　ジュン",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0128",
+      "score": null,
+      "catalogId": "TMW2-0128",
+      "original": "幼女さまとゼロ級守護者さま",
+      "title": "어린 아가씨와 제로급 수호자님",
+      "author": "すかぢ",
+      "label": "ＧＡ文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0129",
+      "score": null,
+      "catalogId": "TMW2-0129",
+      "original": "[カラー版]くちびるピアニシモ～放課後の天使たち",
+      "title": "[컬러판] 입술 피아니시모 ~방과 후의 천사들~",
+      "author": "南部くまこ",
+      "label": "コミックノベル「yomuco」",
+      "completion": {
+        "volumes": 24,
+        "status": "completed"
+      },
+      "confirmedVolumes": 24,
+      "confirmedVolumeDisplay": "01~24",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0130",
+      "score": null,
+      "catalogId": "TMW2-0130",
+      "original": "[カラー版]囁きのキス～Read my lips.",
+      "title": "[컬러판] 속삭임의 키스 ~Read my lips.~",
+      "author": "南部くまこ",
+      "label": "コミックノベル「yomuco」",
+      "completion": {
+        "volumes": 10,
+        "status": "completed"
+      },
+      "confirmedVolumes": 10,
+      "confirmedVolumeDisplay": "01~10",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0131",
+      "score": null,
+      "catalogId": "TMW2-0131",
+      "original": "陰キャなクラスメイトが実は人気の若手俳優なんだけど、ソイツの幼馴染は何故か俺のことが好きみたいです。",
+      "title": "음침한 동급생이 사실 인기 젊은 배우인데, 그 녀석의 소꿉친구는 어째서인지 나를 좋아하는 모양입니다.",
+      "author": "サンボン",
+      "label": "ミスリル文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0132",
+      "score": null,
+      "catalogId": "TMW2-0132",
+      "original": "マッチングアプリで元恋人と再会した。",
+      "title": "매칭 앱에서 전 연인과 재회했다.",
+      "author": "ナナシまる",
+      "label": "角川スニーカー文庫",
+      "completion": {
+        "volumes": 4,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0133",
+      "score": null,
+      "catalogId": "TMW2-0133",
+      "original": "冒険者をクビになったので、錬金術師として出直します！ ～辺境開拓？ よし、俺に任せとけ！",
+      "title": "모험자에서 잘렸으므로, 연금술사로 다시 시작합니다! ~변방 개척? 좋아, 나에게 맡겨!~",
+      "author": "佐々木さざめき",
+      "label": "Mノベルス",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 4,
+      "confirmedVolumeDisplay": "01~04",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0134",
+      "score": null,
+      "catalogId": "TMW2-0134",
+      "original": "恋になるまで、あと1センチ",
+      "title": "사랑이 될 때까지, 앞으로 1센티",
+      "author": "六つ花えいこ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0135",
+      "score": null,
+      "catalogId": "TMW2-0135",
+      "original": "三体",
+      "title": "삼체",
+      "author": "劉慈欣",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0136",
+      "score": null,
+      "catalogId": "TMW2-0136",
+      "original": "楽園殺し",
+      "title": "낙원 살해",
+      "author": "呂暇郁夫",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0138",
+      "score": null,
+      "catalogId": "TMW2-0138",
+      "original": "のぼうの城",
+      "title": "노보의 성",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "上, 下",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0140",
+      "score": null,
+      "catalogId": "TMW2-0140",
+      "original": "歴史に残る悪女になるぞ 悪役令嬢になるほど王子の溺愛は加速するようです！",
+      "title": "역사에 남을 악녀가 될 거야, 악역 영애가 될수록 왕자의 총애는 가속되는 모양입니다!",
+      "author": "大木戸 いずみ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0141",
+      "score": null,
+      "catalogId": "TMW2-0141",
+      "original": "女難戦記",
+      "title": "여난전기",
+      "author": "寒天ゼリヰ",
+      "label": "いずみノベルズ",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0142",
+      "score": null,
+      "catalogId": "TMW2-0142",
+      "original": "VTuberのマイクに転身したら、推しが借金まみれのクズだった",
+      "title": "VTuber의 마이크로 전신했더니, 최애가 빚더미에 빠진 쓰레기였다",
+      "author": "小路　燦",
+      "label": "角川スニーカー文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0145",
+      "score": null,
+      "catalogId": "TMW2-0145",
+      "original": "変人のサラダボウル",
+      "title": "괴짜 샐러드볼",
+      "author": "平坂読",
+      "label": "ガガガ文庫",
+      "completion": {
+        "volumes": 10,
+        "status": "completed"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0146",
+      "score": null,
+      "catalogId": "TMW2-0146",
+      "original": "春夏秋冬代行者 夏の舞",
+      "title": "춘하추동 대행자 여름의 춤",
+      "author": "暁 佳奈",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "上, 下",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0148",
+      "score": null,
+      "catalogId": "TMW2-0148",
+      "original": "竜殺しのブリュンヒルド",
+      "title": "용을 죽인 브륀힐트",
+      "author": "東崎　惟子",
+      "label": "電撃文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0149",
+      "score": null,
+      "catalogId": "TMW2-0149",
+      "original": "凶犬の眼 2",
+      "title": "사나운 개의 눈 2",
+      "author": "柚月裕子",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0150",
+      "score": null,
+      "catalogId": "TMW2-0150",
+      "original": "孤狼の血 1",
+      "title": "고독한 늑대의 피 1",
+      "author": "柚月裕子",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0151",
+      "score": null,
+      "catalogId": "TMW2-0151",
+      "original": "君は初恋の人、の娘",
+      "title": "너는 첫사랑, 그 딸",
+      "author": "機村械人",
+      "label": "ＧＡ文庫",
+      "completion": {
+        "volumes": 3,
+        "status": "completed"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0152",
+      "score": null,
+      "catalogId": "TMW2-0152",
+      "original": "コンビで百合漫画つくったら恋人ができました (創作百合小説)",
+      "title": "콤비로 백합 만화를 만들었더니 연인이 생겼습니다",
+      "author": "毘沙門天ゆるいこ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0153",
+      "score": null,
+      "catalogId": "TMW2-0153",
+      "original": "天と地と",
+      "title": "하늘과 땅",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 5,
+      "confirmedVolumeDisplay": "01~05",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0155",
+      "score": null,
+      "catalogId": "TMW2-0155",
+      "original": "とある飛空士への誓約",
+      "title": "어느 비공사에의 맹세",
+      "author": "犬村小六",
+      "label": "ガガガ文庫",
+      "completion": {
+        "volumes": 9,
+        "status": "completed"
+      },
+      "confirmedVolumes": 4,
+      "confirmedVolumeDisplay": "06~09",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0156",
+      "score": null,
+      "catalogId": "TMW2-0156",
+      "original": "とある飛空士への追憶",
+      "title": "어느 비공사에의 추억",
+      "author": "犬村小六",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0157",
+      "score": null,
+      "catalogId": "TMW2-0157",
+      "original": "やがて恋するヴィヴィ・レイン1",
+      "title": "이윽고 사랑하는 비비 레인 1",
+      "author": "犬村小六",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0159",
+      "score": null,
+      "catalogId": "TMW2-0159",
+      "original": "人類は衰退しました 平常運転",
+      "title": "인류는 쇠퇴했습니다 평상운전",
+      "author": "田中ロミオ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0160",
+      "score": null,
+      "catalogId": "TMW2-0160",
+      "original": "人類は衰退しました 未確認生物スペシャル",
+      "title": "인류는 쇠퇴했습니다 미확인생물 스페셜",
+      "author": "田中ロミオ",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0161",
+      "score": null,
+      "catalogId": "TMW2-0161",
+      "original": "灼熱の小早川さん",
+      "title": "작열의 고바야카와 씨",
+      "author": "田中ロミオ",
+      "label": "ガガガ文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0162",
+      "score": null,
+      "catalogId": "TMW2-0162",
+      "original": "犬と魔法のファンタジー",
+      "title": "개와 마법의 판타지",
+      "author": "田中ロミオ",
+      "label": "ガガガ文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0163",
+      "score": null,
+      "catalogId": "TMW2-0163",
+      "original": "許嫁が出来たと思ったら、その許嫁が学校で有名な『悪役令嬢』だったんだけど、どうすればいい?",
+      "title": "약혼자가 생겼다고 생각했더니, 그 약혼자가 학교에서 유명한 '악역 영애'였는데, 어떻게 해야 하지?",
+      "author": "疎陀陽",
+      "label": "ダッシュエックス文庫DIGITAL",
+      "completion": {
+        "volumes": 5,
+        "status": "completed"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0164",
+      "score": null,
+      "catalogId": "TMW2-0164",
+      "original": "喋らない来栖さん、心の中はスキでいっぱい。",
+      "title": "말하지 않는 쿠루스 씨, 마음속은 좋아함으로 가득.",
+      "author": "紫ユウ",
+      "label": "角川スニーカー文庫",
+      "completion": {
+        "volumes": 3,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0165",
+      "score": null,
+      "catalogId": "TMW2-0165",
+      "original": "霊能探偵・藤咲藤花は人の惨劇を嗤わない",
+      "title": "영능탐정・후지사키 토우카는 인간의 참극을 비웃지 않는다",
+      "author": "綾里けいし",
+      "label": "ガガガ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0166",
+      "score": null,
+      "catalogId": "TMW2-0166",
+      "original": "ユア・フォルマ",
+      "title": "유어 포르마",
+      "author": "菊石　まれほ",
+      "label": "電撃文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 4,
+      "confirmedVolumeDisplay": "01~04",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0167",
+      "score": null,
+      "catalogId": "TMW2-0167",
+      "original": "幼なじみが妹だった景山北斗の、哀と愛。",
+      "title": "소꿉친구가 여동생이었던 카게야마 호쿠토의, 슬픔과 사랑.",
+      "author": "野村美月",
+      "label": "ガガガ文庫",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0168",
+      "score": null,
+      "catalogId": "TMW2-0168",
+      "original": "ストライクフォール",
+      "title": "스트라이크 폴",
+      "author": "長谷敏司",
+      "label": "ガガガ文庫",
+      "completion": {
+        "volumes": 4,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 4,
+      "confirmedVolumeDisplay": "01~04",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0169",
+      "score": null,
+      "catalogId": "TMW2-0169",
+      "original": "英雄と魔女の転生ラブコメ",
+      "title": "영웅과 마녀의 전생 러브코미디",
+      "author": "雨宮和希",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0170",
+      "score": null,
+      "catalogId": "TMW2-0170",
+      "original": "史上最強の大魔王、村人Ａに転生する",
+      "title": "사상 최강의 대마왕, 마을 사람 A로 전생하다",
+      "author": "下等 妙人",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0171",
+      "score": null,
+      "catalogId": "TMW2-0171",
+      "original": "転生賢者の異世界ライフ",
+      "title": "전생현자의 이세계 라이프",
+      "author": "進行諸島",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0172",
+      "score": null,
+      "catalogId": "TMW2-0172",
+      "original": "星のカービィ",
+      "title": "별의 커비",
+      "author": "高瀬 美恵",
+      "label": "角川つばさ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 5,
+      "confirmedVolumeDisplay": "くらやみ森で大さわぎ！の巻, プププランドで大レース！の巻, メタナイトとあやつり姫, 大盗賊ドロッチェ団あらわる！の巻, 大迷宮のトモダチを救え！の巻",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0175",
+      "score": null,
+      "catalogId": "TMW2-0175",
+      "original": "月刊コミックキューン 2022年8月号 [雑誌]",
+      "title": "월간 코믹 큔 2022년 8월호 [잡지]",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "2022年08月号",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0176",
+      "score": null,
+      "catalogId": "TMW2-0176",
+      "original": "あなたに恋してもいいですか?",
+      "title": "당신을 사랑해도 되나요?",
+      "author": "미확인",
+      "label": "とらの百合ノベルス",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0177",
+      "score": null,
+      "catalogId": "TMW2-0177",
+      "original": "いや、つれさる相手間違ってるから!",
+      "title": "아니, 데려갈 상대가 틀렸다고!",
+      "author": "大滝タクミ",
+      "label": "Mノベルス",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0178",
+      "score": null,
+      "catalogId": "TMW2-0178",
+      "original": "ええところ (絵本単品)",
+      "title": "좋은 곳",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0180",
+      "score": null,
+      "catalogId": "TMW2-0180",
+      "original": "かか",
+      "title": "카카",
+      "author": "미확인",
+      "label": "河出文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0181",
+      "score": null,
+      "catalogId": "TMW2-0181",
+      "original": "かくれてイチャイチャシェアハウス!",
+      "title": "숨어서 알콩달콩 셰어하우스!",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0182",
+      "score": null,
+      "catalogId": "TMW2-0182",
+      "original": "この恋は元カノの提供でお送りします。",
+      "title": "이 사랑은 전 여자친구의 제공으로 보내드립니다.",
+      "author": "御宮　ゆう",
+      "label": "角川スニーカー文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0183",
+      "score": null,
+      "catalogId": "TMW2-0183",
+      "original": "これはゾンビですか?",
+      "title": "이것은 좀비입니까?",
+      "author": "木村心一",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "volumes": 19,
+        "status": "completed"
+      },
+      "confirmedVolumes": 19,
+      "confirmedVolumeDisplay": "01~19",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0184",
+      "score": null,
+      "catalogId": "TMW2-0184",
+      "original": "こんな可愛い許嫁がいるのに、他の子が好きなの?",
+      "title": "이렇게 귀여운 약혼자가 있는데, 다른 애가 좋은 거야?",
+      "author": "ミサキナギ",
+      "label": "電撃文庫",
+      "completion": {
+        "volumes": 3,
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0188",
+      "score": null,
+      "catalogId": "TMW2-0188",
+      "original": "よるのばけもの",
+      "title": "밤의 괴물",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0191",
+      "score": null,
+      "catalogId": "TMW2-0191",
+      "original": "カラスの親指 by rule of CROW’s thumb",
+      "title": "까마귀의 엄지 by rule of CROW’s thumb",
+      "author": "미확인",
+      "label": "講談社文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0192",
+      "score": null,
+      "catalogId": "TMW2-0192",
+      "original": "ほのぼの学園百合小説 キタコミ!",
+      "title": "훈훈한 학원 백합 소설 키타코미!",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0193",
+      "score": null,
+      "catalogId": "TMW2-0193",
+      "original": "クォンタムデビルサーガ アバタールチューナー",
+      "title": "퀀텀 데빌 사가 아바타르 튜너",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 5,
+      "confirmedVolumeDisplay": "01~05",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0196",
+      "score": null,
+      "catalogId": "TMW2-0196",
+      "original": "サイコメ",
+      "title": "사이코메",
+      "author": "水城水城",
+      "label": "ファミ通文庫",
+      "completion": {
+        "volumes": 7,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 7,
+      "confirmedVolumeDisplay": "01~06, UNPLAGUED OMNIBUS",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0197",
+      "score": null,
+      "catalogId": "TMW2-0197",
+      "original": "シラノ・ド・ベルジュラック",
+      "title": "시라노 드 베르주라크",
+      "author": "미확인",
+      "label": "光文社古典新訳文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0200",
+      "score": null,
+      "catalogId": "TMW2-0200",
+      "original": "ツンデレご主人様とケモミミ従者がゆく魔族討伐の百合旅",
+      "title": "츤데레 주인님과 동물귀 시종이 떠나는 마족 토벌 백합 여행",
+      "author": "エルトリア",
+      "label": "たいあっぷノベル",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0201",
+      "score": null,
+      "catalogId": "TMW2-0201",
+      "original": "デート・ア・ライブ",
+      "title": "데이트 어 라이브",
+      "author": "橘公司",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "volumes": 22,
+        "status": "completed"
+      },
+      "confirmedVolumes": 17,
+      "confirmedVolumeDisplay": "01~17",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0202",
+      "score": null,
+      "catalogId": "TMW2-0202",
+      "original": "ファイヤーガール",
+      "title": "파이어 걸",
+      "author": "星空めてお",
+      "label": "TYPE-MOON BOOKS",
+      "completion": {
+        "volumes": 7,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 7,
+      "confirmedVolumeDisplay": "1上, 1下, 2上, 2下, 3上, 3下, 3中",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0203",
+      "score": null,
+      "catalogId": "TMW2-0203",
+      "original": "ファタモルガーナの館 ─The house in Fata morgana─ あなたの原典に至る物語",
+      "title": "파타모르가나의 저택 ─The house in Fata morgana─ 당신의 원전에 이르는 이야기",
+      "author": "縹けいか",
+      "label": "GA文庫",
+      "completion": {
+        "volumes": 5,
+        "status": "completed"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "03~05",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0204",
+      "score": null,
+      "catalogId": "TMW2-0204",
+      "original": "ママ友と育てるラブコメ",
+      "title": "맘친구와 함께 키우는 러브코미디",
+      "author": "緒二葉",
+      "label": "ガガガ文庫",
+      "completion": {
+        "volumes": 3,
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0205",
+      "score": null,
+      "catalogId": "TMW2-0205",
+      "original": "モンスターハンター 蒼天の証1",
+      "title": "몬스터 헌터 창천의 증표 1",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0206",
+      "score": null,
+      "catalogId": "TMW2-0206",
+      "original": "モンスターハンター 魂を継ぐもの1",
+      "title": "몬스터 헌터 혼을 잇는 자 1",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0207",
+      "score": null,
+      "catalogId": "TMW2-0207",
+      "original": "ライラック色の少女たち",
+      "title": "라일락빛 소녀들",
+      "author": "斉藤なめたけ",
+      "label": "なめぇじんぐ文庫",
+      "completion": {
+        "volumes": 8,
+        "status": "completed"
+      },
+      "confirmedVolumes": 4,
+      "confirmedVolumeDisplay": "1上, 1下, 2上, 2下",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0209",
+      "score": null,
+      "catalogId": "TMW2-0209",
+      "original": "ラブライブ! School idol diary ~星空凛~",
+      "title": "러브라이브! 스쿨 아이돌 다이어리 ~호시조라 린~",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0211",
+      "score": null,
+      "catalogId": "TMW2-0211",
+      "original": "万能の魔法剣士は真の能力を隠して田舎暮らしを目指す",
+      "title": "만능 마법검사는 진정한 능력을 숨기고 시골 생활을 목표로 한다",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 5,
+      "confirmedVolumeDisplay": "01~05",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0213",
+      "score": null,
+      "catalogId": "TMW2-0213",
+      "original": "何故か学校一の美少女が休み時間の度に、ぼっちの俺に話しかけてくるんだが",
+      "title": "어째서인지 학교 제일의 미소녀가 쉬는 시간마다 외톨이인 나에게 말을 걸어오는데",
+      "author": "出井 愛",
+      "label": "MF文庫J",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "01~02",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0214",
+      "score": null,
+      "catalogId": "TMW2-0214",
+      "original": "俺の彼女と幼なじみが修羅場すぎる",
+      "title": "내 여자친구와 소꿉친구가 너무 수라장이다",
+      "author": "裕時悠示",
+      "label": "ＧＡ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "04~06",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0216",
+      "score": null,
+      "catalogId": "TMW2-0216",
+      "original": "個人的な体験",
+      "title": "개인적인 체험",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0217",
+      "score": null,
+      "catalogId": "TMW2-0217",
+      "original": "偏差値10の俺がい世界で知恵の勇者になれたワケ",
+      "title": "편차치 10인 내가 이세계에서 지혜의 용사가 될 수 있었던 이유",
+      "author": "ロリバス",
+      "label": "新文芸",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0218",
+      "score": null,
+      "catalogId": "TMW2-0218",
+      "original": "僕たち、私たちは、『本気の勉強』がしたい。",
+      "title": "우리들, 우리는, 『진짜 공부』를 하고 싶다.",
+      "author": "庵田定夏",
+      "label": "MF文庫J",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0219",
+      "score": null,
+      "catalogId": "TMW2-0219",
+      "original": "優等生のウラのカオ ~実は裏アカ女子だった隣の席の美少女と放課後二人きり~",
+      "title": "우등생의 이면 ~사실은 뒷계정 여자였던 옆자리 미소녀와 방과 후 단둘이~",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0220",
+      "score": null,
+      "catalogId": "TMW2-0220",
+      "original": "六人の嘘つきな大学生",
+      "title": "여섯 명의 거짓말쟁이 대학생",
+      "author": "浅倉秋成",
+      "label": "미확인",
+      "completion": {
+        "volumes": 1,
+        "status": "completed"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0221",
+      "score": null,
+      "catalogId": "TMW2-0221",
+      "original": "円卓",
+      "title": "원탁",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0222",
+      "score": null,
+      "catalogId": "TMW2-0222",
+      "original": "初恋だった同級生が家族になってから、幼馴染がやけに甘えてくる",
+      "title": "첫사랑이었던 동급생이 가족이 되고 나서, 소꿉친구가 유난히 애교를 부린다",
+      "author": "弥生志郎",
+      "label": "講談社ラノベ文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0225",
+      "score": null,
+      "catalogId": "TMW2-0225",
+      "original": "可愛い女の子に攻略されるのは好きですか?",
+      "title": "귀여운 여자아이에게 공략당하는 건 좋아하세요?",
+      "author": "天乃聖樹",
+      "label": "ＧＡ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0226",
+      "score": null,
+      "catalogId": "TMW2-0226",
+      "original": "燃えよ剣",
+      "title": "불타라, 검",
+      "author": "司馬遼太郎",
+      "label": "미확인",
+      "completion": {
+        "volumes": 2,
+        "status": "completed"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0227",
+      "score": null,
+      "catalogId": "TMW2-0227",
+      "original": "竜馬がゆく",
+      "title": "료마가 간다",
+      "author": "司馬遼太郎",
+      "label": "文春文庫",
+      "completion": {
+        "volumes": 8,
+        "status": "completed"
+      },
+      "confirmedVolumes": 8,
+      "confirmedVolumeDisplay": "01~08",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0229",
+      "score": null,
+      "catalogId": "TMW2-0229",
+      "original": "地球星人",
+      "title": "지구별 인간",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0231",
+      "score": null,
+      "catalogId": "TMW2-0231",
+      "original": "夏と花火と私の死体",
+      "title": "여름과 불꽃놀이와 나의 시체",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0233",
+      "score": null,
+      "catalogId": "TMW2-0233",
+      "original": "夜市",
+      "title": "야시장",
+      "author": "미확인",
+      "label": "角川ホラー文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0234",
+      "score": null,
+      "catalogId": "TMW2-0234",
+      "original": "天気の子",
+      "title": "날씨의 아이 (가도카와 츠바사 문고)",
+      "author": "미확인",
+      "label": "角川つばさ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0237",
+      "score": null,
+      "catalogId": "TMW2-0237",
+      "original": "学戦都市アスタリスク",
+      "title": "학전도시 아스타리스크",
+      "author": "三屋咲ゆう",
+      "label": "MF文庫J",
+      "completion": {
+        "volumes": 17,
+        "status": "completed"
+      },
+      "confirmedVolumes": 16,
+      "confirmedVolumeDisplay": "01~16",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0238",
+      "score": null,
+      "catalogId": "TMW2-0238",
+      "original": "学戦都市アスタリスク外伝 クインヴェールの翼",
+      "title": "학전도시 아스타리스크 외전 퀸베일의 날개",
+      "author": "三屋咲ゆう",
+      "label": "MF文庫J",
+      "completion": {
+        "volumes": 3,
+        "status": "completed"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0239",
+      "score": null,
+      "catalogId": "TMW2-0239",
+      "original": "密やかな結晶 新装版",
+      "title": "은밀한 결정 신장판",
+      "author": "미확인",
+      "label": "講談社文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0240",
+      "score": null,
+      "catalogId": "TMW2-0240",
+      "original": "平民のくせに生意気な!",
+      "title": "평민 주제에 건방지게!",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0241",
+      "score": null,
+      "catalogId": "TMW2-0241",
+      "original": "平面いぬ",
+      "title": "평면견",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0243",
+      "score": null,
+      "catalogId": "TMW2-0243",
+      "original": "怪盗探偵山猫 1",
+      "title": "괴도 탐정 산묘 1",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0244",
+      "score": null,
+      "catalogId": "TMW2-0244",
+      "original": "悪逆大戦 地獄の王位簒奪者は罪人と踊る",
+      "title": "악역대전 지옥의 왕위 찬탈자는 죄인과 춤춘다",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0246",
+      "score": null,
+      "catalogId": "TMW2-0246",
+      "original": "教え子に脅迫されるのは犯罪ですか？",
+      "title": "제자에게 협박당하는 건 범죄인가요?",
+      "author": "미확인",
+      "label": "MF文庫J",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0247",
+      "score": null,
+      "catalogId": "TMW2-0247",
+      "original": "新世界より",
+      "title": "신세계에서",
+      "author": "貴志祐介",
+      "label": "講談社文庫",
+      "completion": {
+        "volumes": 3,
+        "status": "completed"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0248",
+      "score": null,
+      "catalogId": "TMW2-0248",
+      "original": "新装版 殺戮にいたる病",
+      "title": "신장판 살육에 이르는 병",
+      "author": "미확인",
+      "label": "講談社文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0249",
+      "score": null,
+      "catalogId": "TMW2-0249",
+      "original": "日常夏の休み",
+      "title": "일상의 여름휴가",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0251",
+      "score": null,
+      "catalogId": "TMW2-0251",
+      "original": "瀬在丸紅子シリーズ 第01巻「黒猫の三角」",
+      "title": "세자이마루 코코 시리즈 1권 흑묘의 삼각",
+      "author": "森博嗣",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0252",
+      "score": null,
+      "catalogId": "TMW2-0252",
+      "original": "Ｘシリーズ",
+      "title": "X 시리즈",
+      "author": "森博嗣",
+      "label": "미확인",
+      "completion": {
+        "volumes": 6,
+        "status": "completed"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0255",
+      "score": null,
+      "catalogId": "TMW2-0255",
+      "original": "四季",
+      "title": "사계",
+      "author": "森博嗣",
+      "label": "미확인",
+      "completion": {
+        "volumes": 4,
+        "status": "completed"
+      },
+      "confirmedVolumes": 4,
+      "confirmedVolumeDisplay": "冬, 夏, 春, 秋",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0259",
+      "score": null,
+      "catalogId": "TMW2-0259",
+      "original": "スカイ・クロラ",
+      "title": "스카이 크롤라",
+      "author": "森 博嗣",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0260",
+      "score": null,
+      "catalogId": "TMW2-0260",
+      "original": "楽園追放 mission. 0",
+      "title": "낙원 추방 mission. 0",
+      "author": "미확인",
+      "label": "ガガガ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0261",
+      "score": null,
+      "catalogId": "TMW2-0261",
+      "original": "死ぬほど読めて忘れない高速読書",
+      "title": "죽을 만큼 읽히고 잊히지 않는 고속 독서",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0262",
+      "score": null,
+      "catalogId": "TMW2-0262",
+      "original": "泣きたい私は猫をかぶる",
+      "title": "울고 싶은 나는 고양이 가면을 쓴다",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0264",
+      "score": null,
+      "catalogId": "TMW2-0264",
+      "original": "生きてさえいれば",
+      "title": "살아 있기만 하면",
+      "author": "미확인",
+      "label": "文芸社文庫NEO",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0265",
+      "score": null,
+      "catalogId": "TMW2-0265",
+      "original": "異世界保育園を開きました ～父性スキルで最強ロリ精霊たちはデレデレです～",
+      "title": "이세계 보육원을 열었습니다 ~부성 스킬로 최강 꼬마 정령들이 데레데레합니다~",
+      "author": "友橋かめつ",
+      "label": "オーバーラップ文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0268",
+      "score": null,
+      "catalogId": "TMW2-0268",
+      "original": "異能バトルは日常系のなかで",
+      "title": "이능 배틀은 일상계 속에서",
+      "author": "望公太",
+      "label": "GA文庫",
+      "completion": {
+        "volumes": 13,
+        "status": "completed"
+      },
+      "confirmedVolumes": 3,
+      "confirmedVolumeDisplay": "01~03",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0270",
+      "score": null,
+      "catalogId": "TMW2-0270",
+      "original": "百合の恋香に誘われて～蜜姫たちの不均衡な執愛～",
+      "title": "백합의 연향에 이끌려 ~밀희들의 불균형한 집착~",
+      "author": "미확인",
+      "label": "夢中文庫リセル",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0271",
+      "score": null,
+      "catalogId": "TMW2-0271",
+      "original": "百合文芸部の現実的な日々",
+      "title": "백합문예부의 현실적인 나날",
+      "author": "미확인",
+      "label": "蜜百合ノベルズ",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0272",
+      "score": null,
+      "catalogId": "TMW2-0272",
+      "original": "神さまのいない日曜日",
+      "title": "신이 없는 일요일",
+      "author": "入江君人",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "volumes": 9,
+        "status": "completed"
+      },
+      "confirmedVolumes": 9,
+      "confirmedVolumeDisplay": "01~09",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0273",
+      "score": null,
+      "catalogId": "TMW2-0273",
+      "original": "空の境界",
+      "title": "공의 경계",
+      "author": "奈須きのこ",
+      "label": "講談社文庫",
+      "completion": {
+        "volumes": 2,
+        "status": "completed"
+      },
+      "confirmedVolumes": 2,
+      "confirmedVolumeDisplay": "上, 下",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0274",
+      "score": null,
+      "catalogId": "TMW2-0274",
+      "original": "竜が最後に帰る場所",
+      "title": "용이 마지막으로 돌아오는 곳",
+      "author": "미확인",
+      "label": "講談社文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0276",
+      "score": null,
+      "catalogId": "TMW2-0276",
+      "original": "緋百合の絆 不良お姉さんと吸血少女たち",
+      "title": "비백합의 인연 - 불량 누나와 흡혈 소녀들",
+      "author": "미확인",
+      "label": "二次元ドリーム文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0279",
+      "score": null,
+      "catalogId": "TMW2-0279",
+      "original": "令月とオフィーリア (百合小説短編集) 花園",
+      "title": "레이게쓰와 오필리어 (백합소설 단편집) 화원",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0280",
+      "score": null,
+      "catalogId": "TMW2-0280",
+      "original": "花園に来たる嵐",
+      "title": "화원에 찾아온 폭풍",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0281",
+      "score": null,
+      "catalogId": "TMW2-0281",
+      "original": "造花と嘘つき 花園",
+      "title": "조화와 거짓말쟁이 화원",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0282",
+      "score": null,
+      "catalogId": "TMW2-0282",
+      "original": "都会のトム＆ソーヤ",
+      "title": "도시의 톰 & 소여",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0283",
+      "score": null,
+      "catalogId": "TMW2-0283",
+      "original": "限りなく透明に近いブルー",
+      "title": "한없이 투명에 가까운 블루",
+      "author": "미확인",
+      "label": "미확인",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0285",
+      "score": null,
+      "catalogId": "TMW2-0285",
+      "original": "隣の席の元アイドルは、俺のプロデュースがないと生きていけない",
+      "title": "옆자리 전 아이돌은 내 프로듀스 없이는 살 수 없다",
+      "author": "飴月",
+      "label": "富士見ファンタジア文庫",
+      "completion": {
+        "status": "unknown"
+      },
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0288",
+      "score": null,
+      "catalogId": "TMW2-0288",
+      "original": "僕は友達が少ない CONNECT",
+      "title": "나는 친구가 적다 CONNECT",
+      "author": "平坂読",
+      "label": "MF文庫J",
+      "completion": {
+        "volumes": 1,
+        "status": "completed"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
+      ]
+    },
+    {
+      "id": "tmw2-0289",
+      "score": null,
+      "catalogId": "TMW2-0289",
+      "original": "ツンデレご主人様とケモミミ従者がゆく魔族討伐の百合旅：魔界客船のリサ",
+      "title": "츤데레 주인님과 동물 귀 시종이 떠나는 마족 토벌 백합 여행: 마계 여객선의 리사",
+      "author": "エルトリア",
+      "label": "聖華快楽書店",
+      "completion": {
+        "volumes": 1,
+        "status": "unknown"
+      },
+      "confirmedVolumes": 1,
+      "confirmedVolumeDisplay": "01",
+      "tmwNumbers": [
+        2
       ]
     }
   ]

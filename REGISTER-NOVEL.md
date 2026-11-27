@@ -12,12 +12,14 @@ UTF-8 CSV는 아래 열을 순서대로 사용합니다.
 - 같은 작품이라면 기존 작품ID를 유지합니다. 대소문자를 그대로 표시하고, 내부 키에는 같은 ID의 소문자를 사용합니다. CSV 내에서 같은 ID를 중복으로 넣을 수 없습니다.
 
 ```powershell
-python tools/import_catalog.py "path/to/catalog.csv" --dry-run
-python tools/import_catalog.py "path/to/catalog.csv"
+python tools/import_catalog.py "path/to/catalog.csv" --volume-ledger "path/to/catalog_volumes.csv" --dry-run
+python tools/import_catalog.py "path/to/catalog.csv" --volume-ledger "path/to/catalog_volumes.csv"
 ```
 
 같은 작품ID는 확인된 값으로 갱신하고 새 작품ID는 추가합니다. CSV에 없는 작품, 기존의 확인된 정보와 새 입력의 `미확인`이 겹치는 항목, 기존 TMW 번호는 보존합니다. 여러 차수 자료를 합칠 때는 중복 권을 정리한 확인권수를 입력합니다.
 
-다음 TMW 목록을 받으면 기존 카탈로그와 비공개 별칭표 `catalog_aliases.csv`에서 원제와 작가를 함께 대조합니다. 동명 작품은 레이블이나 판본까지 확인합니다. 이미 등록된 작품에는 기존 대표 작품ID를, 새 작품에는 새 ID를 사용합니다. 비공개 권별 기록 `catalog_volumes.csv`에 작품ID·확인 권 식별자·TMW 번호를 한 줄씩 기록합니다. 같은 작품의 같은 권이 여러 차수에 있으면 한 번만 세어 확인권수를 입력합니다. 새로 확인한 TMW 번호는 기존 번호와 함께 기록합니다.
+다음 TMW 목록을 받으면 기존 카탈로그와 비공개 별칭표 `catalog_aliases.csv`에서 원제와 작가를 함께 대조합니다. 동명 작품은 레이블이나 판본까지 확인합니다. 이미 등록된 작품에는 기존 대표 작품ID를, 새 작품에는 새 ID를 사용합니다. 비공개 권별 기록 `catalog_volumes.csv`는 `작품ID,확인 권 식별자,TMW 번호` 열을 사용합니다. 모든 차수에서 확인한 권을 한 줄씩 기록하고, 같은 작품의 같은 권이 여러 차수에 있으면 한 번만 세어 작품 CSV에 확인권수를 입력합니다. 새로 확인한 TMW 번호는 기존 번호와 함께 기록합니다.
+
+권별 기록을 함께 가져오면 화면의 확인권수에 `01~08, 10~12`처럼 실제 확인한 권을 표시합니다. 소수와 상·하권 등은 별도 식별자로 표시합니다. 일부 권의 식별자만 있거나 권별 기록이 없는 작품은 확인한 개수 또는 `미확인`으로 표시합니다. 권별 기록 없이 작품 CSV만 가져올 수도 있습니다.
 
 변경된 `docs/data/games.json`을 검토하고 `main`에 반영하면 GitHub Pages에서 배포합니다. 찜·삭제 연동용 `watchlist-data` 브랜치는 별도로 유지됩니다.

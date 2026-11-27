@@ -24,7 +24,7 @@
     const fields = [
       novel.original, novel.title, novel.author, novel.label, novel.completion.volumes,
       Core.CATALOG_COMPLETION_LABELS[novel.completion.status],
-      novel.confirmedVolumes, novel.tmwNumbers.join(', ')
+      novel.confirmedVolumeDisplay || novel.confirmedVolumes, novel.tmwNumbers.join(', ')
     ];
     return `<tr><th scope="row">${esc(novel.catalogId || novel.id)}${actions}</th>${fields.map(value => `<td>${esc(value === '' || value === null ? '미확인' : value)}</td>`).join('')}</tr>`;
   }

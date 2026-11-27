@@ -24,7 +24,7 @@
   var NOVEL_KEYS = [
     'id', 'title', 'original', 'oceanOfPdfTitle', 'oceanOfPdfVolumeCount', 'author', 'genres', 'publication', 'completion',
     'releaseDate', 'score', 'summary', 'pros', 'cons', 'sources', 'cover', 'reviewedAt',
-    'catalogId', 'label', 'confirmedVolumes', 'tmwNumbers'
+    'catalogId', 'label', 'confirmedVolumes', 'confirmedVolumeDisplay', 'tmwNumbers'
   ];
 
   var PUBLICATION_STATUSES = ['licensed', 'unlicensed', 'unknown'];
@@ -256,6 +256,7 @@
       catalogId: catalogId,
       label: optionalString(raw.label, path + '.label', ''),
       confirmedVolumes: confirmedVolumes,
+      confirmedVolumeDisplay: optionalString(raw.confirmedVolumeDisplay, path + '.confirmedVolumeDisplay', ''),
       tmwNumbers: tmwNumbers,
       title: title,
       original: original,
