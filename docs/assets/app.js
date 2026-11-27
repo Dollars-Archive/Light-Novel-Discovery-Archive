@@ -111,9 +111,7 @@
     }
     const start = (currentPage - 1) * worksPerPage;
     const end = Math.min(start + worksPerPage, filteredNovels.length);
-    const visible = filteredNovels.slice(start, end);
-    $('results').innerHTML = visible.map(novelMarkup).join('');
-    $('google-cover-credit').hidden = !visible.some(hasGoogleCover);
+    $('results').innerHTML = filteredNovels.slice(start, end).map(novelMarkup).join('');
 
     const pageSelect = $('page-select');
     if (pageSelect.options.length !== pageCount) {

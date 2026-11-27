@@ -185,16 +185,6 @@
   display: none;
 }
 
-.catalog-list-meta {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-#google-cover-credit img {
-  display: block;
-}
-
 .catalog-cover-placeholder {
   flex-direction: column;
   gap: 7px;
