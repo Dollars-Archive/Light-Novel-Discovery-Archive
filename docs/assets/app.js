@@ -3,7 +3,10 @@
   const Core = window.ReviewCore, Sync = window.ReviewSync;
   const $ = id => document.getElementById(id), esc = Core.escapeHtml;
   let novels = [], busy = false, verified = false, catalogReady = false;
-  const initialFilters = {completion:'all',q:'',favoriteOnly:false,view:'active',sort:'id'};
+  const initialFilters = {
+    completion:'all', completeSetOnly:false, tenOrMoreVolumes:false,
+    q:'', favoriteOnly:false, view:'active', sort:'id'
+  };
   const worksPerPage = 100;
   let filters = {...initialFilters};
   let filteredNovels = [], currentPage = 1;
@@ -76,6 +79,8 @@
     $('stats').innerHTML=[['등록 작품',active.length],['찜한 작품',favoriteCount]].map(([label,value])=>`<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join('');
     $('favorites').textContent=`${filters.favoriteOnly?'★':'☆'} 찜만 보기 (${favoriteCount})`; $('favorites').setAttribute('aria-pressed',String(filters.favoriteOnly));
     $('deleted').textContent=`삭제한 작품 · 복구 (${deletedCount})`; $('deleted').setAttribute('aria-pressed',String(filters.view==='deleted'));
+    $('complete-set-only').setAttribute('aria-pressed', String(filters.completeSetOnly));
+    $('ten-or-more-volumes').setAttribute('aria-pressed', String(filters.tenOrMoreVolumes));
     $('list-title').textContent=filters.view==='deleted'?'삭제한 작품':filters.favoriteOnly?'찜한 작품':'전체 작품';
     filteredNovels = Core.selectNovels(novels, filters, state);
     $('count').textContent = `${filteredNovels.length}개`;
@@ -83,7 +88,7 @@
     $('catalog-scroll').hidden = filteredNovels.length === 0;
     $('empty').hidden = filteredNovels.length > 0 || !catalogReady;
     $('empty-title').textContent=novels.length===0?'등록된 작품이 없어요':'조건에 맞는 작품이 없어요';
-    $('empty-text').textContent=novels.length===0?'아직 등록된 작품이 없습니다.':filters.view==='deleted'?'삭제한 작품이 없거나 현재 필터에 해당하지 않습니다.':'검색어나 완결여부 필터를 바꿔 보세요.';
+    $('empty-text').textContent=novels.length===0?'아직 등록된 작품이 없습니다.':filters.view==='deleted'?'삭제한 작품이 없거나 현재 필터에 해당하지 않습니다.':'검색어나 필터 조건을 바꿔 보세요.';
     ['token-save','token-clear','refresh'].forEach(id=>{$(id).disabled=busy;});
     tokenStatus();
   }
@@ -108,6 +113,14 @@
   $('sort').addEventListener('change',()=>{filters.sort=$('sort').value;render(true);});
   $('favorites').addEventListener('click',()=>{filters.favoriteOnly=!filters.favoriteOnly;render(true);});
   $('deleted').addEventListener('click',()=>{filters.view=filters.view==='deleted'?'active':'deleted';render(true);});
+  $('complete-set-only').addEventListener('click',()=>{
+    filters.completeSetOnly = !filters.completeSetOnly;
+    render(true);
+  });
+  $('ten-or-more-volumes').addEventListener('click',()=>{
+    filters.tenOrMoreVolumes = !filters.tenOrMoreVolumes;
+    render(true);
+  });
   $('page-prev').addEventListener('click',()=>goToPage(currentPage - 1));
   $('page-next').addEventListener('click',()=>goToPage(currentPage + 1));
   $('page-select').addEventListener('change',()=>goToPage(Number($('page-select').value)));

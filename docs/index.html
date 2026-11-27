@@ -7,9 +7,9 @@
 <title>라노벨 발굴 아카이브</title>
 <link rel="stylesheet" href="assets/style.css">
 <link rel="stylesheet" href="assets/catalog.css?v=tmw-pagination-20261127">
-<script defer src="assets/review-core.js?v=tmw-catalog-pt2"></script>
+<script defer src="assets/review-core.js?v=volume-filters-20261127"></script>
 <script defer src="assets/review-sync.js?v=split-volumes-fix-20261127"></script>
-<script defer src="assets/app.js?v=tmw-pagination-20261127"></script>
+<script defer src="assets/app.js?v=volume-filters-20261127"></script>
 </head>
 <body>
 <header>
@@ -27,7 +27,13 @@
 <label>완결여부<select id="completion"><option value="all">전체 상태</option><option value="completed">완결</option><option value="unfinished">미완결</option><option value="unknown">미확인</option></select></label>
 <label>정렬<select id="sort"><option value="id">작품ID순</option><option value="title">제목순</option></select></label>
 </div>
-<div class="toggles"><button type="button" id="favorites" aria-pressed="false">☆ 찜만 보기</button><button type="button" id="deleted" aria-pressed="false">삭제한 작품 · 복구</button><button type="button" id="reset" class="subtle">필터 초기화</button></div>
+<div class="toggles">
+<button type="button" id="complete-set-only" aria-pressed="false">완결 · 전권 확인</button>
+<button type="button" id="ten-or-more-volumes" aria-pressed="false">발매 10권 이상</button>
+<button type="button" id="favorites" aria-pressed="false">☆ 찜만 보기</button>
+<button type="button" id="deleted" aria-pressed="false">삭제한 작품 · 복구</button>
+<button type="button" id="reset" class="subtle">필터 초기화</button>
+</div>
 <details id="settings">
 <summary>GitHub 열쇠 · PC/모바일 연동</summary>
 <p>이 코너의 찜·삭제 목록은 공개 공유 목록에 저장되며 다른 기기에서도 읽을 수 있습니다. 열쇠는 사용하는 브라우저마다 등록합니다.</p>

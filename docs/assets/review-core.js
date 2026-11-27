@@ -53,6 +53,8 @@
     genre: 'all',
     publication: 'all',
     completion: 'all',
+    completeSetOnly: false,
+    tenOrMoreVolumes: false,
     q: '',
     favoriteOnly: false,
     view: 'active',
@@ -449,6 +451,8 @@
     var completion = typeof options.completion === 'string' ? options.completion : 'all';
     var query = typeof options.q === 'string' ? options.q.trim().toLowerCase() : '';
     var favoriteOnly = options.favoriteOnly === true;
+    var completeSetOnly = options.completeSetOnly === true;
+    var tenOrMoreVolumes = options.tenOrMoreVolumes === true;
     var sort = SORTS.indexOf(options.sort) === -1 ? 'score-desc' : options.sort;
 
     var selected = list.filter(function (novel) {
@@ -464,6 +468,12 @@
       if (completion === 'unfinished') {
         if (CATALOG_COMPLETION_LABELS[completionInfo.status] !== '미완결') return false;
       } else if (completion !== 'all' && completionInfo.status !== completion) return false;
+      if (completeSetOnly || tenOrMoreVolumes) {
+        var published = Number(completionInfo.volumes);
+        if (!/^[0-9]+$/.test(completionInfo.volumes) || !Number.isSafeInteger(published) || published < 1) return false;
+        if (completeSetOnly && (completionInfo.status !== 'completed' || published !== novel.confirmedVolumes)) return false;
+        if (tenOrMoreVolumes && published < 10) return false;
+      }
       return matchesQuery(novel, query);
     });
 
