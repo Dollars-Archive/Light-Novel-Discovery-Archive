@@ -6,10 +6,10 @@
 <meta name="color-scheme" content="light">
 <title>라노벨 발굴 아카이브</title>
 <link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/catalog.css?v=tmw-catalog-pt2">
+<link rel="stylesheet" href="assets/catalog.css?v=tmw-pagination-20261127">
 <script defer src="assets/review-core.js?v=tmw-catalog-pt2"></script>
 <script defer src="assets/review-sync.js?v=split-volumes-fix-20261127"></script>
-<script defer src="assets/app.js?v=tmw-catalog-pt2"></script>
+<script defer src="assets/app.js?v=tmw-pagination-20261127"></script>
 </head>
 <body>
 <header>
@@ -40,6 +40,14 @@
 </section>
 <section aria-labelledby="list-title">
 <div class="list-head"><h2 id="list-title">전체 작품</h2><span id="count" aria-live="polite"></span></div>
+<nav id="pagination" class="catalog-pagination" aria-label="작품 목록 페이지" hidden>
+<div class="catalog-page-controls">
+<button type="button" id="page-prev" aria-controls="results">이전</button>
+<select id="page-select" aria-label="페이지 이동" aria-controls="results"></select>
+<button type="button" id="page-next" aria-controls="results">다음</button>
+</div>
+<span id="page-range" aria-live="polite"></span>
+</nav>
 <div id="catalog-scroll" class="catalog-scroll" role="region" aria-labelledby="list-title" tabindex="0" hidden>
 <table class="catalog" aria-labelledby="list-title">
 <thead><tr>

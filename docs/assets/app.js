@@ -4,7 +4,9 @@
   const $ = id => document.getElementById(id), esc = Core.escapeHtml;
   let novels = [], busy = false, verified = false, catalogReady = false;
   const initialFilters = {completion:'all',q:'',favoriteOnly:false,view:'active',sort:'id'};
+  const worksPerPage = 100;
   let filters = {...initialFilters};
+  let filteredNovels = [], currentPage = 1;
   const store = Sync.createStore({knownIds:() => new Set(novels.map(n => n.id))});
 
   function notice(text,error=false) { $('notice').textContent=text; $('notice').classList.toggle('error',error); }
@@ -33,7 +35,40 @@
     return novel.title === '미확인' ? novel.original || novel.catalogId || novel.id : novel.title;
   }
 
-  function render() {
+  function renderPage() {
+    const pageCount = Math.max(1, Math.ceil(filteredNovels.length / worksPerPage));
+    if (currentPage > pageCount) {
+      currentPage = pageCount;
+      $('catalog-scroll').scrollTop = 0;
+    }
+    const start = (currentPage - 1) * worksPerPage;
+    const end = Math.min(start + worksPerPage, filteredNovels.length);
+    $('results').innerHTML = filteredNovels.slice(start, end).map(novelMarkup).join('');
+
+    const pageSelect = $('page-select');
+    if (pageSelect.options.length !== pageCount) {
+      pageSelect.innerHTML = Array.from({length:pageCount}, (_, index) =>
+        `<option value="${index + 1}">${index + 1} / ${pageCount} 페이지</option>`
+      ).join('');
+    }
+    pageSelect.value = String(currentPage);
+    $('page-prev').disabled = currentPage === 1;
+    $('page-next').disabled = currentPage === pageCount;
+    $('pagination').hidden = pageCount <= 1;
+    $('page-range').textContent = filteredNovels.length ? `${start + 1}~${end}번째 작품` : '';
+  }
+
+  function goToPage(page) {
+    currentPage = page;
+    renderPage();
+    $('catalog-scroll').scrollTop = 0;
+  }
+
+  function render(resetPage = false) {
+    if (resetPage) {
+      currentPage = 1;
+      $('catalog-scroll').scrollTop = 0;
+    }
     const state=store.data;
     const active=novels.filter(n=>!Core.isDeleted(state,n.id));
     const favoriteCount=active.filter(n=>Core.isFavorite(state,n.id)).length;
@@ -42,11 +77,11 @@
     $('favorites').textContent=`${filters.favoriteOnly?'★':'☆'} 찜만 보기 (${favoriteCount})`; $('favorites').setAttribute('aria-pressed',String(filters.favoriteOnly));
     $('deleted').textContent=`삭제한 작품 · 복구 (${deletedCount})`; $('deleted').setAttribute('aria-pressed',String(filters.view==='deleted'));
     $('list-title').textContent=filters.view==='deleted'?'삭제한 작품':filters.favoriteOnly?'찜한 작품':'전체 작품';
-    const selected=Core.selectNovels(novels,filters,state);
-    $('count').textContent=`${selected.length}개`;
-    $('results').innerHTML=selected.map(novelMarkup).join('');
-    $('catalog-scroll').hidden = selected.length === 0;
-    $('empty').hidden=selected.length>0||!catalogReady;
+    filteredNovels = Core.selectNovels(novels, filters, state);
+    $('count').textContent = `${filteredNovels.length}개`;
+    renderPage();
+    $('catalog-scroll').hidden = filteredNovels.length === 0;
+    $('empty').hidden = filteredNovels.length > 0 || !catalogReady;
     $('empty-title').textContent=novels.length===0?'등록된 작품이 없어요':'조건에 맞는 작품이 없어요';
     $('empty-text').textContent=novels.length===0?'아직 등록된 작품이 없습니다.':filters.view==='deleted'?'삭제한 작품이 없거나 현재 필터에 해당하지 않습니다.':'검색어나 완결여부 필터를 바꿔 보세요.';
     ['token-save','token-clear','refresh'].forEach(id=>{$(id).disabled=busy;});
@@ -68,17 +103,20 @@
     } catch(error){render();notice('GitHub 연결을 확인하지 못했습니다. '+error.message,true);}
     finally{busy=false;render();}
   }
-  $('search').addEventListener('input',()=>{filters.q=$('search').value;render();});
-  $('completion').addEventListener('change',()=>{filters.completion=$('completion').value;render();});
-  $('sort').addEventListener('change',()=>{filters.sort=$('sort').value;render();});
-  $('favorites').addEventListener('click',()=>{filters.favoriteOnly=!filters.favoriteOnly;render();});
-  $('deleted').addEventListener('click',()=>{filters.view=filters.view==='deleted'?'active':'deleted';render();});
+  $('search').addEventListener('input',()=>{filters.q=$('search').value;render(true);});
+  $('completion').addEventListener('change',()=>{filters.completion=$('completion').value;render(true);});
+  $('sort').addEventListener('change',()=>{filters.sort=$('sort').value;render(true);});
+  $('favorites').addEventListener('click',()=>{filters.favoriteOnly=!filters.favoriteOnly;render(true);});
+  $('deleted').addEventListener('click',()=>{filters.view=filters.view==='deleted'?'active':'deleted';render(true);});
+  $('page-prev').addEventListener('click',()=>goToPage(currentPage - 1));
+  $('page-next').addEventListener('click',()=>goToPage(currentPage + 1));
+  $('page-select').addEventListener('change',()=>goToPage(Number($('page-select').value)));
   $('reset').addEventListener('click',()=>{
     filters = {...initialFilters};
     $('search').value = '';
     $('completion').value = filters.completion;
     $('sort').value = filters.sort;
-    render();
+    render(true);
   });
   $('settings-open').addEventListener('click',openSettings);
   $('refresh').addEventListener('click',refreshState);

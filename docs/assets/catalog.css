@@ -1,3 +1,30 @@
+.catalog-pagination {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-bottom: 12px;
+  color: #344b68;
+}
+
+.catalog-page-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.catalog-pagination button {
+  min-height: 44px;
+}
+
+.catalog-pagination button:disabled {
+  cursor: default;
+}
+
+.catalog-pagination select {
+  width: auto;
+}
+
 .catalog-scroll {
   max-height: min(72vh, 54rem);
   background: #fff;
