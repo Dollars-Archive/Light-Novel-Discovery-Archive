@@ -31,6 +31,14 @@
     </button>${coverPlaceholder}`;
   }
 
+  function coverCredit(novel) {
+    if (!novel.cover.url.startsWith('https://books.google.com/') ||
+        !novel.cover.source.startsWith('https://books.google.com/books?')) return '';
+    return `<a class="catalog-cover-credit" href="${esc(novel.cover.source)}" target="_blank" rel="noopener noreferrer" aria-label="Google 도서에서 표지 출처 보기">
+      <img src="https://books.google.com/googlebooks/images/poweredby.png" width="62" height="30" loading="lazy" alt="Powered by Google">
+    </a>`;
+  }
+
   function showCover(button) {
     const novel = novels.find(entry => entry.id === button.dataset.coverId);
     if (!novel) return;
@@ -64,7 +72,7 @@
     ];
     const sources = sourceMarkup('TMW', novel.tmwNumbers, 'source-tmw') +
       sourceMarkup('Peepo', novel.peepoNumbers, 'source-peepo');
-    return `<tr><td class="catalog-visual">${coverMarkup(novel, title)}${actions}</td>
+    return `<tr><td class="catalog-visual">${coverMarkup(novel, title)}${actions}${coverCredit(novel)}</td>
       <th scope="row" class="catalog-original">${esc(novel.original || '미확인')}</th>
       <td class="catalog-title">${esc(novel.title || '미확인')}</td>
       ${facts.map(value => `<td class="catalog-fact">${esc(value === '' || value === null ? '미확인' : value)}</td>`).join('')}

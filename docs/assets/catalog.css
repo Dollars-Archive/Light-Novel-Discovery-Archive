@@ -179,6 +179,16 @@
   display: none;
 }
 
+.catalog-cover-credit {
+  display: block;
+  width: max-content;
+  margin: 3px auto 0;
+}
+
+.catalog-cover-credit img {
+  display: block;
+}
+
 .catalog-cover-placeholder {
   flex-direction: column;
   gap: 7px;
