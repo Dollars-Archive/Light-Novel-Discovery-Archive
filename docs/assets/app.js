@@ -5,7 +5,7 @@
   let novels = [], busy = false, verified = false, catalogReady = false;
   const initialFilters = {
     completion:'all', completeSetOnly:false, tenOrMoreVolumes:false, coverOnly:false, missingCoverOnly:false,
-    q:'', favoriteOnly:false, view:'active', sort:'id'
+    tmwOnly:true, q:'', favoriteOnly:false, view:'active', sort:'id'
   };
   const worksPerPage = 100;
   let filters = {...initialFilters};
@@ -90,7 +90,7 @@
       Core.CATALOG_COMPLETION_LABELS[novel.completion.status]
     ];
     const sources = sourceMarkup('TMW', novel.tmwNumbers, 'source-tmw') +
-      sourceMarkup('Peepo', novel.peepoNumbers, 'source-peepo');
+      (filters.tmwOnly ? '' : sourceMarkup('Peepo', novel.peepoNumbers, 'source-peepo'));
     const score = novel.score !== null
       ? `평점 ${novel.score.toFixed(1)} / 10`
       : (novel.cover.url ? '평점 미확인' : '');
@@ -142,18 +142,21 @@
       $('catalog-scroll').scrollTop = 0;
     }
     const state=store.data;
-    const active=novels.filter(n=>!Core.isDeleted(state,n.id));
+    const sourceNovels = filters.tmwOnly ? novels.filter(n => n.tmwNumbers.length > 0) : novels;
+    const active=sourceNovels.filter(n=>!Core.isDeleted(state,n.id));
     const favoriteCount=active.filter(n=>Core.isFavorite(state,n.id)).length;
-    const deletedCount=novels.length-active.length;
+    const deletedCount=sourceNovels.length-active.length;
     $('stats').innerHTML=[['등록 작품',active.length],['찜한 작품',favoriteCount]].map(([label,value])=>`<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join('');
     $('favorites').textContent=`${filters.favoriteOnly?'★':'☆'} 찜만 보기 (${favoriteCount})`; $('favorites').setAttribute('aria-pressed',String(filters.favoriteOnly));
     $('deleted').textContent=`삭제한 작품 · 복구 (${deletedCount})`; $('deleted').setAttribute('aria-pressed',String(filters.view==='deleted'));
     $('complete-set-only').setAttribute('aria-pressed', String(filters.completeSetOnly));
     $('ten-or-more-volumes').setAttribute('aria-pressed', String(filters.tenOrMoreVolumes));
+    $('tmw-only').setAttribute('aria-pressed', String(filters.tmwOnly));
     $('cover-only').setAttribute('aria-pressed', String(filters.coverOnly));
     $('missing-cover-only').setAttribute('aria-pressed', String(filters.missingCoverOnly));
-    $('list-title').textContent=filters.view==='deleted'?'삭제한 작품':filters.favoriteOnly?'찜한 작품':'전체 작품';
-    filteredNovels = Core.selectNovels(novels, filters, state);
+    const sourceTitle = filters.tmwOnly ? 'TMW 작품' : '전체 작품';
+    $('list-title').textContent=filters.view==='deleted'?'삭제한 작품':filters.favoriteOnly?'찜한 작품':sourceTitle;
+    filteredNovels = Core.selectNovels(sourceNovels, filters, state);
     $('count').textContent = `${filteredNovels.length}개`;
     renderPage();
     $('catalog-scroll').hidden = filteredNovels.length === 0;
@@ -190,6 +193,10 @@
   });
   $('ten-or-more-volumes').addEventListener('click',()=>{
     filters.tenOrMoreVolumes = !filters.tenOrMoreVolumes;
+    render(true);
+  });
+  $('tmw-only').addEventListener('click', () => {
+    filters.tmwOnly = !filters.tmwOnly;
     render(true);
   });
   $('cover-only').addEventListener('click',()=>{
