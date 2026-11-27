@@ -22,6 +22,7 @@
   const coverDialog = $('cover-dialog');
   const coverPreview = $('cover-preview');
   const coverError = $('cover-error');
+  const volumesDialog = $('volumes-dialog');
 
   function coverMarkup(novel, title) {
     if (!novel.cover.url) return coverPlaceholder;
@@ -31,24 +32,43 @@
     </button>${coverPlaceholder}`;
   }
 
-  function coverCredit(novel) {
-    if (!novel.cover.url.startsWith('https://books.google.com/') ||
-        !novel.cover.source.startsWith('https://books.google.com/books?')) return '';
-    return `<a class="catalog-cover-credit" href="${esc(novel.cover.source)}" target="_blank" rel="noopener noreferrer" aria-label="Google 도서에서 표지 출처 보기">
-      <img src="https://books.google.com/googlebooks/images/poweredby.png" width="62" height="30" loading="lazy" alt="Powered by Google">
-    </a>`;
+  function hasGoogleCover(novel) {
+    return novel.cover.url.startsWith('https://books.google.com/') &&
+      novel.cover.source.startsWith('https://books.google.com/books?');
   }
 
   function showCover(button) {
     const novel = novels.find(entry => entry.id === button.dataset.coverId);
     if (!novel) return;
     $('cover-title').textContent = displayTitle(novel);
-    $('cover-source').href = novel.cover.source;
+    const source = $('cover-source');
+    source.href = novel.cover.source;
+    source.textContent = hasGoogleCover(novel) ? 'Google 도서에서 표지 출처 보기 ↗' : '표지 출처 ↗';
     coverError.hidden = true;
     coverPreview.hidden = false;
     coverPreview.alt = displayTitle(novel) + ' 표지';
     coverPreview.src = novel.cover.url;
     coverDialog.showModal();
+  }
+
+  function confirmedVolumesMarkup(novel, title) {
+    const display = novel.confirmedVolumeDisplay;
+    if (display.length <= 14) return esc((display || novel.confirmedVolumes) ?? '미확인');
+    const label = novel.confirmedVolumes === null ? '권차 보기' : `${novel.confirmedVolumes}권`;
+    return `<button type="button" class="catalog-volume-button" data-volumes-id="${esc(novel.id)}"
+      aria-label="${esc(`${title} 확인권수 ${label}, 권차 보기`)}" aria-haspopup="dialog">${esc(label)}</button>`;
+  }
+
+  function showVolumes(button) {
+    const novel = novels.find(entry => entry.id === button.dataset.volumesId);
+    if (!novel) return;
+    $('volumes-title').textContent = displayTitle(novel);
+    $('volumes-list').replaceChildren(...novel.confirmedVolumeDisplay.split(',').map(label => {
+      const item = document.createElement('li');
+      item.textContent = label.trim();
+      return item;
+    }));
+    volumesDialog.showModal();
   }
 
   function sourceMarkup(label, numbers, className) {
@@ -67,15 +87,15 @@
     </div>`;
     const facts = [
       novel.completion.volumes,
-      Core.CATALOG_COMPLETION_LABELS[novel.completion.status],
-      novel.confirmedVolumeDisplay || novel.confirmedVolumes
+      Core.CATALOG_COMPLETION_LABELS[novel.completion.status]
     ];
     const sources = sourceMarkup('TMW', novel.tmwNumbers, 'source-tmw') +
       sourceMarkup('Peepo', novel.peepoNumbers, 'source-peepo');
-    return `<tr><td class="catalog-visual">${coverMarkup(novel, title)}${actions}${coverCredit(novel)}</td>
+    return `<tr><td class="catalog-visual">${coverMarkup(novel, title)}${actions}</td>
       <th scope="row" class="catalog-original">${esc(novel.original || '미확인')}</th>
       <td class="catalog-title">${esc(novel.title || '미확인')}</td>
       ${facts.map(value => `<td class="catalog-fact">${esc(value === '' || value === null ? '미확인' : value)}</td>`).join('')}
+      <td class="catalog-fact catalog-confirmed">${confirmedVolumesMarkup(novel, title)}</td>
       <td class="catalog-sources">${sources}</td></tr>`;
   }
 
@@ -91,7 +111,9 @@
     }
     const start = (currentPage - 1) * worksPerPage;
     const end = Math.min(start + worksPerPage, filteredNovels.length);
-    $('results').innerHTML = filteredNovels.slice(start, end).map(novelMarkup).join('');
+    const visible = filteredNovels.slice(start, end);
+    $('results').innerHTML = visible.map(novelMarkup).join('');
+    $('google-cover-credit').hidden = !visible.some(hasGoogleCover);
 
     const pageSelect = $('page-select');
     if (pageSelect.options.length !== pageCount) {
@@ -199,6 +221,8 @@
   $('results').addEventListener('click',async event=>{
     const coverButton = event.target.closest('[data-cover-id]');
     if (coverButton) { showCover(coverButton); return; }
+    const volumesButton = event.target.closest('[data-volumes-id]');
+    if (volumesButton) { showVolumes(volumesButton); return; }
     const button=event.target.closest('[data-action]');if(!button||busy||!store.ready)return;
     const novel=novels.find(n=>n.id===button.dataset.id);if(!novel)return;
     if(!store.getToken()){openSettings();notice('찜·삭제 저장에는 GitHub 열쇠가 필요합니다.',true);return;}
