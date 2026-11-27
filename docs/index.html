@@ -6,10 +6,10 @@
 <meta name="color-scheme" content="light">
 <title>라노벨 발굴 아카이브</title>
 <link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/catalog.css?v=tmw-pagination-20261127">
-<script defer src="assets/review-core.js?v=volume-filters-20261127"></script>
+<link rel="stylesheet" href="assets/catalog.css?v=covers-peepo-20261127">
+<script defer src="assets/review-core.js?v=covers-peepo-20261127"></script>
 <script defer src="assets/review-sync.js?v=split-volumes-fix-20261127"></script>
-<script defer src="assets/app.js?v=volume-filters-20261127"></script>
+<script defer src="assets/app.js?v=covers-peepo-20261127"></script>
 </head>
 <body>
 <header>
@@ -57,15 +57,13 @@
 <div id="catalog-scroll" class="catalog-scroll" role="region" aria-labelledby="list-title" tabindex="0" hidden>
 <table class="catalog" aria-labelledby="list-title">
 <thead><tr>
-<th scope="col">작품ID</th>
+<th scope="col">표지</th>
 <th scope="col">작품명(원문)</th>
 <th scope="col">한글 제목</th>
-<th scope="col">작가</th>
-<th scope="col">레이블</th>
 <th scope="col">발매권수</th>
 <th scope="col">완결여부</th>
 <th scope="col">확인권수</th>
-<th scope="col">TMW 번호</th>
+<th scope="col">출처</th>
 </tr></thead>
 <tbody id="results"></tbody>
 </table>
@@ -76,5 +74,14 @@
 </div>
 </section>
 </main>
+<dialog id="cover-dialog" aria-labelledby="cover-title">
+<div class="cover-dialog-head">
+<h2 id="cover-title"></h2>
+<form method="dialog"><button type="submit" autofocus>닫기</button></form>
+</div>
+<img id="cover-preview" referrerpolicy="no-referrer" alt="">
+<p id="cover-error" role="status" hidden>표지를 불러오지 못했습니다.</p>
+<a id="cover-source" target="_blank" rel="noopener noreferrer">표지 출처 ↗</a>
+</dialog>
 </body>
 </html>

@@ -3550,7 +3550,11 @@
         3,
         10
       ],
-      "confirmedVolumeDisplay": "01~14, 18~20"
+      "confirmedVolumeDisplay": "01~14, 18~20",
+      "cover": {
+        "url": "https://cover.openbd.jp/9784434179532.jpg",
+        "source": "https://www.hanmoto.com/bd/isbn/9784434179532"
+      }
     },
     {
       "id": "tmw1-0221",
@@ -3569,7 +3573,11 @@
         1,
         2
       ],
-      "confirmedVolumeDisplay": "01~16"
+      "confirmedVolumeDisplay": "01~16",
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10463844-M.jpg",
+        "source": "https://openlibrary.org/books/OL30532795M"
+      }
     },
     {
       "id": "tmw1-0222",
@@ -22570,7 +22578,11 @@
       },
       "tmwNumbers": [
         3
-      ]
+      ],
+      "cover": {
+        "url": "https://cover.openbd.jp/9784434142352.jpg",
+        "source": "https://www.hanmoto.com/bd/isbn/9784434142352"
+      }
     },
     {
       "id": "tmw3-0345",
@@ -36918,7 +36930,11 @@
       "tmwNumbers": [
         6,
         7
-      ]
+      ],
+      "cover": {
+        "url": "https://cover.openbd.jp/9784434187278.jpg",
+        "source": "https://www.hanmoto.com/bd/isbn/9784434187278"
+      }
     },
     {
       "id": "tmw6-0018",
@@ -45478,7 +45494,11 @@
       "confirmedVolumeDisplay": "01~05",
       "tmwNumbers": [
         7
-      ]
+      ],
+      "cover": {
+        "url": "https://cover.openbd.jp/9784434169342.jpg",
+        "source": "https://www.hanmoto.com/bd/isbn/9784434169342"
+      }
     },
     {
       "id": "tmw7-0081",

@@ -1,4 +1,4 @@
-"""Merge the nine-column archive CSV into the existing public catalog."""
+"""Merge archive CSVs into the existing public catalog."""
 
 import argparse
 import csv
@@ -7,12 +7,16 @@ import re
 from decimal import Decimal
 from pathlib import Path
 from tempfile import NamedTemporaryFile
+from urllib.parse import urlsplit
 
 HEADERS = (
     "작품ID", "작품명(원문)", "한글 제목", "작가", "레이블",
     "발매권수", "완결여부", "확인권수", "TMW 번호",
 )
 VOLUME_HEADERS = ("작품ID", "확인 권 식별자", "TMW 번호")
+COVER_HEADERS = ("작품ID", "표지 이미지 URL", "표지 출처 URL")
+PEEPO_HEADER = "Peepo 번호"
+PART_FIELDS = ("tmwNumbers", "peepoNumbers")
 UNKNOWN = "미확인"
 COMPLETION = {"완결": "completed", "미완결": "ongoing", UNKNOWN: "unknown"}
 CATALOG = Path(__file__).resolve().parents[1] / "docs" / "data" / "games.json"
@@ -28,21 +32,31 @@ def integer(value, minimum):
     return number
 
 
+def part_numbers(value):
+    if not value or value == UNKNOWN:
+        return set()
+    return {integer(number.strip(), 1) for number in value.split(",")}
+
+
 def read_rows(path):
     with path.open(encoding="utf-8-sig", newline="") as source:
         reader = csv.reader(source, strict=True)
-        if tuple(next(reader, [])) != HEADERS:
-            raise ValueError("CSV 첫 줄의 9개 열 이름과 순서를 확인하세요.")
+        headers = tuple(next(reader, []))
+        if headers not in (HEADERS, HEADERS + (PEEPO_HEADER,)):
+            raise ValueError("작품 CSV의 9개 또는 10개 열 이름과 순서를 확인하세요.")
 
         rows = {}
         for cells in reader:
             line = reader.line_num
             try:
-                if len(cells) != len(HEADERS) or any(not cell.strip() for cell in cells):
-                    raise ValueError("9개 값을 입력하세요. 확인되지 않은 값은 미확인으로 적으세요.")
-                catalog_id, original, title, author, label, released, status, confirmed, numbers = (
-                    cell.strip() for cell in cells
-                )
+                values = [cell.strip() for cell in cells]
+                if len(values) != len(headers) or not all(values[:8]):
+                    raise ValueError("작품 CSV의 값을 확인하세요. 확인되지 않은 항목은 미확인으로 적으세요.")
+                catalog_id, original, title, author, label, released, status, confirmed = values[:8]
+                tmw_numbers = part_numbers(values[8])
+                peepo_numbers = part_numbers(values[9]) if len(headers) == 10 else set()
+                if not tmw_numbers and not peepo_numbers:
+                    raise ValueError("TMW 또는 Peepo에 확인한 차수를 입력하세요.")
                 if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9-]{0,99}", catalog_id):
                     raise ValueError(f"잘못된 작품ID ({catalog_id!r})")
                 work_id = catalog_id.lower()
@@ -59,7 +73,8 @@ def read_rows(path):
                     "released": None if released == UNKNOWN else integer(released, 0),
                     "status": COMPLETION[status],
                     "confirmedVolumes": None if confirmed == UNKNOWN else integer(confirmed, 0),
-                    "tmwNumbers": {integer(number.strip(), 1) for number in numbers.split(",")},
+                    "tmwNumbers": tmw_numbers,
+                    "peepoNumbers": peepo_numbers,
                 }
             except ValueError as error:
                 raise ValueError(f"CSV {line}행: {error}") from error
@@ -70,18 +85,26 @@ def read_volume_ledger(path, rows):
     labels_by_work = {}
     with path.open(encoding="utf-8-sig", newline="") as source:
         reader = csv.reader(source, strict=True)
-        if tuple(next(reader, [])) != VOLUME_HEADERS:
-            raise ValueError("권별 기록 첫 줄의 3개 열 이름과 순서를 확인하세요.")
+        headers = tuple(next(reader, []))
+        if headers not in (VOLUME_HEADERS, VOLUME_HEADERS + (PEEPO_HEADER,)):
+            raise ValueError("권별 기록의 3개 또는 4개 열 이름과 순서를 확인하세요.")
         for cells in reader:
             try:
-                if len(cells) != len(VOLUME_HEADERS):
-                    raise ValueError("작품ID, 확인 권 식별자, TMW 번호를 입력하세요.")
-                catalog_id, label, number = (cell.strip() for cell in cells)
+                if len(cells) != len(headers):
+                    raise ValueError("권별 기록의 열 개수를 확인하세요.")
+                catalog_id, label, *parts = (cell.strip() for cell in cells)
                 work_id = catalog_id.lower()
                 if work_id not in rows:
                     raise ValueError(f"작품 CSV에 없는 작품ID ({catalog_id!r})")
-                if integer(number, 1) not in rows[work_id]["tmwNumbers"]:
-                    raise ValueError(f"작품 CSV에 없는 TMW 번호 ({number!r})")
+                archive_parts = [
+                    (field, number) for field, number in zip(PART_FIELDS, parts)
+                    if number and number != UNKNOWN
+                ]
+                if len(archive_parts) != 1:
+                    raise ValueError("행마다 TMW 번호 또는 Peepo 번호 하나를 입력하세요.")
+                field, number = archive_parts[0]
+                if integer(number, 1) not in rows[work_id][field]:
+                    raise ValueError(f"작품 CSV에 없는 출처 차수 ({number!r})")
                 if not label or label == UNKNOWN:
                     raise ValueError("실제로 확인한 권 식별자를 입력하세요.")
                 numeric = re.fullmatch(r"([0-9]+)(\.[0-9]+)?", label)
@@ -91,6 +114,38 @@ def read_volume_ledger(path, rows):
             except ValueError as error:
                 raise ValueError(f"권별 기록 {reader.line_num}행: {error}") from error
     return labels_by_work
+
+
+def cover_url(value):
+    if not re.fullmatch(r"https://[^\s\\\x00-\x1f\x7f]+", value, re.IGNORECASE):
+        raise ValueError("표지 URL은 공개 HTTPS 주소여야 합니다.")
+    parsed = urlsplit(value)
+    if not parsed.hostname or parsed.username is not None or parsed.password is not None:
+        raise ValueError("표지 URL의 호스트와 인증 정보 포함 여부를 확인하세요.")
+    # Accessing the port validates any explicit port string.
+    if parsed.port == 0:
+        raise ValueError("표지 URL의 포트를 확인하세요.")
+    return value
+
+
+def read_covers(path):
+    covers = {}
+    with path.open(encoding="utf-8-sig", newline="") as source:
+        reader = csv.reader(source, strict=True)
+        if tuple(next(reader, [])) != COVER_HEADERS:
+            raise ValueError("표지 CSV의 3개 열 이름과 순서를 확인하세요.")
+        for cells in reader:
+            try:
+                if len(cells) != len(COVER_HEADERS):
+                    raise ValueError("표지 CSV의 열 개수를 확인하세요.")
+                catalog_id, url, source_url = (cell.strip() for cell in cells)
+                work_id = catalog_id.lower()
+                if not work_id or work_id in covers:
+                    raise ValueError(f"표지 CSV의 작품ID를 확인하세요 ({catalog_id!r})")
+                covers[work_id] = {"url": cover_url(url), "source": cover_url(source_url)}
+            except ValueError as error:
+                raise ValueError(f"표지 CSV {reader.line_num}행: {error}") from error
+    return covers
 
 
 def volume_sort_key(label):
@@ -146,19 +201,23 @@ def merge_row(work_id, row, existing, volume_labels):
             novel.pop("confirmedVolumeDisplay", None)
     elif previous_count != count:
         novel.pop("confirmedVolumeDisplay", None)
-    novel["tmwNumbers"] = sorted(set(novel.get("tmwNumbers") or ()) | row["tmwNumbers"])
+    for field in PART_FIELDS:
+        if row[field]:
+            novel[field] = sorted(set(novel.get(field) or ()) | row[field])
     return novel
 
 
-def merge_catalog(data, rows, volume_ledger=None):
+def merge_catalog(data, rows, volume_ledger=None, covers=None):
     if data.get("version") != 1 or not isinstance(data.get("novels"), list):
         raise ValueError("지원하지 않는 아카이브 데이터 형식입니다.")
 
     novels = {novel["id"]: novel for novel in data["novels"]}
     if len(novels) != len(data["novels"]):
         raise ValueError("현재 아카이브에 중복 작품ID가 있습니다.")
+    existing_ids = set(novels)
 
-    added = updated = 0
+    added = 0
+    updated = set()
     for work_id, row in rows.items():
         existing = novels.get(work_id)
         labels = None if volume_ledger is None else volume_ledger.get(work_id, ())
@@ -166,9 +225,17 @@ def merge_catalog(data, rows, volume_ledger=None):
         if existing is None:
             added += 1
         elif merged != existing:
-            updated += 1
+            updated.add(work_id)
         novels[work_id] = merged
-    return {**data, "novels": list(novels.values())}, added, updated
+
+    for work_id, cover in (covers or {}).items():
+        if work_id not in novels:
+            raise ValueError(f"아카이브와 작품 CSV에 없는 표지 작품ID ({work_id!r})")
+        if novels[work_id].get("cover") != cover:
+            novels[work_id] = {**novels[work_id], "cover": cover}
+            if work_id in existing_ids:
+                updated.add(work_id)
+    return {**data, "novels": list(novels.values())}, added, len(updated)
 
 
 def replace_catalog(path, old_bytes, data):
@@ -190,17 +257,21 @@ def replace_catalog(path, old_bytes, data):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("csv_file", type=Path)
+    parser.add_argument("csv_file", type=Path, nargs="?")
     parser.add_argument("--catalog", type=Path, default=CATALOG)
     parser.add_argument("--volume-ledger", type=Path)
+    parser.add_argument("--covers", type=Path)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
+    if (not args.csv_file and not args.covers) or (args.volume_ledger and not args.csv_file):
+        parser.error("작품 CSV 또는 --covers가 필요합니다. --volume-ledger는 작품 CSV와 함께 사용합니다.")
 
     try:
         old_bytes = args.catalog.read_bytes()
-        rows = read_rows(args.csv_file)
+        rows = read_rows(args.csv_file) if args.csv_file else {}
         volume_ledger = read_volume_ledger(args.volume_ledger, rows) if args.volume_ledger else None
-        merged, added, updated = merge_catalog(json.loads(old_bytes), rows, volume_ledger)
+        covers = read_covers(args.covers) if args.covers else None
+        merged, added, updated = merge_catalog(json.loads(old_bytes), rows, volume_ledger, covers)
         if (added or updated) and not args.dry_run:
             replace_catalog(args.catalog, old_bytes, merged)
     except (OSError, ValueError, csv.Error, TypeError, KeyError, AttributeError) as error:

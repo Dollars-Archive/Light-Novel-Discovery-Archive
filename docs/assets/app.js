@@ -17,6 +17,37 @@
     $('token-status').textContent = extra || (store.getToken() ? (verified ? '열쇠 저장됨 · 쓰기 권한 확인됨' : '열쇠 있음 · 이 저장소의 쓰기 권한 확인 필요') : '등록된 열쇠 없음 · 이 기기에 등록하거나 기존 열쇠를 사용하세요.');
   }
   function openSettings() { $('settings').open=true; $('settings').scrollIntoView({block:'nearest',behavior:'smooth'}); }
+
+  const coverPlaceholder = '<span class="catalog-cover-placeholder"><span class="book-icon" aria-hidden="true"></span>표지 없음</span>';
+  const coverDialog = $('cover-dialog');
+  const coverPreview = $('cover-preview');
+  const coverError = $('cover-error');
+
+  function coverMarkup(novel, title) {
+    if (!novel.cover.url) return coverPlaceholder;
+    const label = esc(title + ' 표지 크게 보기');
+    return `<button type="button" class="catalog-cover-button" data-cover-id="${esc(novel.id)}" aria-label="${label}">
+      <img src="${esc(novel.cover.url)}" width="70" height="102" loading="lazy" decoding="async" referrerpolicy="no-referrer" alt="">
+    </button>${coverPlaceholder}`;
+  }
+
+  function showCover(button) {
+    const novel = novels.find(entry => entry.id === button.dataset.coverId);
+    if (!novel) return;
+    $('cover-title').textContent = displayTitle(novel);
+    $('cover-source').href = novel.cover.source;
+    coverError.hidden = true;
+    coverPreview.hidden = false;
+    coverPreview.alt = displayTitle(novel) + ' 표지';
+    coverPreview.src = novel.cover.url;
+    coverDialog.showModal();
+  }
+
+  function sourceMarkup(label, numbers, className) {
+    const parts = numbers.join(', ');
+    return `<div class="catalog-source ${className}"><span>${label}</span><span${parts ? '' : ' class="source-empty" aria-label="해당 차수 미확인"'}>${parts || '—'}</span></div>`;
+  }
+
   function novelMarkup(novel) {
     const favorite = Core.isFavorite(store.data, novel.id);
     const deleted = Core.isDeleted(store.data, novel.id);
@@ -26,12 +57,18 @@
       <button type="button" class="star" data-action="favorite" data-id="${esc(novel.id)}" aria-pressed="${favorite}" aria-label="${esc(title)} ${favorite ? '찜 해제' : '찜 추가'}"${disabled}>${favorite ? '★' : '☆'}</button>
       <button type="button" data-action="deleted" data-id="${esc(novel.id)}" aria-label="${esc(title)} ${deleted ? '복구' : '삭제'}"${disabled}>${deleted ? '복구' : '삭제'}</button>
     </div>`;
-    const fields = [
-      novel.original, novel.title, novel.author, novel.label, novel.completion.volumes,
+    const facts = [
+      novel.completion.volumes,
       Core.CATALOG_COMPLETION_LABELS[novel.completion.status],
-      novel.confirmedVolumeDisplay || novel.confirmedVolumes, novel.tmwNumbers.join(', ')
+      novel.confirmedVolumeDisplay || novel.confirmedVolumes
     ];
-    return `<tr><th scope="row">${esc(novel.catalogId || novel.id)}${actions}</th>${fields.map(value => `<td>${esc(value === '' || value === null ? '미확인' : value)}</td>`).join('')}</tr>`;
+    const sources = sourceMarkup('TMW', novel.tmwNumbers, 'source-tmw') +
+      sourceMarkup('Peepo', novel.peepoNumbers, 'source-peepo');
+    return `<tr><td class="catalog-visual">${coverMarkup(novel, title)}${actions}</td>
+      <th scope="row" class="catalog-original">${esc(novel.original || '미확인')}</th>
+      <td class="catalog-title">${esc(novel.title || '미확인')}</td>
+      ${facts.map(value => `<td class="catalog-fact">${esc(value === '' || value === null ? '미확인' : value)}</td>`).join('')}
+      <td class="catalog-sources">${sources}</td></tr>`;
   }
 
   function displayTitle(novel) {
@@ -142,7 +179,18 @@
     finally{busy=false;render();}
   });
   $('token-clear').addEventListener('click',()=>{if(busy)return;try{store.clearToken();verified=false;$('token').value='';render();notice('이 코너에서 열쇠 사용을 중지했습니다. 기존 열쇠 설정은 유지됩니다.');}catch(error){notice(error.message,true);}});
+  coverPreview.addEventListener('error', () => {
+    coverPreview.hidden = true;
+    coverError.hidden = false;
+  });
+  coverDialog.addEventListener('close', () => coverPreview.removeAttribute('src'));
+  $('results').addEventListener('error', event => {
+    const button = event.target.closest('[data-cover-id]');
+    if (button) button.hidden = true;
+  }, true);
   $('results').addEventListener('click',async event=>{
+    const coverButton = event.target.closest('[data-cover-id]');
+    if (coverButton) { showCover(coverButton); return; }
     const button=event.target.closest('[data-action]');if(!button||busy||!store.ready)return;
     const novel=novels.find(n=>n.id===button.dataset.id);if(!novel)return;
     if(!store.getToken()){openSettings();notice('찜·삭제 저장에는 GitHub 열쇠가 필요합니다.',true);return;}

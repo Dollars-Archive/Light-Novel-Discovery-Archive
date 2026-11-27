@@ -24,7 +24,7 @@
   var NOVEL_KEYS = [
     'id', 'title', 'original', 'oceanOfPdfTitle', 'oceanOfPdfVolumeCount', 'author', 'genres', 'publication', 'completion',
     'releaseDate', 'score', 'summary', 'pros', 'cons', 'sources', 'cover', 'reviewedAt',
-    'catalogId', 'label', 'confirmedVolumes', 'confirmedVolumeDisplay', 'tmwNumbers'
+    'catalogId', 'label', 'confirmedVolumes', 'confirmedVolumeDisplay', 'tmwNumbers', 'peepoNumbers'
   ];
 
   var PUBLICATION_STATUSES = ['licensed', 'unlicensed', 'unknown'];
@@ -218,10 +218,10 @@
       cover.source = optionalString(raw.cover.source, path + '.cover.source', '');
       if (cover.url !== '') {
         var localCover = /^covers\/[a-z0-9][a-z0-9-]*\.(?:webp|jpg|jpeg|png)$/.test(cover.url);
-        if (!localCover && safeUrl(cover.url) === '') {
-          fail(path + '.cover.url must be a local cover or safe http(s) image URL.');
+        if (!localCover && !safeHttpsUrl(cover.url)) {
+          fail(path + '.cover.url must be a local cover or safe HTTPS image URL.');
         }
-        if (safeUrl(cover.source) === '') {
+        if (!safeHttpsUrl(cover.source)) {
           fail(path + '.cover.source must identify the verified source page.');
         }
       }
@@ -247,19 +247,14 @@
         (!Number.isSafeInteger(confirmedVolumes) || confirmedVolumes < 0)) {
       fail(path + '.confirmedVolumes must be a non-negative integer or null.');
     }
-    var tmwNumbers = raw.tmwNumbers ?? [];
-    if (!Array.isArray(tmwNumbers) ||
-        tmwNumbers.some(function (number) { return !Number.isSafeInteger(number) || number < 1; })) {
-      fail(path + '.tmwNumbers must be an array of positive integers.');
-    }
-
     var novel = {
       id: id,
       catalogId: catalogId,
       label: optionalString(raw.label, path + '.label', ''),
       confirmedVolumes: confirmedVolumes,
       confirmedVolumeDisplay: optionalString(raw.confirmedVolumeDisplay, path + '.confirmedVolumeDisplay', ''),
-      tmwNumbers: tmwNumbers,
+      tmwNumbers: normalizePartNumbers(raw.tmwNumbers, path + '.tmwNumbers'),
+      peepoNumbers: normalizePartNumbers(raw.peepoNumbers, path + '.peepoNumbers'),
       title: title,
       original: original,
       oceanOfPdfTitle: optionalString(raw.oceanOfPdfTitle, path + '.oceanOfPdfTitle', ''),
@@ -282,6 +277,15 @@
     var ordered = {};
     NOVEL_KEYS.forEach(function (key) { ordered[key] = novel[key]; });
     return ordered;
+  }
+
+  function normalizePartNumbers(numbers, path) {
+    numbers = numbers ?? [];
+    if (!Array.isArray(numbers) ||
+        numbers.some(function (number) { return !Number.isSafeInteger(number) || number < 1; })) {
+      fail(path + ' must be an array of positive integers.');
+    }
+    return Array.from(new Set(numbers)).sort(function (a, b) { return a - b; });
   }
 
   function normalizeCatalog(input) {
@@ -390,6 +394,13 @@
     if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return '';
     if (!parsed.hostname) return '';
     return trimmed;
+  }
+
+  function safeHttpsUrl(value) {
+    var url = safeUrl(value);
+    if (!/^https:\/\/[^\s\\]+$/i.test(url)) return false;
+    var parsed = new URL(url);
+    return !parsed.username && !parsed.password;
   }
 
   function scoreValue(novel) {
