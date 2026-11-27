@@ -4,7 +4,7 @@
   const $ = id => document.getElementById(id), esc = Core.escapeHtml;
   let novels = [], busy = false, verified = false, catalogReady = false;
   const initialFilters = {
-    completion:'all', completeSetOnly:false, tenOrMoreVolumes:false,
+    completion:'all', completeSetOnly:false, tenOrMoreVolumes:false, coverOnly:false,
     q:'', favoriteOnly:false, view:'active', sort:'id'
   };
   const worksPerPage = 100;
@@ -146,6 +146,7 @@
     $('deleted').textContent=`삭제한 작품 · 복구 (${deletedCount})`; $('deleted').setAttribute('aria-pressed',String(filters.view==='deleted'));
     $('complete-set-only').setAttribute('aria-pressed', String(filters.completeSetOnly));
     $('ten-or-more-volumes').setAttribute('aria-pressed', String(filters.tenOrMoreVolumes));
+    $('cover-only').setAttribute('aria-pressed', String(filters.coverOnly));
     $('list-title').textContent=filters.view==='deleted'?'삭제한 작품':filters.favoriteOnly?'찜한 작품':'전체 작품';
     filteredNovels = Core.selectNovels(novels, filters, state);
     $('count').textContent = `${filteredNovels.length}개`;
@@ -184,6 +185,10 @@
   });
   $('ten-or-more-volumes').addEventListener('click',()=>{
     filters.tenOrMoreVolumes = !filters.tenOrMoreVolumes;
+    render(true);
+  });
+  $('cover-only').addEventListener('click',()=>{
+    filters.coverOnly = !filters.coverOnly;
     render(true);
   });
   $('page-prev').addEventListener('click',()=>goToPage(currentPage - 1));
