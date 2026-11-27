@@ -23,7 +23,7 @@
   var TIMESTAMP_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?$/;
   var NOVEL_KEYS = [
     'id', 'title', 'original', 'oceanOfPdfTitle', 'oceanOfPdfVolumeCount', 'author', 'genres', 'publication', 'completion',
-    'releaseDate', 'score', 'summary', 'pros', 'cons', 'sources', 'cover', 'reviewedAt',
+    'releaseDate', 'score', 'rating', 'summary', 'pros', 'cons', 'sources', 'cover', 'reviewedAt',
     'catalogId', 'label', 'confirmedVolumes', 'confirmedVolumeDisplay', 'tmwNumbers', 'peepoNumbers'
   ];
 
@@ -168,6 +168,25 @@
     return completion;
   }
 
+  function normalizeRating(raw, path) {
+    if (raw === undefined || raw === null) return null;
+    if (!isPlainObject(raw)) fail(path + ' must be an object.');
+
+    var value = raw.value;
+    var scale = raw.scale;
+    if (!Number.isFinite(value) || !Number.isFinite(scale) || value <= 0 || value > scale) {
+      fail(path + ' requires a positive value within its scale.');
+    }
+    var source = requiredString(raw.source, path + '.source');
+    if (!safeHttpsUrl(source)) fail(path + '.source must be a safe HTTPS URL.');
+    var count = raw.count ?? null;
+    if (count !== null && (!Number.isSafeInteger(count) || count < 1)) {
+      fail(path + '.count must be a positive integer or null.');
+    }
+    return { value: value, scale: scale, source: source, count: count,
+      basis: optionalString(raw.basis, path + '.basis', '') };
+  }
+
   function normalizeNovel(raw, index, seenIds) {
     var path = 'Novel at index ' + index;
     if (!isPlainObject(raw)) fail(path + ' must be an object.');
@@ -266,6 +285,7 @@
       publication: publication,
       completion: completion,
       score: score,
+      rating: normalizeRating(raw.rating, path + '.rating'),
       summary: summary,
       pros: pros,
       cons: cons,

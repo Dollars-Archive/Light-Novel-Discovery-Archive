@@ -87,6 +87,27 @@
   font-weight: 700;
 }
 
+.catalog .has-rating {
+  position: relative;
+  padding-bottom: 34px;
+}
+
+.catalog-rating {
+  position: absolute;
+  bottom: 9px;
+  left: 12px;
+  color: #345282;
+  font-size: 13px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.catalog-rating-original {
+  color: #415770;
+  font-weight: 400;
+}
+
 .catalog thead th:nth-child(n+4):nth-child(-n+6),
 .catalog .catalog-fact {
   text-align: center;
@@ -267,5 +288,9 @@
   .catalog th,
   .catalog td {
     padding: 9px 10px;
+  }
+
+  .catalog-rating {
+    left: 10px;
   }
 }

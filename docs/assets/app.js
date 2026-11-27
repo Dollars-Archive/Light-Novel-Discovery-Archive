@@ -91,9 +91,13 @@
     ];
     const sources = sourceMarkup('TMW', novel.tmwNumbers, 'source-tmw') +
       sourceMarkup('Peepo', novel.peepoNumbers, 'source-peepo');
+    const score = novel.score !== null
+      ? `평점 ${novel.score.toFixed(1)} / 10`
+      : (novel.cover.url ? '평점 미확인' : '');
+    const originalScore = novel.rating ? `원점수 ${novel.rating.value} / ${novel.rating.scale}` : '';
     return `<tr><td class="catalog-visual">${coverMarkup(novel, title)}${actions}</td>
-      <th scope="row" class="catalog-original">${esc(novel.original || '미확인')}</th>
-      <td class="catalog-title">${esc(novel.title || '미확인')}</td>
+      <th scope="row" class="catalog-original${score ? ' has-rating' : ''}">${esc(novel.original || '미확인')}${score ? `<span class="catalog-rating">${esc(score)}</span>` : ''}</th>
+      <td class="catalog-title${originalScore ? ' has-rating' : ''}">${esc(novel.title || '미확인')}${originalScore ? `<span class="catalog-rating catalog-rating-original">${esc(originalScore)}</span>` : ''}</td>
       ${facts.map(value => `<td class="catalog-fact">${esc(value === '' || value === null ? '미확인' : value)}</td>`).join('')}
       <td class="catalog-fact catalog-confirmed">${confirmedVolumesMarkup(novel, title)}</td>
       <td class="catalog-sources">${sources}</td></tr>`;

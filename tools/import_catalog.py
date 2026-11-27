@@ -4,7 +4,7 @@ import argparse
 import csv
 import json
 import re
-from decimal import Decimal
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 from urllib.parse import urlsplit
@@ -15,6 +15,7 @@ HEADERS = (
 )
 VOLUME_HEADERS = ("작품ID", "확인 권 식별자", "TMW 번호")
 COVER_HEADERS = ("작품ID", "표지 이미지 URL", "표지 출처 URL")
+RATING_HEADERS = ("work_id", "value", "scale", "votes", "source", "basis")
 PEEPO_HEADER = "Peepo 번호"
 PART_FIELDS = ("tmwNumbers", "peepoNumbers")
 UNKNOWN = "미확인"
@@ -116,15 +117,15 @@ def read_volume_ledger(path, rows):
     return labels_by_work
 
 
-def cover_url(value):
+def public_https_url(value):
     if not re.fullmatch(r"https://[^\s\\\x00-\x1f\x7f]+", value, re.IGNORECASE):
-        raise ValueError("표지 URL은 공개 HTTPS 주소여야 합니다.")
+        raise ValueError("URL은 공개 HTTPS 주소여야 합니다.")
     parsed = urlsplit(value)
     if not parsed.hostname or parsed.username is not None or parsed.password is not None:
-        raise ValueError("표지 URL의 호스트와 인증 정보 포함 여부를 확인하세요.")
+        raise ValueError("URL의 호스트와 인증 정보 포함 여부를 확인하세요.")
     # Accessing the port validates any explicit port string.
     if parsed.port == 0:
-        raise ValueError("표지 URL의 포트를 확인하세요.")
+        raise ValueError("URL의 포트를 확인하세요.")
     return value
 
 
@@ -142,10 +143,41 @@ def read_covers(path):
                 work_id = catalog_id.lower()
                 if not work_id or work_id in covers:
                     raise ValueError(f"표지 CSV의 작품ID를 확인하세요 ({catalog_id!r})")
-                covers[work_id] = {"url": cover_url(url), "source": cover_url(source_url)}
+                covers[work_id] = {"url": public_https_url(url), "source": public_https_url(source_url)}
             except ValueError as error:
                 raise ValueError(f"표지 CSV {reader.line_num}행: {error}") from error
     return covers
+
+
+def read_ratings(path):
+    ratings = {}
+    with path.open(encoding="utf-8-sig", newline="") as source:
+        reader = csv.reader(source, strict=True)
+        if tuple(next(reader, [])) != RATING_HEADERS:
+            raise ValueError("평점 CSV의 열 이름과 순서를 확인하세요.")
+        for cells in reader:
+            try:
+                if len(cells) != len(RATING_HEADERS):
+                    raise ValueError("평점 CSV의 열 개수를 확인하세요.")
+                catalog_id, value, scale, votes, url, basis = (cell.strip() for cell in cells)
+                work_id = catalog_id.lower()
+                if not work_id or work_id in ratings:
+                    raise ValueError(f"평점 CSV의 작품ID를 확인하세요 ({catalog_id!r})")
+                if any(not re.fullmatch(r"[0-9]{1,3}(?:\.[0-9]{1,6})?", v) for v in (value, scale)):
+                    raise ValueError("원점수와 만점은 양수여야 합니다.")
+                raw, maximum = Decimal(value), Decimal(scale)
+                if not 0 < raw <= maximum:
+                    raise ValueError("원점수가 만점 이하여야 합니다.")
+                score = (raw * 10 / maximum).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
+                rating = {"value": float(raw), "scale": float(maximum), "source": public_https_url(url)}
+                if votes:
+                    rating["count"] = integer(votes, 1)
+                if basis:
+                    rating["basis"] = basis
+                ratings[work_id] = {"score": float(score), "rating": rating}
+            except ValueError as error:
+                raise ValueError(f"평점 CSV {reader.line_num}행: {error}") from error
+    return ratings
 
 
 def volume_sort_key(label):
@@ -207,7 +239,7 @@ def merge_row(work_id, row, existing, volume_labels):
     return novel
 
 
-def merge_catalog(data, rows, volume_ledger=None, covers=None):
+def merge_catalog(data, rows, volume_ledger=None, covers=None, ratings=None):
     if data.get("version") != 1 or not isinstance(data.get("novels"), list):
         raise ValueError("지원하지 않는 아카이브 데이터 형식입니다.")
 
@@ -235,6 +267,14 @@ def merge_catalog(data, rows, volume_ledger=None, covers=None):
             novels[work_id] = {**novels[work_id], "cover": cover}
             if work_id in existing_ids:
                 updated.add(work_id)
+    for work_id, rating in (ratings or {}).items():
+        if work_id not in novels:
+            raise ValueError(f"아카이브와 작품 CSV에 없는 평점 작품ID ({work_id!r})")
+        previous = novels[work_id]
+        merged = {**previous, **rating}
+        if merged != previous and work_id in existing_ids:
+            updated.add(work_id)
+        novels[work_id] = merged
     return {**data, "novels": list(novels.values())}, added, len(updated)
 
 
@@ -261,17 +301,19 @@ def main():
     parser.add_argument("--catalog", type=Path, default=CATALOG)
     parser.add_argument("--volume-ledger", type=Path)
     parser.add_argument("--covers", type=Path)
+    parser.add_argument("--ratings", type=Path)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-    if (not args.csv_file and not args.covers) or (args.volume_ledger and not args.csv_file):
-        parser.error("작품 CSV 또는 --covers가 필요합니다. --volume-ledger는 작품 CSV와 함께 사용합니다.")
+    if (not any((args.csv_file, args.covers, args.ratings))) or (args.volume_ledger and not args.csv_file):
+        parser.error("작품 CSV, --covers, --ratings 중 하나가 필요합니다. --volume-ledger는 작품 CSV와 함께 사용합니다.")
 
     try:
         old_bytes = args.catalog.read_bytes()
         rows = read_rows(args.csv_file) if args.csv_file else {}
         volume_ledger = read_volume_ledger(args.volume_ledger, rows) if args.volume_ledger else None
         covers = read_covers(args.covers) if args.covers else None
-        merged, added, updated = merge_catalog(json.loads(old_bytes), rows, volume_ledger, covers)
+        ratings = read_ratings(args.ratings) if args.ratings else None
+        merged, added, updated = merge_catalog(json.loads(old_bytes), rows, volume_ledger, covers, ratings)
         if (added or updated) and not args.dry_run:
             replace_catalog(args.catalog, old_bytes, merged)
     except (OSError, ValueError, csv.Error, TypeError, KeyError, AttributeError) as error:
