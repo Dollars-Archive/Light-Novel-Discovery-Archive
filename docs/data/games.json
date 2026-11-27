@@ -131,7 +131,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=h2HstAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=h2HstAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0007",
@@ -1312,7 +1316,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://m.media-amazon.com/images/I/512JdQ9HhmL.jpg",
+        "source": "https://www.amazon.co.jp/dp/B082ZBXJ1N"
+      }
     },
     {
       "id": "tmw1-0078",
@@ -2403,7 +2411,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=P4lhzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=P4lhzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0141",
@@ -2420,7 +2432,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=p473swEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=p473swEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0142",
@@ -2909,7 +2925,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://img07.shop-pro.jp/PA01379/478/product/129683448.jpg",
+        "source": "https://tobooks.shop-pro.jp/?pid=129683448"
+      }
     },
     {
       "id": "tmw1-0168",
@@ -3214,7 +3234,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=1s4VvgAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=1s4VvgAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0187",
@@ -3446,7 +3470,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~03"
+      "confirmedVolumeDisplay": "01~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=6RkqzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=6RkqzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0200",
@@ -3512,7 +3540,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=5bUdjgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=5bUdjgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0203",
@@ -3576,7 +3608,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/12454777-M.jpg",
+        "source": "https://openlibrary.org/books/OL35719114M"
+      }
     },
     {
       "id": "tmw1-0206",
@@ -3601,7 +3637,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=lgoxxgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=lgoxxgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0207",
@@ -3625,7 +3665,11 @@
         11,
         12
       ],
-      "confirmedVolumeDisplay": "01~04, 04.5, 05~11"
+      "confirmedVolumeDisplay": "01~04, 04.5, 05~11",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=1eJhzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=1eJhzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0208",
@@ -3648,7 +3692,11 @@
       "confirmedVolumeDisplay": "01~07, 10",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=6BFiAQAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=6BFiAQAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0209",
@@ -3781,7 +3829,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/11983311-M.jpg",
+        "source": "https://openlibrary.org/books/OL33869792M"
+      }
     },
     {
       "id": "tmw1-0217",
@@ -3801,7 +3853,11 @@
         7,
         8
       ],
-      "confirmedVolumeDisplay": "01~31"
+      "confirmedVolumeDisplay": "01~31",
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10846487-M.jpg",
+        "source": "https://openlibrary.org/books/OL32195356M"
+      }
     },
     {
       "id": "tmw1-0218",
@@ -3919,7 +3975,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10234777-M.jpg",
+        "source": "https://openlibrary.org/books/OL28306898M"
+      }
     },
     {
       "id": "tmw1-0223",
@@ -3942,7 +4002,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10871729-M.jpg",
+        "source": "https://openlibrary.org/books/OL32238299M"
+      }
     },
     {
       "id": "tmw1-0224",
@@ -4041,7 +4105,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9366398-M.jpg",
+        "source": "https://openlibrary.org/books/OL27977885M"
+      }
     },
     {
       "id": "tmw1-0229",
@@ -4126,7 +4194,11 @@
         4,
         12
       ],
-      "confirmedVolumeDisplay": "02~03"
+      "confirmedVolumeDisplay": "02~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=j1xBEAAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=j1xBEAAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0234",
@@ -4164,7 +4236,11 @@
         8,
         12
       ],
-      "confirmedVolumeDisplay": "01~10"
+      "confirmedVolumeDisplay": "01~10",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=jqm0zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=jqm0zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0236",
@@ -4184,7 +4260,11 @@
         2,
         3
       ],
-      "confirmedVolumeDisplay": "01~04"
+      "confirmedVolumeDisplay": "01~04",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=yDC0zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=yDC0zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0237",
@@ -4437,7 +4517,11 @@
       "confirmedVolumeDisplay": "01~05, 05.5, 06~08, 08.5, 09~10, 11.5, 12",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=rUCdDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=rUCdDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0250",
@@ -4493,7 +4577,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "02~03"
+      "confirmedVolumeDisplay": "02~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=BZ3BDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=BZ3BDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0253",
@@ -4689,7 +4777,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=VfzHDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=VfzHDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0264",
@@ -4739,7 +4831,11 @@
       "confirmedVolumeDisplay": "02~06",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=omfvDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=omfvDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0266",
@@ -4765,7 +4861,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=i1WaCgAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=i1WaCgAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0267",
@@ -4809,7 +4909,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/14857407-M.jpg",
+        "source": "https://openlibrary.org/books/OL58356515M"
+      }
     },
     {
       "id": "tmw1-0269",
@@ -5080,7 +5184,11 @@
       "confirmedVolumeDisplay": "01~07",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=wsFQzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=wsFQzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0286",
@@ -5102,7 +5210,11 @@
       "confirmedVolumeDisplay": "01~08",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10464890-M.jpg",
+        "source": "https://openlibrary.org/books/OL30535015M"
+      }
     },
     {
       "id": "tmw1-0287",
@@ -5183,7 +5295,11 @@
         1,
         2
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=1MgQtAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=1MgQtAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0293",
@@ -5244,7 +5360,11 @@
       "confirmedVolumeDisplay": "01~19",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321404/321404000005.jpg",
+        "source": "https://www.kadokawa.co.jp/product/321404000005/"
+      }
     },
     {
       "id": "tmw1-0297",
@@ -5285,7 +5405,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=HdWwtgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=HdWwtgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0299",
@@ -5572,7 +5696,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "02~11, 11.5, 12"
+      "confirmedVolumeDisplay": "02~11, 11.5, 12",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=hkJdwQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=hkJdwQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0315",
@@ -5592,7 +5720,11 @@
         2,
         3
       ],
-      "confirmedVolumeDisplay": "02~06"
+      "confirmedVolumeDisplay": "02~06",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=8zZEzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=8zZEzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0316",
@@ -5612,7 +5744,11 @@
         2,
         4
       ],
-      "confirmedVolumeDisplay": "01~04"
+      "confirmedVolumeDisplay": "01~04",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=SbaLzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=SbaLzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0317",
@@ -5661,7 +5797,11 @@
       "confirmedVolumeDisplay": "02~09",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=V6WnygEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=V6WnygEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0319",
@@ -5802,7 +5942,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=XKScDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=XKScDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0327",
@@ -5845,7 +5989,11 @@
         4
       ],
       "confirmedVolumes": 7,
-      "confirmedVolumeDisplay": "02~06, 06.5, 07"
+      "confirmedVolumeDisplay": "02~06, 06.5, 07",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=SQ3DxgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=SQ3DxgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0329",
@@ -5942,7 +6090,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=e5SJzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=e5SJzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0334",
@@ -6282,7 +6434,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "02~03"
+      "confirmedVolumeDisplay": "02~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=2LS8tQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=2LS8tQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0351",
@@ -6342,7 +6498,11 @@
         8
       ],
       "confirmedVolumes": 2,
-      "confirmedVolumeDisplay": "02~03"
+      "confirmedVolumeDisplay": "02~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=K4UmzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=K4UmzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0354",
@@ -6440,7 +6600,11 @@
         8
       ],
       "confirmedVolumes": 3,
-      "confirmedVolumeDisplay": "02~04"
+      "confirmedVolumeDisplay": "02~04",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=p451zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=p451zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0360",
@@ -6706,7 +6870,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=nxJnswEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=nxJnswEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0374",
@@ -6750,7 +6918,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10464891-M.jpg",
+        "source": "https://openlibrary.org/books/OL30535016M"
+      }
     },
     {
       "id": "tmw1-0376",
@@ -6826,7 +6998,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13160015-M.jpg",
+        "source": "https://openlibrary.org/books/OL46528210M"
+      }
     },
     {
       "id": "tmw1-0380",
@@ -6845,7 +7021,11 @@
         2
       ],
       "confirmedVolumes": 2,
-      "confirmedVolumeDisplay": "02~03"
+      "confirmedVolumeDisplay": "02~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=I4zPDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=I4zPDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0381",
@@ -7037,7 +7217,11 @@
       "confirmedVolumeDisplay": "02~05",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321407/321407000109.jpg",
+        "source": "https://sneakerbunko.jp/product/shumatsu/321407000109.html"
+      }
     },
     {
       "id": "tmw1-0394",
@@ -7080,7 +7264,11 @@
       "confirmedVolumeDisplay": "01~05",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=iqLczQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=iqLczQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0398",
@@ -7138,7 +7326,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=dZYNAQAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=dZYNAQAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0405",
@@ -7156,7 +7348,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "02"
+      "confirmedVolumeDisplay": "02",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=ZhEitgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=ZhEitgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0406",
@@ -7218,7 +7414,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=S3B0zQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=S3B0zQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0409",
@@ -7265,7 +7465,11 @@
       "confirmedVolumeDisplay": "01~05, 07",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=aRZizgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=aRZizgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0411",
@@ -7462,7 +7666,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=ZMp6oAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=ZMp6oAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0423",
@@ -7496,7 +7704,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=-R5ezgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=-R5ezgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0425",
@@ -7714,7 +7926,11 @@
         1,
         4
       ],
-      "confirmedVolumeDisplay": "02~03"
+      "confirmedVolumeDisplay": "02~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=noiLzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=noiLzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0438",
@@ -7737,7 +7953,11 @@
       "confirmedVolumeDisplay": "02~07, 09~10",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=rGnc0AEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=rGnc0AEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0439",
@@ -7862,7 +8082,11 @@
         3,
         6
       ],
-      "confirmedVolumeDisplay": "01~05, 08"
+      "confirmedVolumeDisplay": "01~05, 08",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=Yp-4zQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=Yp-4zQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0449",
@@ -7920,7 +8144,11 @@
         5,
         12
       ],
-      "confirmedVolumeDisplay": "01~15"
+      "confirmedVolumeDisplay": "01~15",
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9413115-M.jpg",
+        "source": "https://openlibrary.org/books/OL28032359M"
+      }
     },
     {
       "id": "tmw1-0452",
@@ -8159,7 +8387,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=bwCfswEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=bwCfswEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0469",
@@ -8411,7 +8643,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=vbSLCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl",
+        "source": "https://books.google.com/books?id=vbSLCgAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0482",
@@ -8679,7 +8915,11 @@
         12
       ],
       "confirmedVolumes": 11,
-      "confirmedVolumeDisplay": "01, 03~12"
+      "confirmedVolumeDisplay": "01, 03~12",
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/11454711-M.jpg",
+        "source": "https://openlibrary.org/books/OL32822572M"
+      }
     },
     {
       "id": "tmw1-0501",
@@ -8700,7 +8940,11 @@
       "confirmedVolumeDisplay": "01",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=_KWCzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=_KWCzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0502",
@@ -8830,7 +9074,11 @@
       "confirmedVolumeDisplay": "01~04, 04.5, 05~08, 10~12, 12.5",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=wmc9zQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=wmc9zQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0507",
@@ -8961,7 +9209,11 @@
         7,
         11
       ],
-      "confirmedVolumeDisplay": "01~08"
+      "confirmedVolumeDisplay": "01~08",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=vqWPzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=vqWPzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0514",
@@ -9053,7 +9305,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=U4bpmQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=U4bpmQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0521",
@@ -9102,7 +9358,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=vOQfQbUe2SYC&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=vOQfQbUe2SYC&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0524",
@@ -9380,7 +9640,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~03"
+      "confirmedVolumeDisplay": "01~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=R_cdzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=R_cdzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0542",
@@ -9403,7 +9667,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10188778-M.jpg",
+        "source": "https://openlibrary.org/books/OL28260085M"
+      }
     },
     {
       "id": "tmw1-0543",
@@ -9569,7 +9837,11 @@
         6,
         12
       ],
-      "confirmedVolumeDisplay": "01~27"
+      "confirmedVolumeDisplay": "01~27",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=AOsTRAAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=AOsTRAAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0555",
@@ -9607,7 +9879,11 @@
         3,
         6
       ],
-      "confirmedVolumeDisplay": "02~08"
+      "confirmedVolumeDisplay": "02~08",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=cDcKzAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=cDcKzAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0557",
@@ -9757,7 +10033,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9413704-M.jpg",
+        "source": "https://openlibrary.org/books/OL28033700M"
+      }
     },
     {
       "id": "tmw1-0566",
@@ -9790,7 +10070,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://c.bookwalker.jp/1675974/t_700x780.jpg",
+        "source": "https://bookwalker.jp/de03127597-8955-46cf-9efa-d5fce164739e/"
+      }
     },
     {
       "id": "tmw1-0568",
@@ -9829,7 +10113,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=YzPnAQAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=YzPnAQAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0572",
@@ -9865,7 +10153,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~02"
+      "confirmedVolumeDisplay": "01~02",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=m1xBEAAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=m1xBEAAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0574",
@@ -9994,7 +10286,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~04"
+      "confirmedVolumeDisplay": "01~04",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=u4NAzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=u4NAzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0584",
@@ -10011,7 +10307,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=BC9S0QEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=BC9S0QEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0585",
@@ -10050,7 +10350,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321412/321412000081.jpg",
+        "source": "https://www.kadokawa.co.jp/product/321412000081/"
+      }
     },
     {
       "id": "tmw1-0587",
@@ -10090,7 +10394,11 @@
       "confirmedVolumeDisplay": "02~05",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=er9GDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=er9GDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0589",
@@ -10147,7 +10455,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=j23WzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=j23WzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0592",
@@ -10212,7 +10524,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~02"
+      "confirmedVolumeDisplay": "01~02",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=6ifjzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=6ifjzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0596",
@@ -10351,7 +10667,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13161858-M.jpg",
+        "source": "https://openlibrary.org/books/OL38819871M"
+      }
     },
     {
       "id": "tmw1-0604",
@@ -10402,7 +10722,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01, 06~07"
+      "confirmedVolumeDisplay": "01, 06~07",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=VQJQswEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=VQJQswEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0607",
@@ -10442,7 +10766,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "02~07"
+      "confirmedVolumeDisplay": "02~07",
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/301304/301304002719.jpg",
+        "source": "https://tsubasabunko.jp/product/kuusoukagaku/301304002719.html"
+      }
     },
     {
       "id": "tmw1-0609",
@@ -10460,7 +10788,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01"
+      "confirmedVolumeDisplay": "01",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=OUJIEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl",
+        "source": "https://books.google.com/books?id=OUJIEAAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0610",
@@ -10667,7 +10999,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/14423670-M.jpg",
+        "source": "https://openlibrary.org/books/OL38565569M"
+      }
     },
     {
       "id": "tmw1-0624",
@@ -11011,7 +11347,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=hu1NygEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=hu1NygEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0662",
@@ -11420,7 +11760,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=l5U-wAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=l5U-wAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0684",
@@ -11560,7 +11904,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~06"
+      "confirmedVolumeDisplay": "01~06",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=Dk1LzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=Dk1LzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0692",
@@ -11621,7 +11969,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=x6LUoQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=x6LUoQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0695",
@@ -11664,7 +12016,11 @@
       "confirmedVolumeDisplay": "01~03",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=ALstjgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=ALstjgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0697",
@@ -11683,7 +12039,11 @@
         1,
         5
       ],
-      "confirmedVolumeDisplay": "01"
+      "confirmedVolumeDisplay": "01",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=cGO1zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=cGO1zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0698",
@@ -11718,7 +12078,11 @@
         1,
         6
       ],
-      "confirmedVolumeDisplay": "01~08, 11"
+      "confirmedVolumeDisplay": "01~08, 11",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=aaCGwwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=aaCGwwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0700",
@@ -11738,7 +12102,11 @@
         3,
         7
       ],
-      "confirmedVolumeDisplay": "02~15"
+      "confirmedVolumeDisplay": "02~15",
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13869812-M.jpg",
+        "source": "https://openlibrary.org/books/OL47323344M"
+      }
     },
     {
       "id": "tmw1-0701",
@@ -11810,7 +12178,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~02"
+      "confirmedVolumeDisplay": "01~02",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=3wAAzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=3wAAzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0705",
@@ -11871,7 +12243,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=7sf4vQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=7sf4vQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0708",
@@ -11905,7 +12281,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=_3S6zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=_3S6zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0711",
@@ -11940,7 +12320,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "上巻, 下巻"
+      "confirmedVolumeDisplay": "上巻, 下巻",
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9338378-M.jpg",
+        "source": "https://openlibrary.org/books/OL27950213M"
+      }
     },
     {
       "id": "tmw1-0713",
@@ -11979,7 +12363,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=b7RszgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=b7RszgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0715",
@@ -11997,7 +12385,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "02"
+      "confirmedVolumeDisplay": "02",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=tjRrzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=tjRrzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0717",
@@ -12078,7 +12470,11 @@
         9
       ],
       "confirmedVolumes": 5,
-      "confirmedVolumeDisplay": "02~03, 07~09"
+      "confirmedVolumeDisplay": "02~03, 07~09",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=0iBlzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=0iBlzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0721",
@@ -12354,7 +12750,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/12672015-M.jpg",
+        "source": "https://openlibrary.org/books/OL37762568M"
+      }
     },
     {
       "id": "tmw1-0736",
@@ -12429,7 +12829,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10408755-M.jpg",
+        "source": "https://openlibrary.org/books/OL29727978M"
+      }
     },
     {
       "id": "tmw1-0740",
@@ -12491,7 +12895,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=Ln2APgAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=Ln2APgAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0743",
@@ -12534,7 +12942,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/11431598-M.jpg",
+        "source": "https://openlibrary.org/books/OL32798662M"
+      }
     },
     {
       "id": "tmw1-0745",
@@ -12828,7 +13240,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=QHLwjwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=QHLwjwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0762",
@@ -12877,7 +13293,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=blGSzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=blGSzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0765",
@@ -12917,7 +13337,11 @@
         11,
         12
       ],
-      "confirmedVolumeDisplay": "01~11"
+      "confirmedVolumeDisplay": "01~11",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=ROeRDwAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=ROeRDwAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0767",
@@ -12936,7 +13360,11 @@
         2
       ],
       "confirmedVolumes": 1,
-      "confirmedVolumeDisplay": "02"
+      "confirmedVolumeDisplay": "02",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=Vz3AzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=Vz3AzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0768",
@@ -13124,7 +13552,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=GDU2PAAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=GDU2PAAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0779",
@@ -13277,7 +13709,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~11"
+      "confirmedVolumeDisplay": "01~11",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=IqGCzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=IqGCzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0789",
@@ -13405,7 +13841,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10477755-M.jpg",
+        "source": "https://openlibrary.org/books/OL30620183M"
+      }
     },
     {
       "id": "tmw1-0796",
@@ -13722,7 +14162,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10861294-M.jpg",
+        "source": "https://openlibrary.org/books/OL32215852M"
+      }
     },
     {
       "id": "tmw1-0816",
@@ -13746,7 +14190,11 @@
       "confirmedVolumeDisplay": "01~09, 11~12",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=uL-20AEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=uL-20AEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0817",
@@ -13770,7 +14218,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=VQJQswEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=VQJQswEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0818",
@@ -13893,7 +14345,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "02"
+      "confirmedVolumeDisplay": "02",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=WnIyywEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=WnIyywEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0827",
@@ -13911,7 +14367,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~05"
+      "confirmedVolumeDisplay": "01~05",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=gTojzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=gTojzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0828",
@@ -14256,7 +14716,11 @@
       "confirmedVolumeDisplay": "01~13",
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9641020-M.jpg",
+        "source": "https://openlibrary.org/books/OL28101264M"
+      }
     },
     {
       "id": "tmw1-0852",
@@ -14854,7 +15318,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9393683-M.jpg",
+        "source": "https://openlibrary.org/books/OL28010098M"
+      }
     },
     {
       "id": "tmw1-0888",
@@ -14996,7 +15464,11 @@
         1,
         3
       ],
-      "confirmedVolumeDisplay": "01~10"
+      "confirmedVolumeDisplay": "01~10",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=uX8HY5HkDIQC&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=uX8HY5HkDIQC&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0907",
@@ -15032,7 +15504,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~03"
+      "confirmedVolumeDisplay": "01~03",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=XbkuwAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=XbkuwAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0909",
@@ -15104,7 +15580,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10515296-M.jpg",
+        "source": "https://openlibrary.org/books/OL31403094M"
+      }
     },
     {
       "id": "tmw1-0913",
@@ -15122,7 +15602,11 @@
       "tmwNumbers": [
         1
       ],
-      "confirmedVolumeDisplay": "01~04"
+      "confirmedVolumeDisplay": "01~04",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=xXEuygEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=xXEuygEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0917",
@@ -15325,7 +15809,11 @@
         1,
         2
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/14821437-M.jpg",
+        "source": "https://openlibrary.org/books/OL27117747M"
+      }
     },
     {
       "id": "tmw1-0931",
@@ -15420,7 +15908,11 @@
         1,
         4
       ],
-      "confirmedVolumeDisplay": "01~20"
+      "confirmedVolumeDisplay": "01~20",
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10198484-M.jpg",
+        "source": "https://openlibrary.org/books/OL28270914M"
+      }
     },
     {
       "id": "tmw1-0936",
@@ -15651,7 +16143,11 @@
         10,
         12
       ],
-      "confirmedVolumeDisplay": "01~16"
+      "confirmedVolumeDisplay": "01~16",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=tlAqzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=tlAqzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw1-0961",
@@ -15818,7 +16314,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/11202569-M.jpg",
+        "source": "https://openlibrary.org/books/OL32556282M"
+      }
     },
     {
       "id": "tmw1-0975",
@@ -16087,7 +16587,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13932748-M.jpg",
+        "source": "https://openlibrary.org/books/OL47343400M"
+      }
     },
     {
       "id": "tmw1-0991",
@@ -16722,7 +17226,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=zdjyxgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=zdjyxgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw2-0003",
@@ -16893,7 +17401,11 @@
       "confirmedVolumeDisplay": "01~03",
       "tmwNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=XTLfzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=XTLfzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw2-0018",
@@ -16916,7 +17428,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/8433786-M.jpg",
+        "source": "https://openlibrary.org/books/OL26779685M"
+      }
     },
     {
       "id": "tmw2-0020",
@@ -17204,7 +17720,11 @@
       "tmwNumbers": [
         2,
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321512/321512000578.webp",
+        "source": "https://www.kadokawa.co.jp/product/321512000578/"
+      }
     },
     {
       "id": "tmw2-0046",
@@ -18550,7 +19070,11 @@
       "tmwNumbers": [
         2,
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=4q2jzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=4q2jzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw2-0146",
@@ -18832,7 +19356,11 @@
       "confirmedVolumeDisplay": "01",
       "tmwNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=uyQtzwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=uyQtzwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw2-0164",
@@ -19444,7 +19972,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://c.bookwalker.jp/7080774/t_700x780.jpg",
+        "source": "https://bookwalker.jp/de9086f8d8-308f-4284-b89f-76f1b7626a5d/"
+      }
     },
     {
       "id": "tmw2-0209",
@@ -19688,7 +20220,11 @@
       "tmwNumbers": [
         2
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://www.shinchosha.co.jp/images_v2/book/cover/115208/115208_xl.jpg",
+        "source": "https://www.shinchosha.co.jp/book/115208/"
+      }
     },
     {
       "id": "tmw2-0227",
@@ -19796,7 +20332,11 @@
       "confirmedVolumeDisplay": "01~16",
       "tmwNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13119130-M.jpg",
+        "source": "https://openlibrary.org/books/OL44990202M"
+      }
     },
     {
       "id": "tmw2-0238",
@@ -20013,7 +20553,11 @@
       "confirmedVolumeDisplay": "01~03",
       "tmwNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=ps15cgAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=ps15cgAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw2-0255",
@@ -22728,7 +23272,11 @@
       "tmwNumbers": [
         3,
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=VcWFzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=VcWFzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0149",
@@ -22747,7 +23295,11 @@
       "tmwNumbers": [
         3,
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=0kF3zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=0kF3zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0151",
@@ -22786,7 +23338,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=zxXkoAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=zxXkoAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0153",
@@ -23005,7 +23561,11 @@
       "tmwNumbers": [
         3,
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=T61ZzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=T61ZzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0170",
@@ -23094,7 +23654,11 @@
         10,
         11,
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=-GCDzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=-GCDzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0176",
@@ -24570,7 +25134,11 @@
       "tmwNumbers": [
         3
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/48669/4866996722.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784866996721"
+      }
     },
     {
       "id": "tmw3-0317",
@@ -24744,7 +25312,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/8478139-M.jpg",
+        "source": "https://openlibrary.org/books/OL26818408M"
+      }
     },
     {
       "id": "tmw3-0331",
@@ -24911,7 +25483,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10470880-M.jpg",
+        "source": "https://openlibrary.org/books/OL30549607M"
+      }
     },
     {
       "id": "tmw3-0341",
@@ -25216,7 +25792,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=CPlnPgAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=CPlnPgAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0362",
@@ -25354,7 +25934,11 @@
         3,
         4,
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10082900-M.jpg",
+        "source": "https://openlibrary.org/books/OL28140560M"
+      }
     },
     {
       "id": "tmw3-0379",
@@ -25413,7 +25997,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=-l2OWADVAloC&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=-l2OWADVAloC&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0400",
@@ -25482,7 +26070,11 @@
       "tmwNumbers": [
         3,
         9
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=o0hBzAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=o0hBzAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0405",
@@ -25788,7 +26380,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/40407/4040703200.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784040703206"
+      }
     },
     {
       "id": "tmw3-0431",
@@ -26003,7 +26599,11 @@
       "confirmedVolumeDisplay": "01~10",
       "tmwNumbers": [
         3
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=6h3LrQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=6h3LrQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0443",
@@ -26312,7 +26912,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9367401-M.jpg",
+        "source": "https://openlibrary.org/books/OL27978898M"
+      }
     },
     {
       "id": "tmw3-0472",
@@ -26472,7 +27076,11 @@
       "tmwNumbers": [
         3,
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=3hhzxQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=3hhzxQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0483",
@@ -26621,7 +27229,11 @@
       "tmwNumbers": [
         3,
         7
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=BfjEygEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=BfjEygEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0500",
@@ -26993,7 +27605,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=SF_wsgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=SF_wsgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0538",
@@ -27546,7 +28162,11 @@
         12
       ],
       "confirmedVolumes": 8,
-      "confirmedVolumeDisplay": "02~09"
+      "confirmedVolumeDisplay": "02~09",
+      "cover": {
+        "url": "https://books.google.com/books/content?id=3MZVzwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=3MZVzwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0581",
@@ -27652,7 +28272,11 @@
       "tmwNumbers": [
         3
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/322204/322204001065.webp",
+        "source": "https://www.kadokawa.co.jp/product/322204001065/"
+      }
     },
     {
       "id": "tmw3-0589",
@@ -28333,7 +28957,11 @@
       "confirmedVolumeDisplay": "01~12",
       "tmwNumbers": [
         3
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321606/321606000696.webp",
+        "source": "https://www.kadokawa.co.jp/product/321606000696/"
+      }
     },
     {
       "id": "tmw3-0658",
@@ -28423,7 +29051,11 @@
       "tmwNumbers": [
         3
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=8u2pxwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=8u2pxwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0664",
@@ -28446,7 +29078,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=-GXxrQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=-GXxrQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0665",
@@ -28509,7 +29145,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9339655-M.jpg",
+        "source": "https://openlibrary.org/books/OL27951481M"
+      }
     },
     {
       "id": "tmw3-0669",
@@ -28531,7 +29171,11 @@
       ],
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=ZxogyAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=ZxogyAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0670",
@@ -28918,7 +29562,11 @@
       "confirmedVolumeDisplay": "01~16",
       "tmwNumbers": [
         3
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9347442-M.jpg",
+        "source": "https://openlibrary.org/books/OL27959097M"
+      }
     },
     {
       "id": "tmw3-0706",
@@ -28992,7 +29640,11 @@
         7,
         8,
         10
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13474882-M.jpg",
+        "source": "https://openlibrary.org/books/OL47101050M"
+      }
     },
     {
       "id": "tmw3-0714",
@@ -29225,7 +29877,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/8756742-M.jpg",
+        "source": "https://openlibrary.org/books/OL27270719M"
+      }
     },
     {
       "id": "tmw3-0739",
@@ -29399,7 +30055,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=9DZlvgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=9DZlvgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0753",
@@ -29435,7 +30095,11 @@
       "confirmedVolumeDisplay": "01",
       "tmwNumbers": [
         3
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=uog20QEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=uog20QEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw3-0755",
@@ -30988,7 +31652,11 @@
       "tmwNumbers": [
         4,
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=ke22vQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=ke22vQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw4-0125",
@@ -31122,7 +31790,11 @@
       "confirmedVolumeDisplay": "13~18",
       "tmwNumbers": [
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_500/321502/321502000294.jpg",
+        "source": "https://tsubasabunko.jp/product/kyofucollector/321502000294.html"
+      }
     },
     {
       "id": "tmw4-0134",
@@ -32338,7 +33010,11 @@
       "confirmedVolumeDisplay": "01~11",
       "tmwNumbers": [
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=pMLmQgAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=pMLmQgAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw4-0254",
@@ -32360,7 +33036,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/40945/4094510729.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784094510720"
+      }
     },
     {
       "id": "tmw4-0265",
@@ -33316,7 +33996,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10208770-M.jpg",
+        "source": "https://openlibrary.org/books/OL28283336M"
+      }
     },
     {
       "id": "tmw4-0346",
@@ -33422,7 +34106,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=lPXDnAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=lPXDnAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw4-0361",
@@ -34056,7 +34744,11 @@
       "confirmedVolumeDisplay": "01~12",
       "tmwNumbers": [
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9378534-M.jpg",
+        "source": "https://openlibrary.org/books/OL27991701M"
+      }
     },
     {
       "id": "tmw4-0400",
@@ -34687,7 +35379,11 @@
       "confirmedVolumeDisplay": "01~04",
       "tmwNumbers": [
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://comicryu.sakura.ne.jp/_demo_re_ryu/_sarissa/img/comics01.jpg",
+        "source": "https://comicryu.sakura.ne.jp/_demo_re_ryu/_sarissa/index.html"
+      }
     },
     {
       "id": "tmw4-0450",
@@ -34705,7 +35401,11 @@
       "confirmedVolumeDisplay": "01~06",
       "tmwNumbers": [
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=6F1LswEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=6F1LswEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw4-0451",
@@ -35080,7 +35780,11 @@
       ],
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=UXPUywEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=UXPUywEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw4-0479",
@@ -35642,7 +36346,11 @@
       ],
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/11793551-M.jpg",
+        "source": "https://openlibrary.org/books/OL33090508M"
+      }
     },
     {
       "id": "tmw4-0519",
@@ -36208,7 +36916,11 @@
       "confirmedVolumeDisplay": "01~10",
       "tmwNumbers": [
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321611/321611000756.webp",
+        "source": "https://www.kadokawa.co.jp/product/321611000756/"
+      }
     },
     {
       "id": "tmw4-0564",
@@ -36590,7 +37302,11 @@
       "confirmedVolumeDisplay": "01~06",
       "tmwNumbers": [
         4
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=gah4vAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=gah4vAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw4-0592",
@@ -36802,7 +37518,11 @@
         4,
         8,
         10
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=_zaDzwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=_zaDzwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw4-0608",
@@ -37087,7 +37807,11 @@
       ],
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/301405/301405000098.webp",
+        "source": "https://www.kadokawa.co.jp/product/301405000098/"
+      }
     },
     {
       "id": "tmw4-0625",
@@ -37794,7 +38518,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=bFxwPgAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=bFxwPgAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw5-0075",
@@ -38151,7 +38879,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=qmo3uwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=qmo3uwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw5-0100",
@@ -39930,7 +40662,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/11381817-M.jpg",
+        "source": "https://openlibrary.org/books/OL32755998M"
+      }
     },
     {
       "id": "tmw5-0359",
@@ -42163,7 +42899,11 @@
       "confirmedVolumeDisplay": "01~03, 09~12",
       "tmwNumbers": [
         6
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=lXgIxQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=lXgIxQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw6-0107",
@@ -43331,7 +44071,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=jqbMvQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=jqbMvQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw6-0189",
@@ -44421,7 +45165,11 @@
       "tmwNumbers": [
         6
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=oG-NzwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=oG-NzwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw6-0276",
@@ -44533,7 +45281,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=xMN-jgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=xMN-jgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw6-0286",
@@ -46501,7 +47253,11 @@
       "confirmedVolumeDisplay": "06~09",
       "tmwNumbers": [
         6
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=SMVNygEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=SMVNygEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw6-0428",
@@ -52320,7 +53076,11 @@
       "tmwNumbers": [
         7,
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=Qb1TzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=Qb1TzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw7-0268",
@@ -52775,7 +53535,11 @@
         7,
         11,
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=reXgxgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=reXgxgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw7-0341",
@@ -54960,7 +55724,11 @@
       "confirmedVolumeDisplay": "01~10",
       "tmwNumbers": [
         7
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=9QF6zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=9QF6zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw7-0912",
@@ -55343,7 +56111,11 @@
         7,
         8,
         9
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/11366171-M.jpg",
+        "source": "https://openlibrary.org/books/OL32740197M"
+      }
     },
     {
       "id": "tmw7-1045",
@@ -56105,7 +56877,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=u_4qNwAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=u_4qNwAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0004",
@@ -57026,7 +57802,11 @@
       "tmwNumbers": [
         8,
         10
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=DFvT0AEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=DFvT0AEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0069",
@@ -57060,7 +57840,11 @@
       "confirmedVolumeDisplay": "01~03, 07~10, 12~14, 16",
       "tmwNumbers": [
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/9396992-M.jpg",
+        "source": "https://openlibrary.org/books/OL28013673M"
+      }
     },
     {
       "id": "tmw8-0071",
@@ -57143,7 +57927,11 @@
       "confirmedVolumeDisplay": "04~06",
       "tmwNumbers": [
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=1Eu6zgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=1Eu6zgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0076",
@@ -58315,7 +59103,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=cDTvzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=cDTvzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0153",
@@ -58496,7 +59288,11 @@
       "tmwNumbers": [
         8
       ],
-      "confirmedVolumes": 1
+      "confirmedVolumes": 1,
+      "cover": {
+        "url": "https://books.google.com/books/content?id=EJSU0AEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=EJSU0AEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0167",
@@ -62020,7 +62816,11 @@
       "confirmedVolumeDisplay": "01~06",
       "tmwNumbers": [
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=1ARTswEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=1ARTswEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0422",
@@ -64581,7 +65381,11 @@
       "tmwNumbers": [
         8,
         9
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=qrDvzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=qrDvzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0594",
@@ -65196,7 +66000,11 @@
       ],
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13119767-M.jpg",
+        "source": "https://openlibrary.org/books/OL45013001M"
+      }
     },
     {
       "id": "tmw8-0640",
@@ -65567,7 +66375,11 @@
       ],
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=BC9S0QEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=BC9S0QEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0667",
@@ -66143,7 +66955,11 @@
       "confirmedVolumeDisplay": "09~11",
       "tmwNumbers": [
         8
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=2PEGvgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=2PEGvgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw8-0704",
@@ -68106,7 +68922,11 @@
       "confirmedVolumeDisplay": "01~06",
       "tmwNumbers": [
         9
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/12358965-M.jpg",
+        "source": "https://openlibrary.org/books/OL35652192M"
+      }
     },
     {
       "id": "tmw9-0170",
@@ -68274,7 +69094,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321509/321509000360.webp",
+        "source": "https://www.kadokawa.co.jp/product/321509000360/"
+      }
     },
     {
       "id": "tmw9-0184",
@@ -69021,7 +69845,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321605/321605000709.jpg",
+        "source": "https://www.kadokawa.co.jp/product/321605000709/"
+      }
     },
     {
       "id": "tmw9-0243",
@@ -74535,7 +75363,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=vPBWzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=vPBWzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw9-0604",
@@ -77766,7 +78598,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=r_NLtAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=r_NLtAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw9-0824",
@@ -78382,7 +79218,11 @@
       "confirmedVolumeDisplay": "09~10",
       "tmwNumbers": [
         9
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=UPWYwgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=UPWYwgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw9-0898",
@@ -79172,7 +80012,11 @@
       "confirmedVolumeDisplay": "02~03",
       "tmwNumbers": [
         10
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=Gs6BzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=Gs6BzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw10-0043",
@@ -79885,7 +80729,11 @@
       "confirmedVolumeDisplay": "01~06",
       "tmwNumbers": [
         10
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321607/321607000678.webp",
+        "source": "https://www.kadokawa.co.jp/product/321607000678/"
+      }
     },
     {
       "id": "tmw10-0104",
@@ -80451,7 +81299,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/10150995-M.jpg",
+        "source": "https://openlibrary.org/books/OL28217751M"
+      }
     },
     {
       "id": "tmw10-0143",
@@ -88144,7 +88996,11 @@
       "confirmedVolumeDisplay": "01~20",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/42532/4253228216.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784253228213"
+      }
     },
     {
       "id": "tmw11-0386",
@@ -88194,7 +89050,11 @@
       "confirmedVolumeDisplay": "02~12",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://img07.shop-pro.jp/PA01379/478/product/132160362.jpg",
+        "source": "https://tobooks.shop-pro.jp/?pid=132160362"
+      }
     },
     {
       "id": "tmw11-0389",
@@ -89860,7 +90720,11 @@
       "confirmedVolumeDisplay": "01~30",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=rmBHAAAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=rmBHAAAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-0493",
@@ -89894,7 +90758,11 @@
       "confirmedVolumeDisplay": "01~08",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/45759/4575943541.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784575943542"
+      }
     },
     {
       "id": "tmw11-0496",
@@ -92062,7 +92930,11 @@
       "confirmedVolumeDisplay": "01~11",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://res.booklive.jp/850252/001/thumbnail/2L.jpg",
+        "source": "https://booklive.jp/product/index/title_id/850252/vol_no/001"
+      }
     },
     {
       "id": "tmw11-0633",
@@ -92096,7 +92968,11 @@
       "confirmedVolumeDisplay": "01~10",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://prcdn.freetls.fastly.net/release_image/109856/19/109856-19-54a87f3aab85a6917118400473886d4f-599x852.png",
+        "source": "https://prtimes.jp/main/html/rd/p/000000019.000109856.html"
+      }
     },
     {
       "id": "tmw11-0635",
@@ -96422,7 +97298,11 @@
       "confirmedVolumeDisplay": "01~34",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=4Lb7TI8gIrUC&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=4Lb7TI8gIrUC&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-0905",
@@ -97515,7 +98395,11 @@
       "confirmedVolumeDisplay": "01~03, 05~10",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://heros-ultraman.com/wp-content/uploads/2017/11/img_frontcover_01.jpg",
+        "source": "https://heros-ultraman.com/comics/9784864683012/"
+      }
     },
     {
       "id": "tmw11-0975",
@@ -99803,7 +100687,11 @@
       "confirmedVolumeDisplay": "01~03, 05~14",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/45758/4575848662.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784575848663"
+      }
     },
     {
       "id": "tmw11-1117",
@@ -100189,7 +101077,11 @@
       "confirmedVolumeDisplay": "01~13",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=vT_1zQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=vT_1zQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1141",
@@ -101724,7 +102616,11 @@
       "confirmedVolumeDisplay": "01~14",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=o6_T0AEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=o6_T0AEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1241",
@@ -101791,7 +102687,11 @@
       "tmwNumbers": [
         11,
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=UOTdzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=UOTdzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1246",
@@ -105192,7 +106092,11 @@
       "confirmedVolumeDisplay": "01~15",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=F7v9rQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=F7v9rQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1457",
@@ -107782,7 +108686,11 @@
       "confirmedVolumeDisplay": "01~15",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/45370/453709639X.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784537096392"
+      }
     },
     {
       "id": "tmw11-1619",
@@ -108659,7 +109567,11 @@
       "confirmedVolumeDisplay": "01~13",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=dO_RzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=dO_RzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1676",
@@ -108677,7 +109589,11 @@
       "confirmedVolumeDisplay": "04~11",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/40918/4091830404.jpg",
+        "source": "https://www.kinokuniya.co.jp/f/dsg-01-9784091830401"
+      }
     },
     {
       "id": "tmw11-1677",
@@ -109441,7 +110357,11 @@
       "confirmedVolumeDisplay": "01~07",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=PXSaAAAAQBAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=PXSaAAAAQBAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1728",
@@ -109623,7 +110543,11 @@
       "confirmedVolumeDisplay": "02",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=UW9uzwEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=UW9uzwEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1739",
@@ -109971,7 +110895,11 @@
       "confirmedVolumeDisplay": "01~14",
       "tmwNumbers": [
         11
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=N_bu0QEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=N_bu0QEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1761",
@@ -110547,7 +111475,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=zYautgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=zYautgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1800",
@@ -111837,7 +112769,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=gKEkXmYIQaEC&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=gKEkXmYIQaEC&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw11-1884",
@@ -114348,7 +115284,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/8433734-M.jpg",
+        "source": "https://openlibrary.org/books/OL26779619M"
+      }
     },
     {
       "id": "tmw12-0167",
@@ -115679,7 +116619,11 @@
       "confirmedVolumeDisplay": "01~05, 07~14",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/301403/301403001607.webp",
+        "source": "https://www.kadokawa.co.jp/product/301403001607/"
+      }
     },
     {
       "id": "tmw12-0338",
@@ -117851,7 +118795,11 @@
       "confirmedVolumeDisplay": "01~10",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://shop.r10s.jp/rakutenkobo-ebooks/cabinet/0959/2000021790959.jpg",
+        "source": "https://books.rakuten.co.jp/rk/7b8d2d883c2d3e05997db98324038ad1/"
+      }
     },
     {
       "id": "tmw12-0477",
@@ -118409,7 +119357,11 @@
       "confirmedVolumeDisplay": "01~14, 16, 18~25, 31~39",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://c.bookwalker.jp/3554607/t_700x780.jpg",
+        "source": "https://bookwalker.jp/dec1c1fc9b-8a35-4ac6-91d5-c71333e1f3c8/"
+      }
     },
     {
       "id": "tmw12-0512",
@@ -119049,7 +120001,11 @@
       "confirmedVolumeDisplay": "01~04, 06~11",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=nvluzgEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=nvluzgEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw12-0585",
@@ -119416,7 +120372,11 @@
       "confirmedVolumeDisplay": "07~10",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=_mO9yAEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=_mO9yAEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw12-0613",
@@ -119942,7 +120902,11 @@
       "confirmedVolumeDisplay": "01~14",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://cdn.kdkw.jp/cover_1000/321510/321510000400.webp",
+        "source": "https://www.kadokawa.co.jp/product/321510000400/"
+      }
     },
     {
       "id": "tmw12-0648",
@@ -123062,7 +124026,11 @@
       "confirmedVolumeDisplay": "01~05, 07~09",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://magazine.jp.square-enix.com/top/shoei/9784757563131.jpg",
+        "source": "https://magazine.jp.square-enix.com/top/comics/detail/9784757563131/"
+      }
     },
     {
       "id": "tmw12-0871",
@@ -124722,7 +125690,11 @@
       "confirmedVolumeDisplay": "01~12",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=satDzQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=satDzQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw12-0979",
@@ -124773,7 +125745,11 @@
       "confirmedVolumeDisplay": "11, 14~15",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=eqhPuQEACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=eqhPuQEACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw12-0982",
@@ -125255,7 +126231,11 @@
       "confirmedVolumeDisplay": "02~07",
       "tmwNumbers": [
         12
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/8432548-M.jpg",
+        "source": "https://openlibrary.org/books/OL26778466M"
+      }
     },
     {
       "id": "tmw12-1012",
@@ -125276,7 +126256,11 @@
       ],
       "peepoNumbers": [
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://covers.openlibrary.org/b/id/13116225-M.jpg",
+        "source": "https://openlibrary.org/books/OL44928783M"
+      }
     },
     {
       "id": "tmw12-1015",
@@ -126401,7 +127385,11 @@
       "peepoNumbers": [
         1,
         2
-      ]
+      ],
+      "cover": {
+        "url": "https://books.google.com/books/content?id=EJMqNwAACAAJ&printsec=frontcover&img=1&zoom=5",
+        "source": "https://books.google.com/books?id=EJMqNwAACAAJ&source=gbs_ViewAPI"
+      }
     },
     {
       "id": "tmw12-1094",
