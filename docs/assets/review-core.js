@@ -56,6 +56,7 @@
     completeSetOnly: false,
     tenOrMoreVolumes: false,
     coverOnly: false,
+    missingCoverOnly: false,
     q: '',
     favoriteOnly: false,
     view: 'active',
@@ -466,13 +467,17 @@
     var completeSetOnly = options.completeSetOnly === true;
     var tenOrMoreVolumes = options.tenOrMoreVolumes === true;
     var coverOnly = options.coverOnly === true;
+    var missingCoverOnly = options.missingCoverOnly === true;
     var sort = SORTS.indexOf(options.sort) === -1 ? 'score-desc' : options.sort;
 
     var selected = list.filter(function (novel) {
       var removed = isDeleted(state, novel.id);
       if (view === 'deleted' ? !removed : removed) return false;
       if (favoriteOnly && !isFavorite(state, novel.id)) return false;
-      if (coverOnly && (!isPlainObject(novel.cover) || typeof novel.cover.url !== 'string' || !novel.cover.url.trim())) return false;
+      if (coverOnly || missingCoverOnly) {
+        var hasCover = isPlainObject(novel.cover) && typeof novel.cover.url === 'string' && novel.cover.url.trim() !== '';
+        if ((coverOnly && !hasCover) || (missingCoverOnly && hasCover)) return false;
+      }
       if (genre !== 'all' && (!Array.isArray(novel.genres) || novel.genres.indexOf(genre) === -1)) {
         return false;
       }
