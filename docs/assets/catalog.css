@@ -1,0 +1,79 @@
+.catalog-scroll {
+  max-height: min(72vh, 54rem);
+  background: #fff;
+  border: 1px solid #dce0dc;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+.catalog-scroll:focus-visible {
+  outline: 3px solid #7699eb;
+  outline-offset: 3px;
+}
+
+.catalog {
+  width: 100%;
+  min-width: 960px;
+  border-spacing: 0;
+  font-size: 14px;
+}
+
+.catalog th,
+.catalog td {
+  padding: 11px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e4e8e5;
+}
+
+.catalog thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #edf1f7;
+  color: #344b68;
+  white-space: nowrap;
+}
+
+.catalog tbody th {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.catalog td:nth-child(2),
+.catalog td:nth-child(3) {
+  width: 24%;
+  overflow-wrap: anywhere;
+}
+
+.catalog td:nth-child(n+6) {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.catalog tr:last-child td,
+.catalog tbody tr:last-child th {
+  border-bottom: 0;
+}
+
+.catalog tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.catalog .actions {
+  margin-top: 6px;
+}
+
+.catalog .actions button {
+  padding: 3px 8px;
+  min-height: 30px;
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  .catalog th,
+  .catalog td {
+    padding: 9px 10px;
+  }
+}

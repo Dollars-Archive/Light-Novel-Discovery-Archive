@@ -23,7 +23,8 @@
   var TIMESTAMP_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?$/;
   var NOVEL_KEYS = [
     'id', 'title', 'original', 'oceanOfPdfTitle', 'oceanOfPdfVolumeCount', 'author', 'genres', 'publication', 'completion',
-    'releaseDate', 'score', 'summary', 'pros', 'cons', 'sources', 'cover', 'reviewedAt'
+    'releaseDate', 'score', 'summary', 'pros', 'cons', 'sources', 'cover', 'reviewedAt',
+    'catalogId', 'label', 'confirmedVolumes', 'tmwNumbers'
   ];
 
   var PUBLICATION_STATUSES = ['licensed', 'unlicensed', 'unknown'];
@@ -40,7 +41,14 @@
     unknown: '상태 미확인'
   };
 
-  var SORTS = ['score-desc', 'score-asc', 'title'];
+  var CATALOG_COMPLETION_LABELS = {
+    completed: '완결',
+    ongoing: '미완결',
+    hiatus: '미완결',
+    unknown: '미확인'
+  };
+
+  var SORTS = ['score-desc', 'score-asc', 'title', 'id'];
   var FILTER_DEFAULTS = {
     genre: 'all',
     publication: 'all',
@@ -228,8 +236,27 @@
       fail(path + '.oceanOfPdfVolumeCount must be a non-negative integer or null.');
     }
 
+    var catalogId = optionalString(raw.catalogId, path + '.catalogId', '');
+    if (catalogId && catalogId.toLowerCase() !== id) {
+      fail(path + '.catalogId must match the id after converting to lowercase.');
+    }
+    var confirmedVolumes = raw.confirmedVolumes ?? null;
+    if (confirmedVolumes !== null &&
+        (!Number.isSafeInteger(confirmedVolumes) || confirmedVolumes < 0)) {
+      fail(path + '.confirmedVolumes must be a non-negative integer or null.');
+    }
+    var tmwNumbers = raw.tmwNumbers ?? [];
+    if (!Array.isArray(tmwNumbers) ||
+        tmwNumbers.some(function (number) { return !Number.isSafeInteger(number) || number < 1; })) {
+      fail(path + '.tmwNumbers must be an array of positive integers.');
+    }
+
     var novel = {
       id: id,
+      catalogId: catalogId,
+      label: optionalString(raw.label, path + '.label', ''),
+      confirmedVolumes: confirmedVolumes,
+      tmwNumbers: tmwNumbers,
       title: title,
       original: original,
       oceanOfPdfTitle: optionalString(raw.oceanOfPdfTitle, path + '.oceanOfPdfTitle', ''),
@@ -367,8 +394,8 @@
   }
 
   function compareTitle(a, b) {
-    var titleA = typeof a.title === 'string' ? a.title : '';
-    var titleB = typeof b.title === 'string' ? b.title : '';
+    var titleA = typeof a.title === 'string' && a.title !== '미확인' ? a.title : a.original || '';
+    var titleB = typeof b.title === 'string' && b.title !== '미확인' ? b.title : b.original || '';
     var titleOrder = titleA.localeCompare(titleB, 'ko');
     if (titleOrder !== 0) return titleOrder;
     var idA = typeof a.id === 'string' ? a.id : '';
@@ -392,9 +419,12 @@
   function matchesQuery(novel, query) {
     if (query === '') return true;
     var haystack = [
+      novel.id,
+      novel.catalogId,
       novel.title,
       novel.original,
       novel.author,
+      novel.label,
       novel.summary
     ].join(' ').toLowerCase();
     return haystack.indexOf(query) !== -1;
@@ -430,11 +460,14 @@
       var publicationInfo = isPlainObject(novel.publication) ? novel.publication : {};
       if (publication !== 'all' && publicationInfo.status !== publication) return false;
       var completionInfo = isPlainObject(novel.completion) ? novel.completion : {};
-      if (completion !== 'all' && completionInfo.status !== completion) return false;
+      if (completion === 'unfinished') {
+        if (CATALOG_COMPLETION_LABELS[completionInfo.status] !== '미완결') return false;
+      } else if (completion !== 'all' && completionInfo.status !== completion) return false;
       return matchesQuery(novel, query);
     });
 
     selected.sort(function (a, b) {
+      if (sort === 'id') return a.id.localeCompare(b.id);
       if (sort === 'title') return compareTitle(a, b);
       return compareScores(a, b, sort === 'score-asc' ? 'asc' : 'desc');
     });
@@ -447,6 +480,7 @@
     COMPLETION_STATUSES: COMPLETION_STATUSES,
     PUBLICATION_LABELS: PUBLICATION_LABELS,
     COMPLETION_LABELS: COMPLETION_LABELS,
+    CATALOG_COMPLETION_LABELS: CATALOG_COMPLETION_LABELS,
     normalizeCatalog: normalizeCatalog,
     emptyState: emptyState,
     normalizeState: normalizeState,
