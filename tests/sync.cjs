@@ -436,6 +436,27 @@ async function testFailedSaveKeepsPreviousState() {
   assert.equal(repo.state.favorites['game-b'], undefined);
 
   repo.putStatus = null;
+  assert.equal(await store.verifyToken(), true);
+  repo.beforePut = function () {
+    return response(403, { message: 'Resource not accessible by personal access token' });
+  };
+  await assert.rejects(store.change({ kind: 'favorite', id: 'game-b', value: true }), {
+    status: 403, code: 'token-access', message: /Contents: Read and write/
+  });
+
+  repo.beforePut = function () {
+    var denied = response(403, { message: 'You have exceeded a secondary rate limit.' });
+    denied.headers = new Map([['retry-after', '60']]);
+    return denied;
+  };
+  await assert.rejects(store.change({ kind: 'favorite', id: 'game-b', value: true }), {
+    status: 403, code: 'rate-limit', message: /요청 한도.*이후/
+  });
+  assert.deepEqual(store.data, before);
+  assert.equal(storage.getItem(C.CACHE_KEY), beforeCache);
+  assert.deepEqual(repo.state, before);
+  repo.beforePut = null;
+
   store.setToken('bad-token');
   await expectReject(store.change({ kind: 'favorite', id: 'game-b', value: true }), /401|token/i);
   assert.deepEqual(store.data, before);

@@ -14,7 +14,7 @@
 
   function notice(text,error=false) { $('notice').textContent=text; $('notice').classList.toggle('error',error); }
   function tokenStatus(extra='') {
-    $('token-status').textContent = extra || (store.getToken() ? (verified ? '열쇠 저장됨 · 쓰기 권한 확인됨' : '열쇠 있음 · 이 저장소의 쓰기 권한 확인 필요') : '등록된 열쇠 없음 · 이 기기에 등록하거나 기존 열쇠를 사용하세요.');
+    $('token-status').textContent = extra || (store.getToken() ? (verified ? '열쇠 저장됨 · 저장소 접근 확인됨' : '열쇠 있음 · 저장소 접근 확인 필요') : '등록된 열쇠 없음 · 이 기기에 등록하거나 기존 열쇠를 사용하세요.');
   }
   function openSettings() { $('settings').open=true; $('settings').scrollIntoView({block:'nearest',behavior:'smooth'}); }
 
@@ -166,7 +166,7 @@
   async function checkToken() {
     verified=false;
     if(!store.getToken()){tokenStatus();return;}
-    try { verified=await store.verifyToken(); tokenStatus(verified?'열쇠 저장됨 · 쓰기 권한 확인됨':'열쇠 저장됨 · Light-Novel-Discovery-Archive 저장소를 선택하고 Contents: Read and write 권한을 허용하세요.'); }
+    try { verified=await store.verifyToken(); tokenStatus(verified?'열쇠 저장됨 · 저장소 접근 확인됨':'열쇠 저장됨 · Light-Novel-Discovery-Archive 저장소를 선택하고 Contents: Read and write 권한을 허용하세요.'); }
     catch(error){tokenStatus('열쇠는 보관됨 · GitHub 권한 확인 실패');throw error;}
   }
   async function refreshState() {
@@ -218,7 +218,7 @@
     if(busy)return;
     try{store.setToken($('token').value);$('token').value='';}catch(error){notice(error.message,true);return;}
     busy=true;render();notice('열쇠를 저장하고 쓰기 권한을 확인하는 중…');
-    try{await checkToken();notice(verified?'열쇠를 이 기기에 저장했습니다. 찜·삭제를 다른 기기와 연동할 수 있습니다.':'열쇠는 저장됐지만 쓰기 권한이 없습니다. Light-Novel-Discovery-Archive 저장소를 선택하고 Contents: Read and write를 허용하세요.',!verified);}
+    try{await checkToken();notice(verified?'열쇠를 이 기기에 저장했습니다. 찜·삭제를 저장할 때 쓰기 권한을 확인합니다.':'열쇠는 저장했어요. Light-Novel-Discovery-Archive 저장소와 Contents: Read and write 권한을 확인해 주세요.',!verified);}
     catch(error){notice('열쇠는 이 기기에 보관됩니다. 권한 확인 요청 실패 · '+error.message,true);}
     finally{busy=false;render();}
   });
@@ -248,7 +248,13 @@
       notice('GitHub에 저장하는 중…');
       await store.change({kind,id:novel.id,title:displayTitle(novel),value});
       notice(kind==='favorite'?(value?'찜을 GitHub에 저장했습니다.':'찜을 해제했습니다.'):(value?'작품을 목록에서 삭제했습니다. 삭제한 작품에서 복구할 수 있습니다.':'작품을 목록에 복구했습니다.'));
-    }catch(error){notice('저장 실패 · 기존 목록을 유지합니다. '+error.message,true);}
+    } catch (error) {
+      if (error.code === 'token-access') {
+        verified = false;
+        $('settings').open = true;
+      }
+      notice('저장 실패 · ' + error.message, true);
+    }
     finally{busy=false;render();}
   });
   async function init() {

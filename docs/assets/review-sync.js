@@ -75,10 +75,7 @@
 
   function messageForStatus(status, detail) {
     if (status === 401) {
-      return 'GitHub rejected the token (401). Check that the token is valid and has repository access.';
-    }
-    if (status === 403) {
-      return 'GitHub refused the request (403). The token may lack write permission or the rate limit was reached.';
+      return 'GitHub 열쇠가 만료되었거나 유효하지 않아요 (401). 유효한 열쇠를 다시 저장해 주세요.';
     }
     if (status === 404) {
       return 'The repository, branch or watchlist file was not found (404).';
@@ -334,7 +331,7 @@
       });
     }
 
-    function responseError(response, action) {
+    function responseError(response) {
       var status = statusOf(response);
       var detailPromise = Promise.resolve('');
       if (typeof response.json === 'function') {
@@ -343,7 +340,29 @@
         }).catch(function () { return ''; });
       }
       return detailPromise.then(function (detail) {
-        return githubError(messageForStatus(status, detail), status);
+        var error = githubError(messageForStatus(status, detail), status);
+        if (status === 401) error.code = 'token-access';
+        if (status !== 403 && status !== 429) return error;
+
+        var headers = response.headers;
+        var retryAfter = headers && headers.get('retry-after');
+        var remaining = headers && headers.get('x-ratelimit-remaining');
+        if (status === 429 || retryAfter || remaining === '0' || /rate limit|abuse detection/i.test(detail)) {
+          error.code = 'rate-limit';
+          var wait = Number(retryAfter);
+          var reset = remaining === '0' && headers ? Number(headers.get('x-ratelimit-reset')) * 1000 : 0;
+          var retryTime = wait > 0 ? Date.now() + wait * 1000 : reset;
+          var when = retryTime > Date.now()
+            ? new Date(retryTime).toLocaleTimeString('ko-KR', { hour: 'numeric', minute: '2-digit', second: '2-digit' }) + ' 이후'
+            : '잠시 후';
+          error.message = 'GitHub 요청 한도에 도달했어요 (' + status + '). ' + when + ' 다시 시도해 주세요.';
+        } else if (/protected branch|repository rule/i.test(detail)) {
+          error.message = 'GitHub 저장소 규칙이 공유 목록 쓰기를 차단했어요 (403).';
+        } else {
+          error.code = 'token-access';
+          error.message = 'GitHub가 열쇠의 저장 요청을 거부했어요 (403). 열쇠 설정에서 Light-Novel-Discovery-Archive와 Contents: Read and write를 확인해 주세요.';
+        }
+        return error;
       });
     }
 
@@ -353,7 +372,7 @@
         if (statusOf(response) === 404) {
           throw githubError(messageForStatus(404), 404);
         }
-        if (!isOk(response)) return responseError(response, 'load').then(function (error) { throw error; });
+        if (!isOk(response)) return responseError(response).then(function (error) { throw error; });
         return readJson(response).then(function (json) {
           if (!json || typeof json !== 'object') {
             throw new Error('GitHub returned an invalid watchlist response.');
@@ -381,7 +400,7 @@
             throw githubError(messageForStatus(404), 404);
           }
           if (!isOk(response)) {
-            return responseError(response, 'load').then(function (error) { throw error; });
+            return responseError(response).then(function (error) { throw error; });
           }
           return readText(response).then(function (text) {
             return { state: parseStateText(text), sha: null };
@@ -408,7 +427,7 @@
         if (statusOf(response) === 404) {
           return { state: emptyState(), sha: null };
         }
-        if (!isOk(response)) return responseError(response, 'save').then(function (error) { throw error; });
+        if (!isOk(response)) return responseError(response).then(function (error) { throw error; });
         return readJson(response).then(function (json) {
           if (!json || typeof json !== 'object') {
             throw new Error('GitHub returned an invalid watchlist response.');
@@ -549,9 +568,12 @@
       return request(API_REPO, { method: 'GET', headers: apiHeaders(token), cache: 'no-store' })
         .then(function (response) {
           var status = statusOf(response);
-          if (status === 401 || status === 403 || status === 404) return false;
+          if (status === 401 || status === 404) return false;
           if (!isOk(response)) {
-            return responseError(response, 'verify').then(function (error) { throw error; });
+            return responseError(response).then(function (error) {
+              if (error.code === 'token-access') return false;
+              throw error;
+            });
           }
           return readJson(response).then(function (json) {
             return Boolean(json && json.permissions && json.permissions.push === true);
@@ -603,7 +625,7 @@
           throw githubError('The watchlist changed again while saving. Refresh and try again.', 409);
         }
         if (!isOk(context.response)) {
-          return responseError(context.response, 'save').then(function (error) { throw error; });
+          return responseError(context.response).then(function (error) { throw error; });
         }
         assertTokenUnchanged(token);
         data = context.merged;
